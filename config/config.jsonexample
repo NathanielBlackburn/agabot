@@ -1,16 +1,11 @@
-// Add config params here.
 {
-	"api": {
-		"host": "<hostname, no protocol or endpoint paths>"
-	},
-	"authentication": {
-		"username": "<admin username>",
-		"password": "<admin password>"
-	},
-    "hangouts": {
-        "apiSecret": "<hangoutsApiSecret>",
-    },
-    "giphy": {
-        "apiKey": "<giphyAapiKey>"
-    }
+  "openWeatherMap": {
+    "apiKey": "<openWeatherMapApiKey>"
+  },
+  "hangouts": {
+    "apiSecret": "<hangoutsApiSecret>"
+  },
+  "giphy": {
+    "apiKey": "<giphyApiKey>"
+  }
 }

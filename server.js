@@ -6,8 +6,8 @@ const express = require('express'),
 	fs = require('fs').promises;
 
 const startServer = async () => {
-	// const config = JSON.parse(await fs.readFile('config/config.json', {encoding: 'utf8', flag: 'r'}));
-	require('@routing/routes')(app, express);
+	const config = JSON.parse(await fs.readFile('config/config.json', {encoding: 'utf8', flag: 'r'}));
+	require('@routing/routes')(app, express, config);
 	app.listen(port);
   console.log(`Agabot-Ansible HTTP server started on port ${port}.`);
 };

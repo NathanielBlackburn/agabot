@@ -1,4 +1,4 @@
-const ArrayToolkit = require('@tools/arrayToolkit');
+const arrayToolkit = require('@tools/arrayToolkit');
 
 class GiphyQuery {
 
@@ -7,7 +7,7 @@ class GiphyQuery {
   }
 
   get randomTag() {
-    return ArrayToolkit.randomElement(this.tagList);
+    return arrayToolkit.randomElement(this.tagList);
   }
 
 }

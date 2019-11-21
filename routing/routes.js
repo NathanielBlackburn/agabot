@@ -1,7 +1,8 @@
 const agabotRouter = require('@routing/agabotRouter');
 const Settings = require('@tools/settings');
 
-module.exports = (app, express) => {
+module.exports = (app, express, config) => {
+  Settings.setApiConfig(config);
   app.use(express.json());
   app.use((request, responseHandler, next) => {
     Settings.setServerParameters(request);

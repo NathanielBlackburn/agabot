@@ -39,6 +39,9 @@ module.exports = class SpaceMessageController extends BaseController {
       case messageText.includes('jebnie'):
         response.sendGiphy(GiphyQueries.Jebnie);
         break;
+      case messageText.includes('weather'):
+        response.sendWeather();
+        break;
       case messageText.match(Matchers.Joke) != null:
         response.sendEnglishJoke();
         break;

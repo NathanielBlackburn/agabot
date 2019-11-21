@@ -4,6 +4,8 @@ const ImageCard = require('@response/responseCards/imageCard');
 const GiphyService = require('@services/giphy/giphyService');
 const DadJokesService = require('@services/dadJokes/dadJokesService');
 const SucharyService = require('@services/suchary/sucharyService');
+const OpenWeatherMapService = require('@services/openWeatherMap/openWeatherMapService');
+const Weather = require('@models/weather');
 
 module.exports = class Response {
 
@@ -27,12 +29,20 @@ module.exports = class Response {
 
   sendEnglishJoke() {
     const dadJokesService = new DadJokesService();
-    dadJokesService.random(joke => this.responseHandler.json(new TextCard(joke)));
+    dadJokesService.random(joke => this.sendText(new TextCard(joke)));
   }
 
   sendPolishJoke() {
     const sucharyService = new SucharyService();
-    sucharyService.random(joke => this.responseHandler.json(new TextCard(joke)));
+    sucharyService.random(joke => this.sendText(new TextCard(joke)));
+  }
+
+  sendWeather() {
+    const openWeatherService = new OpenWeatherMapService();
+    openWeatherService.get(json => {
+      const weather = new Weather(json);
+      this.sendText(weather.toString());
+    });
   }
 
 };
