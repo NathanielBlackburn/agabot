@@ -1,0 +1,32 @@
+{
+  "name": "agabot-ansible",
+  "version": "0.1.0",
+  "description": "Agabot Ansible Relay Device",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://@bitbucket.org/izydoringwari/agabot.git"
+  },
+  "author": "Izek Inge <izydor@golezwierzeta.pl>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/izydoringwari/agabot",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "module-alias": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@routing": "./routing",
+    "@controllers": "./routing/controllers",
+    "@response": "./routing/controllers/response",
+    "@security": "./routing/security",
+    "@models": "./models",
+    "@tools": "./tools",
+    "@services": "./services"
+  }
+}
