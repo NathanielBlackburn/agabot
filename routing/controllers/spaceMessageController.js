@@ -15,14 +15,8 @@ module.exports = class SpaceMessageController extends BaseController {
     const sender = User.create(this.request.body.message.sender.email);
     const response = new Response(this.request, this.responseHandler);
     switch (true) {
-      case messageText.match(Matchers.NewDayNewPossibilities) != null && sender == User.Bolo:
-        response.sendText(DynamicTexts.OffendBolo);
-        break;
       case messageText.match(Matchers.NewDayNewPossibilities) != null:
         response.sendGiphy(GiphyQueries.NewDayNewPossibilities);
-        break;
-      case messageText.match(/(?:co|no) nie\?/i) != null && sender == User.Bolo:
-        response.sendText(DynamicTexts.OffendBolo);
         break;
       case messageText.match(/(?:co|no) nie\?/i) != null:
         response.sendText(DynamicTexts.OfCourse);

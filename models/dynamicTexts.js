@@ -2,11 +2,6 @@ const ArrayToolkit = require('@tools/arrayToolkit');
 
 module.exports = class {
 
-  static get OffendBolo() {
-    const responses = ['Jepsiem.', 'Bolo Pierdolo', 'Pryszcz ci w oko.', 'Gunwo', 'Bolo Śmierdziolo'];
-    return ArrayToolkit.randomElement(responses);
-  }
-
   static get OfCourse() {
     const responses = [
       'No rejczel.', 'No kurwa!', 'No raczej, nie inaczej.', 'Jacha blacha.', 'Zgadzam się.',
