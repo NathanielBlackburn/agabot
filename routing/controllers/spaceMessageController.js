@@ -1,11 +1,12 @@
 const BaseController = require('@controllers/baseController');
 const User = require('@models/user');
 const GiphyQueries = require('@models/giphyQueries');
-const Resource = require('@models/resource');
 const Matchers = require('@models/matchers');
 const Response = require('@response/response');
 const StaticTexts = require('@models/staticTexts');
 const DynamicTexts = require('@models/dynamicTexts');
+
+const resources = require('@models/resources');
 
 module.exports = class SpaceMessageController extends BaseController {
 
@@ -15,46 +16,46 @@ module.exports = class SpaceMessageController extends BaseController {
     const response = new Response(this.request, this.responseHandler);
     switch (true) {
       case messageText.match(Matchers.NewDayNewPossibilities) != null && sender == User.Bolo:
-        response.text(DynamicTexts.OffendBolo);
+        response.sendText(DynamicTexts.OffendBolo);
         break;
       case messageText.match(Matchers.NewDayNewPossibilities) != null:
-        response.giphy(GiphyQueries.NewDayNewPossibilities);
+        response.sendGiphy(GiphyQueries.NewDayNewPossibilities);
         break;
       case messageText.match(/(?:co|no) nie\?/i) != null && sender == User.Bolo:
-        response.text(DynamicTexts.OffendBolo);
+        response.sendText(DynamicTexts.OffendBolo);
         break;
       case messageText.match(/(?:co|no) nie\?/i) != null:
-        response.text(DynamicTexts.OfCourse);
+        response.sendText(DynamicTexts.OfCourse);
         break;
       case messageText.match(Matchers.GoodToBeBot) != null:
-        response.text(StaticTexts.GoodToBeBot);
+        response.sendText(StaticTexts.GoodToBeBot);
         break;
       case messageText.includes('co tam'):
-        response.text(StaticTexts.Nothing);
+        response.sendText(StaticTexts.Nothing);
         break;
       case messageText.includes('pogoda'):
-        response.text(StaticTexts.Shitty);
+        response.sendText(StaticTexts.Shitty);
         break;
       case messageText.includes('nie jeblo'):
-        response.giphy(GiphyQueries.NieJeblo);
+        response.sendGiphy(GiphyQueries.NieJeblo);
         break;
       case messageText.includes('jeblo'):
-        response.giphy(GiphyQueries.Jeblo);
+        response.sendGiphy(GiphyQueries.Jeblo);
         break;
       case messageText.includes('jebnie'):
-        response.giphy(GiphyQueries.Jebnie);
+        response.sendGiphy(GiphyQueries.Jebnie);
         break;
       case messageText.match(Matchers.Joke) != null:
-        response.englishJoke();
+        response.sendEnglishJoke();
         break;
       case messageText.match(Matchers.Derbot) != null:
-        response.polishJoke();
+        response.sendPolishJoke();
         break;
       case messageText.match(Matchers.Food) != null:
-        response.image(Resource.Image.Gondola);
+        response.sendImage(resources.Images.Gondola);
         break;
       default:
-        response.text(DynamicTexts.DontUnderstand);
+        response.sendText(DynamicTexts.DontUnderstand);
     }
   }
 
