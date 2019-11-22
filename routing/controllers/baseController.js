@@ -1,4 +1,4 @@
-const StringToolkit = require('@tools/stringToolkit');
+const stringToolkit = require('@tools/stringToolkit');
 
 module.exports = class BaseController {
 
@@ -8,7 +8,7 @@ module.exports = class BaseController {
     }
 
     simplifyMessage(text) {
-      return StringToolkit.removeDiacritics(text).replace(/ +/g, ' ').trim().toLowerCase();
+      return stringToolkit.removeDiacritics(text).replace(/ +/g, ' ').trim().toLowerCase();
     }
 
 };

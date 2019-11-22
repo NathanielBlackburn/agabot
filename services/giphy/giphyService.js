@@ -3,8 +3,8 @@ const https = require('https');
 module.exports = class GiphyService {
 
   get(query, callback) {
-    const Settings = require('@tools/settings');
-    const apiKey = Settings.apiConfig.giphy.apiKey;
+    const settings = require('@tools/settings');
+    const apiKey = settings.apiConfig.giphy.apiKey;
     const giphyRequest = https.request(
       `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=r&tag=${query.randomTag}`, {
         headers: {

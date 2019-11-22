@@ -17,9 +17,14 @@ const interpretTemperature = (temperature) => {
       rating: 10,
       text: 'jest ciepło, na razie'
     };
-  } else {
+  } else if (temperature < 6) {
     result = {
       rating: -20,
+      text: 'pizga złem jak w jebanym Czelabińsku'
+    };
+  } else {
+    result = {
+      rating: -10,
       text: 'jest kurwa zimno'
     };
   }
@@ -33,12 +38,12 @@ const interpretSunset = (sunset) => {
   if (sunset < currentTimestamp) {
     result = {
       rating: -10,
-      text: 'Ciemno.'
+      text: 'Nic nie widać, bo już ciemno.'
     };
   } else if (sunset - currentTimestamp < 3600) {
     result = {
       rating: -5,
-      text: 'Zaraz będzie ciemno.'
+      text: 'Zaraz będzie ciemno i gówno będzie widać.'
     };
   } else {
     result = {
@@ -55,12 +60,12 @@ const interpretCloudCover = (cloudCover) => {
   if (cloudCover > 50) {
     result = {
       rating: -10,
-      text: 'W ogóle nie ma słońca!'
+      text: 'Buro w chuj, bo wszędzie te zasrane chmury!'
     };
   } else if (cloudCover > 25) {
     result = {
       rating: -5,
-      text: 'Zdecydowanie za mało słońca.'
+      text: 'Jeśli chodzi o kolor nieba, to zwyczajowy - szary, jak wasze życie.'
     };
   } else {
     result = {
@@ -147,7 +152,6 @@ const interpretConditions = (conditions) => {
 
 const interpretRating = (interpretations) => {
   const rating = interpretations.reduce((acc, value) => acc + value.rating, 0);
-  console.log(rating);
   if (rating == 0) {
     return 'nijak.';
   } else if (rating > 10) {
@@ -164,6 +168,7 @@ const interpretRating = (interpretations) => {
 module.exports = class Weather {
 
   constructor(json) {
+    console.log(json);
     this.temperature = json.main.temp;
     this.cloudCover = json.clouds.all;
     this.sunrise = json.sys.sunrise;
@@ -179,15 +184,17 @@ module.exports = class Weather {
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia: ${rating} Jeśli chodzi o temperaturę, to ${temperature.text}.`;
+    let result = `Moja ogólna opinia: ${rating} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} stopni, ${temperature.text}.`;
     if (sunset.rating) {
       result += ` ${sunset.text}`;
+    }
+    if (cloudCover.rating) {
+      result += ` ${cloudCover.text}`;
     }
     if (windSpeed.rating) {
       result += ` Na dodatek ${windSpeed.text}!`;
     }
     if (conditions.length) {
-      console.log(conditions);
       if (conditions.length == 1) {
         result += ` A w ogóle to ${conditions.map(condition => condition.text).join(', ')}.`;
       } else {
@@ -195,7 +202,7 @@ module.exports = class Weather {
         result += ` A w ogóle to ${conditions.map(condition => condition.text).join(', ')} i ${lastCondition.text}.`;
       }
     } else {
-      result += ' Niewiele więcej mogę powiedzieć, i chuj w to.';
+      result += ' Niewiele więcej mogę powiedzieć i chuj w to. Życzę miłego, cha cha, dnia - wasza pogodynka, Agabot. Kurwa.';
     }
 
     return result;

@@ -7,11 +7,11 @@ class Resource {
   }
 
   get url() {
-    const Settings = require('@tools/settings');
+    const settings = require('@tools/settings');
     return url.format({
-      protocol: Settings.serverProtocol,
-      host: Settings.serverHost,
-      pathname: `${Settings.resourcesPath}/${this.path}`
+      protocol: settings.serverProtocol,
+      host: settings.serverHost,
+      pathname: `${settings.resourcesPath}/${this.path}`
     });
   }
 }

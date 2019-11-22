@@ -1,11 +1,17 @@
 const BaseController = require('@controllers/baseController');
 const User = require('@models/user');
-const GiphyQueries = require('@models/giphyQueries');
-const Matchers = require('@models/matchers');
-const Response = require('@response/response');
-const StaticTexts = require('@models/staticTexts');
-const DynamicTexts = require('@models/dynamicTexts');
 
+const TextResponse = require('@responses/textResponse');
+const ResourceImageResponse = require('@responses/resourceImageResponse');
+const GiphyResponse = require('@responses/giphyResponse');
+const DadJokeResponse = require('@responses/dadJokeResponse');
+const DerbotJokeResponse = require('@responses/derbotJokeResponse');
+const WeatherResponse = require('@responses/weatherResponse');
+
+const giphyQueries = require('@models/giphyQueries');
+const matchers = require('@models/matchers');
+const staticTexts = require('@models/staticTexts');
+const dynamicTexts = require('@models/dynamicTexts');
 const resources = require('@models/resources');
 
 module.exports = class SpaceMessageController extends BaseController {
@@ -13,46 +19,55 @@ module.exports = class SpaceMessageController extends BaseController {
   respond() {
     const messageText = this.simplifyMessage(this.request.body.message.text);
     const sender = User.create(this.request.body.message.sender.email);
-    const response = new Response(this.request, this.responseHandler);
     switch (true) {
-      case messageText.match(Matchers.NewDayNewPossibilities) != null:
-        response.sendGiphy(GiphyQueries.NewDayNewPossibilities);
-        break;
-      case messageText.match(/(?:co|no) nie\?/i) != null:
-        response.sendText(DynamicTexts.OfCourse);
-        break;
-      case messageText.match(Matchers.GoodToBeBot) != null:
-        response.sendText(StaticTexts.GoodToBeBot);
-        break;
-      case messageText.includes('co tam'):
-        response.sendText(StaticTexts.Nothing);
-        break;
-      case messageText.includes('pogoda'):
-        response.sendText(StaticTexts.Shitty);
-        break;
-      case messageText.includes('nie jeblo'):
-        response.sendGiphy(GiphyQueries.NieJeblo);
-        break;
-      case messageText.includes('jeblo'):
-        response.sendGiphy(GiphyQueries.Jeblo);
-        break;
-      case messageText.includes('jebnie'):
-        response.sendGiphy(GiphyQueries.Jebnie);
-        break;
-      case messageText.includes('weather'):
-        response.sendWeather();
-        break;
-      case messageText.match(Matchers.Joke) != null:
-        response.sendEnglishJoke();
-        break;
-      case messageText.match(Matchers.Derbot) != null:
-        response.sendPolishJoke();
-        break;
-      case messageText.match(Matchers.Food) != null:
-        response.sendImage(resources.Images.Gondola);
-        break;
-      default:
-        response.sendText(DynamicTexts.DontUnderstand);
+      case messageText.match(matchers.NewDayNewPossibilities) != null: {
+        const response = new GiphyResponse(this.request, this.responseHandler, giphyQueries.NewDayNewPossibilities);
+        response.send();
+      } break;
+      case messageText.match(/(?:co|no) nie\?/i) != null: {
+        const response = new TextResponse(this.request, this.responseHandler, dynamicTexts.OfCourse);
+        response.send();
+      } break;
+      case messageText.match(matchers.GoodToBeBot) != null: {
+        const response = new TextResponse(this.request, this.responseHandler, staticTexts.GoodToBeBot);
+        response.send();
+      } break;
+      case messageText.includes('co tam'): {
+        const response = new TextResponse(this.request, this.responseHandler, staticTexts.Nothing);
+        response.send();
+      } break;
+      case messageText.includes('nie jeblo'): {
+        const response = new GiphyResponse(this.request, this.responseHandler, giphyQueries.NieJeblo);
+        response.send();
+      } break;
+      case messageText.includes('jeblo'): {
+        const response = new GiphyResponse(this.request, this.responseHandler, giphyQueries.Jeblo);
+        response.send();
+      } break;
+      case messageText.includes('jebnie'): {
+        const response = new GiphyResponse(this.request, this.responseHandler, giphyQueries.Jebnie);
+        response.send();
+      } break;
+      case messageText.match(matchers.Weather) != null: {
+        const response = new WeatherResponse(this.request, this.responseHandler);
+        response.send();
+      } break;
+      case messageText.match(matchers.Joke) != null: {
+        const response = new DadJokeResponse(this.request, this.responseHandler);
+        response.send();
+      } break;
+      case messageText.match(matchers.Derbot) != null: {
+        const response = new DerbotJokeResponse(this.request, this.responseHandler);
+        response.send();
+      } break;
+      case messageText.match(matchers.Food) != null: {
+        const response = new ResourceImageResponse(this.request, this.responseHandler, resources.Images.Gondola);
+        response.send();
+      } break;
+      default: {
+        const response = new TextResponse(this.request, this.responseHandler, dynamicTexts.DontUnderstand);
+        response.send();
+      }
     }
   }
 

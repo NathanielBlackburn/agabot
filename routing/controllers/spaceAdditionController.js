@@ -1,10 +1,12 @@
 const BaseController = require('@controllers/baseController');
-const TextCard = require('@response/responseCards/textCard');
+const TextResponse = require('@responses/textResponse');
+const staticTexts = require('@models/staticTexts');
 
 module.exports = class SpaceAdditionController extends BaseController {
 
   respond() {
-    this.httpResponse.json(new TextCard('Cześć ludzie.'));
+    const response = new TextResponse(this.request, this.responseHandler, staticTexts.HelloGuys);
+    response.send();
   }
 
 };

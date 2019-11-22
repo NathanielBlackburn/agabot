@@ -1,6 +1,7 @@
 const http = require('http');
 
 const CachedService = require('@services/cachedService');
+const Weather = require('@models/weather');
 
 const ZIELONA_GORA_ID = '7532225';
 
@@ -15,8 +16,8 @@ module.exports = class OpenWeatherMapService extends CachedService {
   }
 
   fetch(callback) {
-    const Settings = require('@tools/settings');
-    const apiKey = Settings.apiConfig.openWeatherMap.apiKey;
+    const settings = require('@tools/settings');
+    const apiKey = settings.apiConfig.openWeatherMap.apiKey;
     const weatherRequest = http.request(
       `http://api.openweathermap.org/data/2.5/weather?id=${ZIELONA_GORA_ID}&appid=${apiKey}&units=metric`, {
         headers: {
@@ -27,7 +28,7 @@ module.exports = class OpenWeatherMapService extends CachedService {
         let data = '';
         weatherResponse.on('data', chunk => data += chunk);
         weatherResponse.on('end', () => {
-          callback(JSON.parse(data));
+          callback(new Weather(JSON.parse(data)));
         });
       }
     );

@@ -1,7 +1,7 @@
 const http = require('http');
 const cheerio = require('cheerio');
 
-module.exports = class SucharyService {
+module.exports = class DerbotJokesService {
 
   random(callback) {
     const jokeRequest = http.request(

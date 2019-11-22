@@ -43,6 +43,7 @@ module.exports = {
     'm'
   ),
   GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
-  NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m
+  NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,
+  Weather: /weather|pogod(?:a|e|y)/m
 
 };

@@ -1,6 +1,9 @@
 module.exports = class ImageCard {
 
   constructor(urls, clickable) {
+    if (!(urls instanceof Array)) {
+      urls = [urls];
+    }
     this.cards = [{
       sections: [{
         widgets: urls.map(url => {

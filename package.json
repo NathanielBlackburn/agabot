@@ -1,7 +1,7 @@
 {
-  "name": "agabot-ansible",
-  "version": "0.1.0",
-  "description": "Agabot Ansible Relay Device",
+  "name": "agabot",
+  "version": "1.1.0",
+  "description": "Hangouts Chat Agabot",
   "main": "server.js",
   "scripts": {},
   "repository": {
@@ -24,7 +24,7 @@
     "@root": ".",
     "@routing": "./routing",
     "@controllers": "./routing/controllers",
-    "@response": "./routing/controllers/response",
+    "@responses": "./routing/responses",
     "@security": "./routing/security",
     "@models": "./models",
     "@tools": "./tools",
