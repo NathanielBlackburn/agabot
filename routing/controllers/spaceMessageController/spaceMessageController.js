@@ -1,0 +1,43 @@
+const BaseController = require('@controllers/baseController');
+const User = require('@models/user');
+
+const NewDayNewPossibilitiesResponder = require('@controllers/spaceMessageController/responders/newDayNewPossibilitiesResponder');
+const AintThatRightResponder = require('@controllers/spaceMessageController/responders/aintThatRightResponder');
+const GoodToBeBotResponder = require('@controllers/spaceMessageController/responders/goodToBeBotResponder');
+const WhatsUpResponder = require('@controllers/spaceMessageController/responders/whatsUpResponder');
+const NoFuckupResponder = require('@controllers/spaceMessageController/responders/noFuckupResponder');
+const FuckupResponder = require('@controllers/spaceMessageController/responders/fuckupResponder');
+const WontFuckUpResponder = require('@controllers/spaceMessageController/responders/wontFuckUpResponder');
+const WillFuckUpResponder = require('@controllers/spaceMessageController/responders/willFuckUpResponder');
+const WeatherResponder = require('@controllers/spaceMessageController/responders/weatherResponder');
+const DadJokeResponder = require('@controllers/spaceMessageController/responders/dadJokeResponder');
+const DerbotJokeResponder = require('@controllers/spaceMessageController/responders/derbotJokeResponder');
+const GimmeFoodResponder = require('@controllers/spaceMessageController/responders/gimmeFoodResponder');
+const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
+
+const responders = [
+  new NewDayNewPossibilitiesResponder(),
+  new AintThatRightResponder(),
+  new GoodToBeBotResponder(),
+  new WhatsUpResponder(),
+  new NoFuckupResponder(),
+  new FuckupResponder(),
+  new WontFuckUpResponder(),
+  new WillFuckUpResponder(),
+  new WeatherResponder(),
+  new DadJokeResponder(),
+  new DerbotJokeResponder(),
+  new GimmeFoodResponder(),
+];
+
+module.exports = class SpaceMessageController extends BaseController {
+
+  respond() {
+    const messageText = this.simplifyMessage(this.request.body.message.text);
+    const sender = User.create(this.request.body.message.sender.email);
+    const responder = responders.find(responder => responder.respondsTo(messageText, sender))
+      || (new DefaultResponder());
+    responder.respond(this.responseHandler);
+  }
+
+};

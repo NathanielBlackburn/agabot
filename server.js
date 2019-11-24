@@ -1,6 +1,5 @@
 require('module-alias/register');
 
-// TODO: Extract response handlers from controllers
 // TODO: Wrap-around for the http(s) requests
 
 const express = require('express'),

@@ -165,6 +165,18 @@ const interpretRating = (interpretations) => {
   }
 };
 
+const degreesToDescription = (degrees) => {
+  degrees = Math.abs(degrees);
+  const lastDigit = degrees % 10;
+  if (degrees == 1) {
+    return 'stopień';
+  } else if (lastDigit > 1 && lastDigit < 5) {
+    return 'stopnie';
+  } else {
+    return 'stopni';
+  }
+};
+
 module.exports = class Weather {
 
   constructor(json) {
@@ -184,7 +196,7 @@ module.exports = class Weather {
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia: ${rating} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} stopni, ${temperature.text}.`;
+    let result = `Moja ogólna opinia: ${rating} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
     if (sunset.rating) {
       result += ` ${sunset.text}`;
     }
@@ -202,8 +214,9 @@ module.exports = class Weather {
         result += ` A w ogóle to ${conditions.map(condition => condition.text).join(', ')} i ${lastCondition.text}.`;
       }
     } else {
-      result += ' Niewiele więcej mogę powiedzieć i chuj w to. Życzę miłego, cha cha, dnia - wasza pogodynka, Agabot. Kurwa.';
+      result += ' Niewiele więcej mogę powiedzieć i chuj w to.';
     }
+    result += ' Życzę miłego, cha cha, dnia - wasza pogodynka, Agabot. Kurwa.';
 
     return result;
   }

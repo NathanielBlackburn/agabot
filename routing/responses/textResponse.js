@@ -3,8 +3,8 @@ const TextCard = require('@responses/responseCards/textCard');
 
 module.exports = class TextResponse extends Response {
 
-  constructor(request, responseHandler, text) {
-    super(request, responseHandler);
+  constructor(responseHandler, text) {
+    super(responseHandler);
     this.text = text;
   }
 

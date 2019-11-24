@@ -1,16 +1,14 @@
 const express = require('express');
 const router = express.Router();
 
-const SpaceAdditionController = require('@controllers/spaceAdditionController');
-const SpaceMessageController = require('@controllers/spaceMessageController');
+const SpaceAdditionController = require('@controllers/spaceAdditionController/spaceAdditionController');
+const SpaceMessageController = require('@controllers/spaceMessageController/spaceMessageController');
 
 router.post('/', (request, responseHandler) => {
   if (request.body.type == 'ADDED_TO_SPACE') {
-    const spaceAdditionController = new SpaceAdditionController(request, responseHandler);
-    spaceAdditionController.respond();
+    (new SpaceAdditionController(request, responseHandler)).respond();
   } else if (request.body.type == 'MESSAGE') {
-    const spaceMessageController = new SpaceMessageController(request, responseHandler);
-    spaceMessageController.respond();
+    (new SpaceMessageController(request, responseHandler)).respond();
   } else {
     responseHandler.status(204).end();
   }

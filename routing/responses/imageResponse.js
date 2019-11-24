@@ -3,8 +3,8 @@ const ImageCard = require('@responses/responseCards/imageCard');
 
 module.exports = class ImageResponse extends Response {
 
-  constructor(request, responseHandler, url, clickable) {
-    super(request, responseHandler);
+  constructor(responseHandler, url, clickable) {
+    super(responseHandler);
     this.url = url;
     this.clickable = clickable;
   }

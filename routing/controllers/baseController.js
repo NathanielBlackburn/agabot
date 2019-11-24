@@ -8,7 +8,7 @@ module.exports = class BaseController {
     }
 
     simplifyMessage(text) {
-      return stringToolkit.removeDiacritics(text).replace(/ +/g, ' ').trim().toLowerCase();
+      return stringToolkit.removeDiacritics(text.trim().toLowerCase()).replace(/ +/g, ' ');
     }
 
 };

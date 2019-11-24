@@ -1,12 +1,19 @@
 module.exports = {
 
+  AintThatRight: /(?:co|no) nie\?/m,
+  WhatsUp: /co tam/m,
+  NoFuckup: /nie jeblo/m,
+  Fuckup: /jeblo/m,
+  WillNotFuckUp: /nie jebnie/m,
+  WillFuckUp: /jebnie/m,
+
   Food: new RegExp(
     [
       'promk(?:a|e|i)',
       'pizz',
       'promocj(?:a|e|i)',
       'gondol(?:a|e|i)',
-      'z?j(?:esc|adl|em|esz)',
+      'z?j(?:esc|adl|em|esz|edz)',
       '\\bw?szam(?:a|e)',
       'zam(?:awia|ow)',
       'glod',

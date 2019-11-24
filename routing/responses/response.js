@@ -1,7 +1,6 @@
 module.exports = class Response {
 
-  constructor(request, responseHandler) {
-    this.request = request;
+  constructor(responseHandler) {
     this.responseHandler = responseHandler;
   }
 

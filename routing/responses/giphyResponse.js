@@ -3,8 +3,8 @@ const GiphyService = require('@services/giphy/giphyService');
 
 module.exports = class GiphyResponse extends ImageResponse {
 
-  constructor(request, responseHandler, query) {
-    super(request, responseHandler, null, false);
+  constructor(responseHandler, query) {
+    super(responseHandler, null, false);
     this.query = query;
   }
 
