@@ -7,7 +7,7 @@ const interpretTemperature = (temperature) => {
       rating: -20,
       text: 'nakurwia piekłem'
     };
-  } else if (temperature > 20) {
+  } else if (temperature > 18) {
     result = {
       rating: 20,
       text: 'może być'
@@ -15,17 +15,22 @@ const interpretTemperature = (temperature) => {
   } else if (temperature > 12) {
     result = {
       rating: 10,
-      text: 'jest ciepło, na razie'
+      text: 'nie jest tragicznie zimno'
     };
-  } else if (temperature < 6) {
+  } else if (temperature > 6) {
+    result = {
+      rating: 5,
+      text: 'bardzo zimno nie jest, ale załóżcie skarpety pod sandały'
+    };
+  } else if (temperature > 0) {
     result = {
       rating: -20,
-      text: 'pizga złem jak w jebanym Czelabińsku'
+      text: 'jest zimno jak w psiarni'
     };
   } else {
     result = {
-      rating: -10,
-      text: 'jest kurwa zimno'
+      rating: -20,
+      text: 'pizga złem jak w jebanym Czelabińsku'
     };
   }
 
@@ -38,7 +43,7 @@ const interpretSunset = (sunset) => {
   if (sunset < currentTimestamp) {
     result = {
       rating: -10,
-      text: 'Nic nie widać, bo już ciemno.'
+      text: 'Nic nie widać, bo już ciemno jak w dupie.'
     };
   } else if (sunset - currentTimestamp < 3600) {
     result = {
@@ -60,7 +65,7 @@ const interpretCloudCover = (cloudCover) => {
   if (cloudCover > 50) {
     result = {
       rating: -10,
-      text: 'Buro w chuj, bo wszędzie te zasrane chmury!'
+      text: 'Buro w chuj, bo wszędzie te zasrane chmury.'
     };
   } else if (cloudCover > 25) {
     result = {
@@ -168,9 +173,10 @@ const interpretRating = (interpretations) => {
 const degreesToDescription = (degrees) => {
   degrees = Math.abs(degrees);
   const lastDigit = degrees % 10;
+  const tenths = degrees % 100;
   if (degrees == 1) {
     return 'stopień';
-  } else if (lastDigit > 1 && lastDigit < 5) {
+  } else if (lastDigit > 1 && lastDigit < 5 && (tenths < 10 || tenths > 20)) {
     return 'stopnie';
   } else {
     return 'stopni';
