@@ -74,8 +74,8 @@ const interpretCloudCover = (cloudCover) => {
     };
   } else {
     result = {
-      rating: 0,
-      text: null
+      rating: 20,
+      text: 'Nawet coś słońce widać, gdybyście wyszli z tej jaskini rozpaczy.'
     };
   }
 
@@ -96,7 +96,7 @@ const interpretWindSpeed = (windSpeed) => {
     };
   } else {
     result = {
-      rating: 0,
+      rating: 10,
       text: null
     };
   }
@@ -157,17 +157,20 @@ const interpretConditions = (conditions) => {
 
 const interpretRating = (interpretations) => {
   const rating = interpretations.reduce((acc, value) => acc + value.rating, 0);
+  let text;
   if (rating == 0) {
-    return 'nijak.';
+    text = 'nijak.';
   } else if (rating > 10) {
-    return 'może być, jak nie w Polsce.';
+    text = 'może być, jak nie w Polsce.';
   } else if (rating > 0) {
-    return 'średnio w chuj.';
+    text =  'średnio w chuj.';
   } else if (rating < 0 && rating > -50) {
-    return 'chujowo.';
+    text =  'chujowo.';
   } else {
-    return 'ja pierdolę, co wy tu jeszcze robicie?';
+    text =  'ja pierdolę, co wy tu jeszcze robicie?';
   }
+
+  return {numeric: rating, textual: text};
 };
 
 const degreesToDescription = (degrees) => {
@@ -202,27 +205,37 @@ module.exports = class Weather {
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia: ${rating} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
-    if (sunset.rating) {
+    let result = `Moja ogólna opinia: ${rating.textual} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
+    if (sunset.text) {
       result += ` ${sunset.text}`;
     }
-    if (cloudCover.rating) {
+    if (cloudCover.text) {
       result += ` ${cloudCover.text}`;
     }
-    if (windSpeed.rating) {
+    if (windSpeed.text) {
       result += ` Na dodatek ${windSpeed.text}!`;
     }
     if (conditions.length) {
       if (conditions.length == 1) {
-        result += ` A w ogóle to ${conditions.map(condition => condition.text).join(', ')}.`;
+        result += ` A w ogóle to ${conditions[0].text}.`;
       } else {
         const lastCondition = conditions.pop();
         result += ` A w ogóle to ${conditions.map(condition => condition.text).join(', ')} i ${lastCondition.text}.`;
       }
     } else {
-      result += ' Niewiele więcej mogę powiedzieć i chuj w to.';
+      if (rating.numeric > 10) { // FIXME: Repeated code from interpretRating
+        result += ' Niewiele więcej mogę powiedzieć, może to i dobrze.';
+      } else {
+        result += ' Niewiele więcej mogę powiedzieć i chuj w to.';
+      }
     }
-    result += ' Życzę miłego, cha cha, dnia - wasza pogodynka, Agabot. Kurwa.';
+    // TODO: All of this calls for a weather forecaster's mood. If the rating's good, all of the texts
+    // should be a bit more cheery.
+    if (rating.numeric > 10) {
+      result += ' Miłego dnia (chyba). Wasza pogodynka, Agabot, lic. meteorologii i klimatologii, prof. UZ, filia w Sulechowie.';
+    } else {
+      result += ' Życzę miłego, cha cha, dnia - wasza pogodynka, Agabot. Kurwa.';
+    }
 
     return result;
   }

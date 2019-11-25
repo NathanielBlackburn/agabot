@@ -1,6 +1,6 @@
 module.exports = class ImageCard {
 
-  constructor(urls, clickable) {
+  constructor(urls, clickable, thread) {
     if (!(urls instanceof Array)) {
       urls = [urls];
     }
@@ -23,6 +23,11 @@ module.exports = class ImageCard {
         })
       }]
     }];
+    if (typeof thread != 'undefined') {
+      this.thread = {
+        name: thread
+      };
+    }
   }
 
 };

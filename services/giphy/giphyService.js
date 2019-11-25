@@ -1,6 +1,11 @@
 const https = require('https');
+const queries = require('@services/giphy/giphyQueries');
 
 module.exports = class GiphyService {
+
+  static get Queries() {
+    return queries;
+  }
 
   get(query, callback) {
     const settings = require('@tools/settings');

@@ -1,5 +1,5 @@
 const matchers = require('@models/matchers');
-const giphyQueries = require('@models/giphyQueries');
+const giphyQueries = require('@services/giphy/giphyQueries');
 const GiphyResponse = require('@responses/giphyResponse');
 
 module.exports = class NewDayNewPossibilitiesResponder {

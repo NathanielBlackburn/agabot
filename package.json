@@ -14,8 +14,10 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.16.4",
+    "googleapis": "^45.0.0",
     "module-alias": "^2.1.0",
-    "node-cache": "^5.0.2"
+    "node-cache": "^5.0.2",
+    "node-schedule": "^1.3.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
@@ -28,6 +30,7 @@
     "@security": "./routing/security",
     "@models": "./models",
     "@tools": "./tools",
-    "@services": "./services"
+    "@services": "./services",
+    "@tests": "./tests"
   }
 }
