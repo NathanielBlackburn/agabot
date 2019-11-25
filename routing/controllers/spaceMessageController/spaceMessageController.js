@@ -33,9 +33,9 @@ const responders = [
 module.exports = class SpaceMessageController extends BaseController {
 
   respond() {
-    const messageText = this.simplifyMessage(this.request.body.message.text);
+    const message = this.normaliseMessage(this.request.body.message.text);
     const sender = User.create(this.request.body.message.sender.email);
-    const responder = responders.find(responder => responder.respondsTo(messageText, sender))
+    const responder = responders.find(responder => responder.respondsTo(message, sender))
       || (new DefaultResponder());
     responder.respond(this.responseHandler);
   }

@@ -5,8 +5,7 @@ const staticTexts = require('@models/staticTexts');
 module.exports = class SpaceAdditionController extends BaseController {
 
   respond() {
-    const response = new TextResponse(this.request, this.responseHandler, staticTexts.HelloGuys);
-    response.send();
+    (new TextResponse(this.responseHandler, staticTexts.HelloGuys)).send();
   }
 
 };

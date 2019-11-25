@@ -7,7 +7,7 @@ module.exports = class BaseController {
       this.responseHandler = responseHandler;
     }
 
-    simplifyMessage(text) {
+    normaliseMessage(text) {
       return stringToolkit.removeDiacritics(text.trim().toLowerCase()).replace(/ +/g, ' ');
     }
 

@@ -1,6 +1,8 @@
 require('module-alias/register');
 
 // TODO: Wrap-around for the http(s) requests
+// TODO: Unify naming in giphyQueries and othe statics
+// TODO: Add a service account integration to allow posting to chats independently
 
 const express = require('express'),
 	app = express(),
