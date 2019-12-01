@@ -190,7 +190,7 @@ module.exports = class Weather {
 
   constructor(json) {
     console.log(json);
-    this.temperature = json.main.temp;
+    this.temperature = Math.floor(json.main.temp);
     this.cloudCover = json.clouds.all;
     this.sunrise = json.sys.sunrise;
     this.sunset = json.sys.sunset;
@@ -205,7 +205,7 @@ module.exports = class Weather {
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia: ${rating.textual} Jeśli chodzi o temperaturę, to ${Math.floor(this.temperature)} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
+    let result = `Moja ogólna opinia: ${rating.textual} Jeśli chodzi o temperaturę, to ${this.temperature} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
     if (sunset.text) {
       result += ` ${sunset.text}`;
     }
