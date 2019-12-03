@@ -10,5 +10,6 @@ module.exports = (app, express, config) => {
   });
   app.use('/resources', express.static(settings.resourcesPath));
   app.use('/agabot/ansible', agabotRouter);
+  app.use('/agabot/keep-alive', (request, response) => response.status(204).end());
   app.use((request, response) => response.status(404).end());
 };
