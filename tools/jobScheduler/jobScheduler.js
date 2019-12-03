@@ -1,7 +1,7 @@
 const schedule = require('node-schedule');
 const scheduledJobs = [];
 const jobsToSchedule = [
-  require('@tools/jobScheduler/jobs/dailyGreetingJob')
+  
 ];
 
 module.exports = () => {

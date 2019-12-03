@@ -7,27 +7,30 @@ const ImageCard = require('@responses/responseCards/imageCard');
 
 const staticTexts = require('@models/staticTexts');
 
-module.exports = {
+module.exports = class DailyHelloResponder {
 
-  schedule: `30 6 * * *`,
+  respondsTo(jobName) {
+    return jobName == 'dailyHello';
+  }
 
-  action: () => {
+  respond(responseHandler) {
+    responseHandler.status(204).end();
     const hangoutsChatService = new HangoutsChatService();
     const giphyService = new GiphyService();
     const weatherService = new WeatherService();
-    const randTesting = HangoutsChatService.Spaces.Pierdolety;
+    const space = HangoutsChatService.Spaces.Pierdolety;
     giphyService.get(GiphyService.Queries.NewDayNewPossibilities, async url => {
       const res = await hangoutsChatService.sendMessage(
         new TextCard(staticTexts.NewDayNewPossibilities),
-        randTesting
+        space
       );
       const thread = res.data.thread.name;
-      await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), randTesting);
-      await hangoutsChatService.sendMessage(new TextCard(`\n${staticTexts.TodaysWeather}`, thread), randTesting);
+      await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), space);
+      await hangoutsChatService.sendMessage(new TextCard(`\n${staticTexts.TodaysWeather}`, thread), space);
       weatherService.fetch(weather => {
-        hangoutsChatService.sendMessage(new TextCard(weather.toString(), thread), randTesting);
+        hangoutsChatService.sendMessage(new TextCard(weather.toString(), thread), space);
       });
     });
-  }
 
+  }
 };
