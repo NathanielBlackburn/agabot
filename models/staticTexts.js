@@ -7,6 +7,7 @@ module.exports = {
   NewDayNewPossibilities: 'Nowy dzień, nowe możliwości!',
   TodaysWeather: '*Pogoda na dziś:*',
   MarcinOrdersFood: 'Dziś zamawia [chosenName], więc bierzecie na własne ryzyko.',
-  SomeoneOrdersFood: 'Dziś zamawia [chosenName].'
+  SomeoneOrdersFood: 'Dziś zamawia [chosenName].',
+  NoWeatherForNoCities: 'Nieprawilnych miast nie obsługujemy'
 
 };
