@@ -12,6 +12,7 @@ const WillFuckUpResponder = require('@controllers/spaceMessageController/respond
 const WeatherResponder = require('@controllers/spaceMessageController/responders/weatherResponder');
 const DadJokeResponder = require('@controllers/spaceMessageController/responders/dadJokeResponder');
 const DerbotJokeResponder = require('@controllers/spaceMessageController/responders/derbotJokeResponder');
+const WhoOrdersFoodResponder = require('@controllers/spaceMessageController/responders/whoOrdersFoodResponder');
 const GimmeFoodResponder = require('@controllers/spaceMessageController/responders/gimmeFoodResponder');
 const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
 
@@ -27,6 +28,7 @@ const responders = [
   new WeatherResponder(),
   new DadJokeResponder(),
   new DerbotJokeResponder(),
+  new WhoOrdersFoodResponder(),
   new GimmeFoodResponder(),
 ];
 
@@ -34,8 +36,9 @@ module.exports = class SpaceMessageController extends BaseController {
 
   respond() {
     const message = this.normaliseMessage(this.request.body.message.text);
+    const originalMessage = this.request.body.message.text;
     const sender = User.create(this.request.body.message.sender.email);
-    const responder = responders.find(responder => responder.respondsTo(message, sender))
+    const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage))
       || (new DefaultResponder());
     responder.respond(this.responseHandler);
   }

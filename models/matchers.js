@@ -6,6 +6,7 @@ module.exports = {
   Fuckup: /jeblo/m,
   WillNotFuckUp: /nie jebnie/m,
   WillFuckUp: /jebnie/m,
+  WhoOrdersFood: /kto (\b[^\s]+\s+)?zamawia\?/im,
 
   Food: new RegExp(
     [
@@ -51,6 +52,6 @@ module.exports = {
   ),
   GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
   NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,
-  Weather: /weather|pogod(?:a|e|y)/m
+  Weather: /(?:weather|pogod(?:a|e|y))(?:.+(gdyni))?/m
 
 };

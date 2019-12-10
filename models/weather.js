@@ -188,7 +188,7 @@ const degreesToDescription = (degrees) => {
 
 module.exports = class Weather {
 
-  constructor(json) {
+  constructor(json, city) {
     console.log(json);
     this.temperature = Math.floor(json.main.temp);
     this.cloudCover = json.clouds.all;
@@ -196,6 +196,7 @@ module.exports = class Weather {
     this.sunset = json.sys.sunset;
     this.windSpeed = json.wind.speed;
     this.conditions = json.weather.map(conditions => conditions.id);
+    this.city = city;
   }
 
   toString() {
@@ -205,7 +206,7 @@ module.exports = class Weather {
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia: ${rating.textual} Jeśli chodzi o temperaturę, to ${this.temperature} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
+    let result = `Moja ogólna opinia o pogodzie w ${this.city.name}: ${rating.textual} Jeśli chodzi o temperaturę, to ${this.temperature} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
     if (sunset.text) {
       result += ` ${sunset.text}`;
     }

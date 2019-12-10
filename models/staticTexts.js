@@ -5,6 +5,8 @@ module.exports = {
   Nothing: 'Nic.',
   Shitty: 'Chujowa.',
   NewDayNewPossibilities: 'Nowy dzień, nowe możliwości!',
-  TodaysWeather: '*Pogoda na dziś:*'
+  TodaysWeather: '*Pogoda na dziś:*',
+  MarcinOrdersFood: 'Dziś zamawia [chosenName], więc bierzecie na własne ryzyko.',
+  SomeoneOrdersFood: 'Dziś zamawia [chosenName].'
 
 };

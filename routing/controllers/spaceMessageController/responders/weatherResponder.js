@@ -4,11 +4,13 @@ const WeatherResponse = require('@responses/weatherResponse');
 module.exports = class WeatherResponder {
 
   respondsTo(message, user) {
-    return message.match(matchers.Weather) != null;
+    this.matches = message.match(matchers.Weather) || [];
+    return this.matches.length;
+
   }
 
   respond(responseHandler) {
-    (new WeatherResponse(responseHandler)).send();
+    (new WeatherResponse(responseHandler, this.matches)).send();
   }
 
 };
