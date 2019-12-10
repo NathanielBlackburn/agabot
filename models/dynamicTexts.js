@@ -20,4 +20,15 @@ module.exports = class {
     return arrayToolkit.randomElement(responses);
   }
 
+  static MarcinOrdersFood(name) {
+    const responses = [
+      'Dziś zamawia [chosenName], więc bierzecie na własne ryzyko.',
+      'Dziś zamawia [chosenName], więc macie przegibane.',
+      'Dziś zamawia [chosenName], więc dajcie mu swoje wsparcie.',
+      'Dziś zamawia [chosenName], więc zamówcie 4h wcześniej.',
+      'Dziś zamawia [chosenName], więc tak bardzo mi was szkoda.',
+    ];
+    return arrayToolkit.randomElement(responses).replace('[chosenName]', name);
+  }
+
 };

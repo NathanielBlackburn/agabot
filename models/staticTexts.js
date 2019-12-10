@@ -8,6 +8,6 @@ module.exports = {
   TodaysWeather: '*Pogoda na dziś:*',
   MarcinOrdersFood: 'Dziś zamawia [chosenName], więc bierzecie na własne ryzyko.',
   SomeoneOrdersFood: 'Dziś zamawia [chosenName].',
-  NoWeatherForNoCities: 'Nieprawilnych miast nie obsługujemy'
+  NoWeatherForNoCities: 'Nieprawilnych miast nie obsługujemy.'
 
 };
