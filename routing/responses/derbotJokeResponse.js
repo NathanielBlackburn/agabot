@@ -3,12 +3,9 @@ const DerbotJokesService = require('@services/derbotJokes/derbotJokesService');
 
 module.exports = class DerbotJokeResponse extends TextResponse {
 
-  fetch(callback) {
+  async fetch() {
     const derbotJokesService = new DerbotJokesService();
-    derbotJokesService.random(joke => {
-      this.text = joke;
-      callback();
-    });
+    this.text = await derbotJokesService.random();
   }
 
 };

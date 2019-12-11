@@ -18,7 +18,7 @@ module.exports = class HangoutsChatService {
     return spaces;
   }
 
-  sendMessage(card, space) {
+  async sendMessage(card, space) {
     return createChat().spaces.messages.create({
       parent: space,
       requestBody: card

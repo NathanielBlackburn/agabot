@@ -5,9 +5,12 @@ module.exports = class CachedService {
   static get cacheParams() {
     return {
       ttl: 0,
-      checkPeriod: 0,
-      key: 'cacheKey'
+      checkPeriod: 0
     };
+  }
+
+  get cacheKey() {
+    return 'cacheKey';
   }
 
   static get cache() {
@@ -15,29 +18,30 @@ module.exports = class CachedService {
       this._cache = new NodeCache({
         stdTTL: this.cacheParams.ttl,
         checkperiod: this.cacheParams.checkPeriod
-      })
+      });
     }
     return this._cache;
   }
 
-  get(callback) {
-    const data = this.constructor.cache.get(this.constructor.cacheParams.key);
+  async get() {
+    let data = this.constructor.cache.get(this.cacheKey);
     if (data) {
-      callback(data);
+      return data;
     } else {
-      this.fetch((data) => {
-        this.set(data);
-        callback(data);
-      });
+      data = await this.fetch();
+      this.set(data);
+      return data;
     }
   }
 
   set(data) {
-    this.constructor.cache.set(this.constructor.cacheParams.key, data);
+    this.constructor.cache.set(this.cacheKey, data);
   }
 
-  fetch(callback) {
-    throw new Error('Not implemented.');
+  async fetch() {
+    return new Promise((resolve, reject) => {
+      reject('Not implemented.');
+    });
   }
 
 };

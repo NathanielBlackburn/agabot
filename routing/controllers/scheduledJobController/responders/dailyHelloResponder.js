@@ -7,6 +7,7 @@ const TextCard = require('@responses/responseCards/textCard');
 const ImageCard = require('@responses/responseCards/imageCard');
 
 const staticTexts = require('@models/staticTexts');
+const dynamicTexts = require('@models/dynamicTexts');
 
 module.exports = class DailyHelloResponder {
 
@@ -14,24 +15,22 @@ module.exports = class DailyHelloResponder {
     return jobName == 'dailyHello';
   }
 
-  respond(responseHandler) {
+  async respond(responseHandler) {
     responseHandler.status(204).end();
     const hangoutsChatService = new HangoutsChatService();
     const giphyService = new GiphyService();
-    const weatherService = new WeatherService(City.Grunberg);
+    const weatherServiceGrunberg = new WeatherService(City.Grunberg);
+    const weatherServiceGdynia = new WeatherService(City.Gdynia);
     const space = HangoutsChatService.Spaces.Pierdolety;
-    giphyService.get(GiphyService.Queries.NewDayNewPossibilities, async url => {
-      const res = await hangoutsChatService.sendMessage(
-        new TextCard(staticTexts.NewDayNewPossibilities),
-        space
-      );
-      const thread = res.data.thread.name;
-      await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), space);
-      await hangoutsChatService.sendMessage(new TextCard(`\n${staticTexts.TodaysWeather}`, thread), space);
-      weatherService.fetch(weather => {
-        hangoutsChatService.sendMessage(new TextCard(weather.toString(), thread), space);
-      });
-    });
-
+    const threadData = await hangoutsChatService.sendMessage(new TextCard(staticTexts.NewDayNewPossibilities), space);
+    const thread = threadData.data.thread.name;
+    const url = await giphyService.get(GiphyService.Queries.NewDayNewPossibilities);
+    await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), space);
+    const weatherGrunberg = await weatherServiceGrunberg.get();
+    const weatherGdynia = await weatherServiceGdynia.get();
+    await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeather(weatherGrunberg.city)}`, thread), space);
+    await hangoutsChatService.sendMessage(new TextCard(weatherGrunberg.interpretation(), thread), space);
+    await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeather(weatherGdynia.city)}`, thread), space);
+    await hangoutsChatService.sendMessage(new TextCard(weatherGdynia.interpretation(), thread), space);
   }
 };

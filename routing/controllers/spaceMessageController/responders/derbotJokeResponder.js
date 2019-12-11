@@ -7,8 +7,8 @@ module.exports = class DerbotJokeResponder {
     return message.match(matchers.Derbot) != null;
   }
 
-  respond(responseHandler) {
-    (new DerbotJokeResponse(responseHandler)).send();
+  async respond(responseHandler) {
+    await (new DerbotJokeResponse(responseHandler)).send();
   }
 
 };

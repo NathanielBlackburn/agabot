@@ -8,12 +8,13 @@ module.exports = class TextResponse extends Response {
     this.text = text;
   }
 
-  send() {
-    this.fetch(() => this.responseHandler.json(new TextCard(this.text)));
+  async send() {
+    await this.fetch();
+    this.responseHandler.json(new TextCard(this.text));
   }
 
-  fetch(callback) {
-    callback();
+  async fetch() {
+    return;
   }
 
 };

@@ -1,55 +1,42 @@
-const http = require('http');
+const promisifyHttp = require('@tools/promisifyHttp');
+const http = promisifyHttp(require('http'));
 
 const CachedService = require('@services/cachedService');
-const Weather = require('@models/weather');
+const Weather = require('@services/openWeatherMap/weather');
 
 module.exports = class OpenWeatherMapService extends CachedService {
+
+  get name() {
+    return 'OpenWeatherMapService';
+  }
 
   constructor(city) {
     super();
     this.city = city;
   }
 
-  static get cacheParams() {
+  get cacheParams() {
     return {
       ttl: 60 * 10,
-      checkPeriod: 2,
-      key: 'openWeatherData'
+      checkPeriod: 2
     };
   }
 
-  get(callback) {
-    const data = this.constructor.cache.get(this.constructor.cacheParams.key);
-    if (data && data[this.city.id]) {
-      callback(data[this.city.id]);
-    } else {
-      this.fetch((data) => {
-        const result = {};
-        result[this.city.id] = data;
-        this.set(result);
-        callback(data);
-      });
-    }
+  get cacheKey() {
+    return `openWeatherData_${this.city.id}`;
   }
 
-  fetch(callback) {
+  async fetch() {
     const settings = require('@tools/settings');
     const apiKey = settings.apiConfig.openWeatherMap.apiKey;
-    const weatherRequest = http.request(
-      `http://api.openweathermap.org/data/2.5/weather?id=${this.city.id}&appid=${apiKey}&units=metric`, {
+    return new Weather(JSON.parse(await http.request(
+      `http://api.openweathermap.org/data/2.5/weather?id=${this.city.id}&appid=${apiKey}&units=metric`,
+      {
         headers: {
           'Accept': 'application/json'
         }
-      },
-      weatherResponse => {
-        let data = '';
-        weatherResponse.on('data', chunk => data += chunk);
-        weatherResponse.on('end', () => {
-          callback(new Weather(JSON.parse(data), this.city));
-        });
       }
-    );
-    weatherRequest.end();
+    )), this.city);
   }
 
 };

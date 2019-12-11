@@ -9,8 +9,8 @@ module.exports = class WeatherResponder {
 
   }
 
-  respond(responseHandler) {
-    (new WeatherResponse(responseHandler, this.matches)).send();
+  async respond(responseHandler) {
+    await (new WeatherResponse(responseHandler, this.matches)).send();
   }
 
 };

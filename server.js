@@ -1,8 +1,6 @@
 require('module-alias/register');
 
-// TODO: Wrap-around for the http(s) requests
 // TODO: Unify naming in giphyQueries and othe statics
-// TODO: Change callbacks to promises
 // TODO: Add dotenv for Google Service Account credentials
 
 require('@tools/jobScheduler/jobScheduler')();

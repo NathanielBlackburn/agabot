@@ -199,14 +199,19 @@ module.exports = class Weather {
     this.city = city;
   }
 
-  toString() {
+  interpretation(options) {
+    options = options || {};
     const temperature = interpretTemperature(this.temperature);
     const sunset = interpretSunset(this.sunset);
     const cloudCover = interpretCloudCover(this.cloudCover);
     const windSpeed = interpretWindSpeed(this.windSpeed);
     const conditions = interpretConditions(this.conditions);
     const rating = interpretRating([temperature, sunset, cloudCover, windSpeed].concat(conditions));
-    let result = `Moja ogólna opinia o pogodzie w ${this.city.name}: ${rating.textual} Jeśli chodzi o temperaturę, to ${this.temperature} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
+    let result = 'Moja ogólna opinia';
+    if (options.showCityName) {
+      result += ` o pogodzie w ${this.city.name}`;
+    }
+    result += `: ${rating.textual} Jeśli chodzi o temperaturę, to ${this.temperature} ${degreesToDescription(this.temperature)}, ${temperature.text}.`;
     if (sunset.text) {
       result += ` ${sunset.text}`;
     }

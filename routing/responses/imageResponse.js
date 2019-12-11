@@ -9,12 +9,13 @@ module.exports = class ImageResponse extends Response {
     this.clickable = clickable;
   }
 
-  fetch(callback) {
-    callback();
+  async send() {
+    await this.fetch();
+    this.responseHandler.json(new ImageCard(this.url, this.clickable));
   }
 
-  send() {
-    this.fetch(() => this.responseHandler.json(new ImageCard(this.url, this.clickable)));
+  async fetch() {
+    return;
   }
 
 };

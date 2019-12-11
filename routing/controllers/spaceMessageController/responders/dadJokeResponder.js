@@ -7,8 +7,8 @@ module.exports = class DadJokeResponder {
     return message.match(matchers.Joke) != null;
   }
 
-  respond(responseHandler) {
-    (new DadJokeResponse(responseHandler)).send();
+  async respond(responseHandler) {
+    await (new DadJokeResponse(responseHandler)).send();
   }
 
 };

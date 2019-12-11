@@ -1,9 +1,9 @@
 const schedule = require('node-schedule');
-const scheduledJobs = [];
+let scheduledJobs = [];
 const jobsToSchedule = [
-  
+
 ];
 
 module.exports = () => {
-  jobsToSchedule.forEach(job => scheduledJobs.push(schedule.scheduleJob(job.schedule, job.action)));
+  scheduledJobs = jobsToSchedule.map(job => schedule.scheduleJob(job.schedule, job.action));
 };

@@ -4,7 +4,7 @@ module.exports = class DefaultEmptyResponder {
     return true;
   }
 
-  respond(responseHandler) {
+  async respond(responseHandler) {
     responseHandler.status(204).end();
   }
 };

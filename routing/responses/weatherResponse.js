@@ -11,19 +11,15 @@ module.exports = class WeatherResponse extends TextResponse {
   }
 
 
-  fetch(callback) {
+  async fetch() {
     const city = new City(this.matches[1]);
     if (city.id == -1) {
       this.text = staticTexts.NoWeatherForNoCities;
-      callback();
       return;
     }
 
     const openWeatherService = new OpenWeatherMapService(city);
-    openWeatherService.get(weather => {
-      this.text = weather.toString();
-      callback();
-    });
+    this.text = (await openWeatherService.get()).interpretation({showCityName: true});
   }
 
 };

@@ -8,7 +8,7 @@ module.exports = class NewDayNewPossibilitiesResponder {
     return message.match(matchers.NewDayNewPossibilities) != null;
   }
 
-  respond(responseHandler) {
-    (new GiphyResponse(responseHandler, giphyQueries.NewDayNewPossibilities)).send();
+  async respond(responseHandler) {
+    await (new GiphyResponse(responseHandler, giphyQueries.NewDayNewPossibilities)).send();
   }
 };

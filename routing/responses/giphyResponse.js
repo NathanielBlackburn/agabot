@@ -8,12 +8,9 @@ module.exports = class GiphyResponse extends ImageResponse {
     this.query = query;
   }
 
-  fetch(callback) {
+  async fetch() {
     const giphyService = new GiphyService();
-    giphyService.get(this.query, url => {
-      this.url = url;
-      callback();
-    });
+    this.url = await giphyService.get(this.query);
   }
 
 };

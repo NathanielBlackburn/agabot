@@ -8,7 +8,7 @@ module.exports = class NewDayNewPossibilitiesResponder {
     return message.match(matchers.GoodToBeBot) != null;
   }
 
-  respond(responseHandler) {
-    (new TextResponse(responseHandler, staticTexts.GoodToBeBot)).send();
+  async respond(responseHandler) {
+    await (new TextResponse(responseHandler, staticTexts.GoodToBeBot)).send();
   }
 };

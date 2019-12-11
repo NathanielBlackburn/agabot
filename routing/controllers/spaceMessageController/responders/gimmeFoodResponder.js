@@ -8,7 +8,7 @@ module.exports = class GimmeFoodResponder {
     return message.match(matchers.Food) != null;
   }
 
-  respond(responseHandler) {
-    (new ResourceImageResponse(responseHandler, resources.Images.Gondola)).send();
+  async respond(responseHandler) {
+    await (new ResourceImageResponse(responseHandler, resources.Images.Gondola)).send();
   }
 };

@@ -8,7 +8,7 @@ module.exports = class AintThatRightResponder {
     return message.match(matchers.AintThatRight) != null;
   }
 
-  respond(responseHandler) {
-    (new TextResponse(responseHandler, dynamicTexts.OfCourse)).send();
+  async respond(responseHandler) {
+    await (new TextResponse(responseHandler, dynamicTexts.OfCourse)).send();
   }
 };

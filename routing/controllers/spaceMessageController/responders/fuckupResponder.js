@@ -8,7 +8,7 @@ module.exports = class FuckupResponder {
     return message.match(matchers.Fuckup) != null;
   }
 
-  respond(responseHandler) {
-    (new GiphyResponse(responseHandler, giphyQueries.Jeblo)).send();
+  async respond(responseHandler) {
+    await (new GiphyResponse(responseHandler, giphyQueries.Jeblo)).send();
   }
 };

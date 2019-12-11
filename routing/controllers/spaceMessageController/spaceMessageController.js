@@ -40,7 +40,9 @@ module.exports = class SpaceMessageController extends BaseController {
     const sender = User.create(this.request.body.message.sender.email);
     const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage))
       || (new DefaultResponder());
-    responder.respond(this.responseHandler);
+    responder
+      .respond(this.responseHandler)
+      .catch(err => this.respondWithDefaultError(err));
   }
 
 };

@@ -8,7 +8,7 @@ module.exports = class DefaultResponder {
     return true;
   }
 
-  respond(responseHandler) {
-    (new TextResponse(responseHandler, dynamicTexts.DontUnderstand)).send();
+  async respond(responseHandler) {
+    await (new TextResponse(responseHandler, dynamicTexts.DontUnderstand)).send();
   }
 };

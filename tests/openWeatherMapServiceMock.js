@@ -1,10 +1,10 @@
-const Weather = require('@models/weather');
+const Weather = require('@services/openWeatherMap/weather');
 
 module.exports = class OpenWeatherMapServiceMock {
 
-  fetch(callback) {
+  async fetch() {
     const currentDate = new Date();
-    callback(new Weather({
+    const weather = new Weather({
       main: {
         temp: 13
       },
@@ -13,13 +13,14 @@ module.exports = class OpenWeatherMapServiceMock {
       },
       sys: {
         sunrise: currentDate.valueOf() - 1000 * 60 * 60 * 6,
-        sunset: (currentDate.valueOf() + 1000 * 60 * 60 * 6,
+        sunset: currentDate.valueOf() + 1000 * 60 * 60 * 6,
       },
       wind: {
         speed: 1
       },
       weather: []
-    }));
+    });
+    return weather;
   }
 
 };

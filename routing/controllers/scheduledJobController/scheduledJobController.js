@@ -13,7 +13,9 @@ module.exports = class ScheduledJobController extends BaseController {
     const jobName = this.request.body.jobName;
     const responder = responders.find(responder => responder.respondsTo(jobName))
       || (new DefaultEmptyResponder());
-    responder.respond(this.responseHandler);
+    responder
+      .respond(this.responseHandler)
+      .catch(error => console.error('error'));
   }
 
 };

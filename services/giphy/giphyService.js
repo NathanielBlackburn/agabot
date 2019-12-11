@@ -1,4 +1,5 @@
-const https = require('https');
+const promisifyHttp = require('@tools/promisifyHttp');
+const https = promisifyHttp(require('https'));
 const queries = require('@services/giphy/giphyQueries');
 
 module.exports = class GiphyService {
@@ -7,26 +8,19 @@ module.exports = class GiphyService {
     return queries;
   }
 
-  get(query, callback) {
+  async get(query) {
     const settings = require('@tools/settings');
     const apiKey = settings.apiConfig.giphy.apiKey;
-    const giphyRequest = https.request(
-      `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=r&tag=${query.randomTag}`, {
+    const data = await https.request(
+      `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&rating=r&tag=${query.randomTag}`,
+      {
         headers: {
           'Accept': 'application/json'
         }
-      },
-      giphyResponse => {
-        let data = '';
-        giphyResponse.on('data', chunk => data += chunk);
-        giphyResponse.on('end', () => {
-          let json = JSON.parse(data);
-          let url = json.data.image_original_url;
-          callback(url);
-        });
       }
     );
-    giphyRequest.end();
+    let url = JSON.parse(data).data.image_original_url;
+    return url;
   }
 
 };

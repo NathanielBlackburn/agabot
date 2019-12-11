@@ -8,7 +8,7 @@ module.exports = class WhatsUpResponder {
     return message.match(matchers.WhatsUp) != null;
   }
 
-  respond(responseHandler) {
-    (new TextResponse(responseHandler, staticTexts.Nothing)).send();
+  async respond(responseHandler) {
+    await (new TextResponse(responseHandler, staticTexts.Nothing)).send();
   }
 };

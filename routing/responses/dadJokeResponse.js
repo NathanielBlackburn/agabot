@@ -3,12 +3,9 @@ const DadJokesService = require('@services/dadJokes/dadJokesService');
 
 module.exports = class DadJokeResponse extends TextResponse {
 
-  fetch(callback) {
+  async fetch() {
     const dadJokesService = new DadJokesService();
-    dadJokesService.random(joke => {
-      this.text = joke;
-      callback();
-    });
+    this.text = await dadJokesService.random();
   }
 
 };

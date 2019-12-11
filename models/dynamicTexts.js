@@ -31,4 +31,8 @@ module.exports = class {
     return arrayToolkit.randomElement(responses).replace('[chosenName]', name);
   }
 
+  static TodaysWeather(city) {
+    return `*Pogoda na dziś w ${city.name}:*`
+  }
+
 };
