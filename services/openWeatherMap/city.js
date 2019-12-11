@@ -1,5 +1,13 @@
 module.exports = class City {
 
+  static get Grunberg() {
+    return new City('zielona gora');
+  }
+
+  static get Gdynia() {
+    return new City('gdynia');
+  }
+
   constructor(name) {
     switch (name) {
       case undefined:

@@ -2,6 +2,7 @@ const GiphyService = require('@services/giphy/giphyService');
 const WeatherService = require('@services/openWeatherMap/openWeatherMapService');
 const HangoutsChatService = require('@services/hangoutsChat/hangoutsChatService');
 
+const City = require('@services/openWeatherMap/city');
 const TextCard = require('@responses/responseCards/textCard');
 const ImageCard = require('@responses/responseCards/imageCard');
 
@@ -17,7 +18,7 @@ module.exports = class DailyHelloResponder {
     responseHandler.status(204).end();
     const hangoutsChatService = new HangoutsChatService();
     const giphyService = new GiphyService();
-    const weatherService = new WeatherService();
+    const weatherService = new WeatherService(City.Grunberg);
     const space = HangoutsChatService.Spaces.Pierdolety;
     giphyService.get(GiphyService.Queries.NewDayNewPossibilities, async url => {
       const res = await hangoutsChatService.sendMessage(
