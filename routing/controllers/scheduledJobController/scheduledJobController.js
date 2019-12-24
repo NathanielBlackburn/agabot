@@ -15,7 +15,7 @@ module.exports = class ScheduledJobController extends BaseController {
       || (new DefaultEmptyResponder());
     responder
       .respond(this.responseHandler)
-      .catch(error => console.error('error'));
+      .catch(error => console.error(error));
   }
 
 };
