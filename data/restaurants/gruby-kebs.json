@@ -1,0 +1,314 @@
+{
+  "details": {
+    "id": 49,
+    "uri": "gruby-kebs",
+    "name": "Gruby kebs",
+    "kitchens": "Kebab",
+    "url": "https://pyszne.pl/gruby-kebs"
+  },
+  "menu": {
+    "categories": {
+      "0P553OR7": "Vege Kebs",
+      "0R553OR7": "Gruby Kebs",
+      "01RP3OR7": "Gruby kebs poleca",
+      "05OP3QR7": "Napoje bezalkoholowe",
+      "0NQ55O1Q": "Zestawy"
+    },
+    "popular": [
+      "0P7R5N10R",
+      "037R5N10R"
+    ],
+    "meals": [
+      {
+        "productId": "0P7R5N10R",
+        "categoryId": "0R553OR7",
+        "name": "Gruby Kebs w tortilli",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "037R5N10R",
+        "categoryId": "0R553OR7",
+        "name": "Gruby Kebs w picie",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OOOPN10R",
+        "categoryId": "01RP3OR7",
+        "name": "Frytki belgijskie",
+        "price": 8.5,
+        "price_pickup": 8.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03OR5N10R",
+        "categoryId": "0P553OR7",
+        "name": "Vege Kebs w picie",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0POR5N10R",
+        "categoryId": "0P553OR7",
+        "name": "Vege Kebs w tortilli",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0ROR5N10R",
+        "categoryId": "0P553OR7",
+        "name": "Vege Kebs w boxie",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N5R5N10R",
+        "categoryId": "0P553OR7",
+        "name": "Vege Kebs na talerzu",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0R7R5N10R",
+        "categoryId": "0R553OR7",
+        "name": "Gruby Kebs w boxie",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0NQR5N10R",
+        "categoryId": "0R553OR7",
+        "name": "Gruby Kebs na talerzu",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05N51350R",
+        "categoryId": "05OP3QR7",
+        "name": "Ayran własnej produkcji 0,25l",
+        "price": 3,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01351350R",
+        "categoryId": "05OP3QR7",
+        "name": "Kropla Beskidu gazowana 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O351350R",
+        "categoryId": "05OP3QR7",
+        "name": "Kropla Beskidu niegazowana 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QN51350R",
+        "categoryId": "05OP3QR7",
+        "name": "Coca-Cola 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1NN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Coca-cola zero 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071NN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Sprite 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NNN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Fuzetea cytrynowa 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NNN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Fuzetea trawa cytrynowa 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PNNN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Fuzetea mango 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RNNN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Fuzetea rumianek 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N3NN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Cappy pomarańcza 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "053NN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Cappy jabłko 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q3NN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Cappy multiwitamina 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01ONN5NNR",
+        "categoryId": "05OP3QR7",
+        "name": "Burn original 0,25l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "000ON5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw pita",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O0PN5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw pita + ayran",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "030ON5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw tortilla",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "070PN5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw tortilla + ayran",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0P0ON5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw vege",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "001PN5NNR",
+        "categoryId": "0NQ55O1Q",
+        "name": "Zestaw vege + ayran",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "details": {
+    "id": 23,
+    "uri": "odessa-sea",
+    "name": "Odessa sea",
+    "kitchens": "Ryby, Zupy, Owoce morza",
+    "url": "https://pyszne.pl/odessa-sea"
+  },
+  "menu": {
+    "categories": {
+      "O71111Q7": "Przystawki",
+      "O0N111Q7": "Zupy",
+      "O3N111Q7": "Sałatki",
+      "OPN111Q7": "Dania główne z ryby",
+      "ORN111Q7": "Dania główne mięsne"
+    },
+    "popular": [
+      "ON137RPQQ",
+      "O0NO7RPQQ",
+      "OP337RPQQ"
+    ],
+    "meals": [
+      {
+        "productId": "ON137RPQQ",
+        "categoryId": "O0N111Q7",
+        "name": "Pielmieni w rosole",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0NO7RPQQ",
+        "categoryId": "ORN111Q7",
+        "name": "Kaczka konfitowana (uda) z karmelizowanym jabłkiem",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP337RPQQ",
+        "categoryId": "O3N111Q7",
+        "name": "Sałatka z łososia",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQN7RPQQ",
+        "categoryId": "O71111Q7",
+        "name": "Krewetki, kalmary smażone na fryturze z sosem czosnkowym",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5QN7RPQQ",
+        "categoryId": "O71111Q7",
+        "name": "Łosoś pod pierzyną",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQN7RPQQ",
+        "categoryId": "O71111Q7",
+        "name": "Sakiewka naleśnikowa z kawiorem",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1RN7RPQQ",
+        "categoryId": "O71111Q7",
+        "name": "Pasta śledziowa z grzankami",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OORN7RPQQ",
+        "categoryId": "O71111Q7",
+        "name": "Carpaccio wołowe",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP037RPQQ",
+        "categoryId": "O0N111Q7",
+        "name": "Zupa tajska",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR037RPQQ",
+        "categoryId": "O0N111Q7",
+        "name": "Solianka mięsna",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR337RPQQ",
+        "categoryId": "O3N111Q7",
+        "name": "Sałatka Cioci Soni",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONO37RPQQ",
+        "categoryId": "O3N111Q7",
+        "name": "Sałatka na ciepło",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5O37RPQQ",
+        "categoryId": "O3N111Q7",
+        "name": "Sałatka tajska z krewetkami",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3P37RPQQ",
+        "categoryId": "OPN111Q7",
+        "name": "Dzwonek łososia",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPP37RPQQ",
+        "categoryId": "OPN111Q7",
+        "name": "Świeża makrela pieczona w całości",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORP37RPQQ",
+        "categoryId": "OPN111Q7",
+        "name": "Polędwica z dorsza na risotto cytrynowym",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON737RPQQ",
+        "categoryId": "OPN111Q7",
+        "name": "Flądra smażona",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5737RPQQ",
+        "categoryId": "OPN111Q7",
+        "name": "Owoce morza na risotto",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O71O7RPQQ",
+        "categoryId": "ORN111Q7",
+        "name": "Medaliony wieprzowe z flambirowanymi pomarańczami na czerwonym winie",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3NO7RPQQ",
+        "categoryId": "ORN111Q7",
+        "name": "Schab po Odesku",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPNO7RPQQ",
+        "categoryId": "ORN111Q7",
+        "name": "Sznycel z kurczaka ze szpinakiem i serem",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

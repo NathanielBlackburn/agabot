@@ -1,0 +1,132 @@
+{
+  "details": {
+    "id": 26,
+    "uri": "miyagi-ramen",
+    "name": "Miyagi Ramen",
+    "kitchens": "Chińska, Tajska, Wietnamska",
+    "url": "https://pyszne.pl/miyagi-ramen"
+  },
+  "menu": {
+    "categories": {
+      "N11NQ5QP": "Ramen",
+      "NQ7RO7NP": "Przystawki"
+    },
+    "popular": [
+      "NQO7NPOQ7",
+      "NN3R1POQ7",
+      "N0P7NPOQ7"
+    ],
+    "meals": [
+      {
+        "productId": "NQO7NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Won Ton",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN3R1POQ7",
+        "categoryId": "NQ7RO7NP",
+        "name": "Gyoza Meer",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0P7NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Sakana",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N157NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Ebi",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO57NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Umami",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N757NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Niku Wa",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3P7NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Ahiru",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPP7NPOQ7",
+        "categoryId": "N11NQ5QP",
+        "name": "Ramen Kakuni",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N53R1POQ7",
+        "categoryId": "NQ7RO7NP",
+        "name": "Potato Ebi",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO7NQ3Q17",
+        "categoryId": "NQ7RO7NP",
+        "name": "Sajgonki",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ3R1POQ7",
+        "categoryId": "NQ7RO7NP",
+        "name": "Sałatka Goma Wakame",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

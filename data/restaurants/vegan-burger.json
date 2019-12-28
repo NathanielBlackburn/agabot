@@ -1,0 +1,142 @@
+{
+  "details": {
+    "id": 28,
+    "uri": "vegan-burger",
+    "name": "Vegan Burger",
+    "kitchens": "Wegańska, Burgery",
+    "url": "https://pyszne.pl/vegan-burger"
+  },
+  "menu": {
+    "categories": {
+      "O5Q3P337": "Vegan Burger",
+      "O355P5O7": "Napoje"
+    },
+    "popular": [
+      "OO005O7OQ",
+      "O1005O7OQ",
+      "O0105O7OQ"
+    ],
+    "meals": [
+      {
+        "productId": "OO005O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Meksykan pikantny",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1005O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Burak",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0105O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Batat",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7005O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Ciecior",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3105O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Soczewica",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP105O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Sezonowy",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR105O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Burger Tofu Azja pikantny",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0O05O7OQ",
+        "categoryId": "O5Q3P337",
+        "name": "Hot-Dog",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ1O5O7OQ",
+        "categoryId": "O355P5O7",
+        "name": "Mio mio mate klasyczny",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1NO5O7OQ",
+        "categoryId": "O355P5O7",
+        "name": "Mio mio mate bananowy",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OONO5O7OQ",
+        "categoryId": "O355P5O7",
+        "name": "Mio mio mate cola",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7NO5O7OQ",
+        "categoryId": "O355P5O7",
+        "name": "Mio mio mate imbirowy",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

@@ -32,6 +32,7 @@
     "@models": "./models",
     "@tools": "./tools",
     "@services": "./services",
-    "@tests": "./tests"
+    "@tests": "./tests",
+    "@ffp": "./lib/ffp"
   }
 }

@@ -1,0 +1,556 @@
+{
+  "details": {
+    "id": 50,
+    "uri": "bobby-burger-zielona-gora-kupiecka",
+    "name": "Bobby Burger",
+    "kitchens": "Burgery, Amerykańska, Sałatki",
+    "url": "https://pyszne.pl/bobby-burger-zielona-gora-kupiecka"
+  },
+  "menu": {
+    "categories": {
+      "N7Q3NQPP": "Burgery",
+      "N0R3NQPP": "Burgery Wegetariańskie",
+      "N3R3NQPP": "Green Bobby",
+      "NPR3NQPP": "Zestawy",
+      "NRR3NQPP": "Sides",
+      "NN0ONQPP": "Sosy",
+      "NOOPQRPP": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "NP375ONP7",
+      "N1N75ONP7"
+    ],
+    "meals": [
+      {
+        "productId": "NOQ75ONP7",
+        "categoryId": "NRR3NQPP",
+        "name": "Frytki",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP375ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Classic",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1N75ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Cheese Bacon",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0O33QPPQ",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Sezonowy: Onion Attacks",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NPQONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Godzilla",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQNPQONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Ali Baba",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5175ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Double death by cheese",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0375ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Double trouble with bacon",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ175ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Bobby Burger",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NON75ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Mango & Onion",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP075ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Hot Bacon",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR375ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Taekwondo",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR075ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Cheese",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3375ONP7",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Chicken",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQPN7NRNQ",
+        "categoryId": "N7Q3NQPP",
+        "name": "Burger Narchos",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQO75ONP7",
+        "categoryId": "N0R3NQPP",
+        "name": "Burger Vedżesika",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNO75ONP7",
+        "categoryId": "N0R3NQPP",
+        "name": "Burger Janush",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5O75ONP7",
+        "categoryId": "N0R3NQPP",
+        "name": "Burger Grażyna",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1575ONP7",
+        "categoryId": "N0R3NQPP",
+        "name": "Burger Brajan",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05N7QQONR",
+        "categoryId": "N0R3NQPP",
+        "name": "Burger Power Plant",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO575ONP7",
+        "categoryId": "N3R3NQPP",
+        "name": "Bobby's Salad",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7575ONP7",
+        "categoryId": "N3R3NQPP",
+        "name": "Keto Burger",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0P75ONP7",
+        "categoryId": "N3R3NQPP",
+        "name": "Simple Green Salad",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRP75ONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Burger Cheese Bacon + frytki + Coca-cola",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPP75ONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Dowolny Burger Wegetariański+ frytki + Coca-cola",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5775ONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Burger Double Death by Cheese + frytki + napój + sos do frytek",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN775ONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Burger Bobby Burger + frytki + lemoniada",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ775ONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Double Trouble with Bacon + Krążki cebulowe + Lemoniada",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5RQQONP7",
+        "categoryId": "NPR3NQPP",
+        "name": "Burger Godzilla + frytki + lemoniada",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7Q75ONP7",
+        "categoryId": "NRR3NQPP",
+        "name": "Frytki Skin On",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0R75ONP7",
+        "categoryId": "NRR3NQPP",
+        "name": "Onion Rings",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3R75ONP7",
+        "categoryId": "NRR3NQPP",
+        "name": "Mozzarella Sticks",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071RQQONR",
+        "categoryId": "NRR3NQPP",
+        "name": "Box Fries",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPR75ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Classic",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRR75ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Cola BBQ",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN0Q5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Herbal - G",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N50Q5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Honey Dijon",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ0Q5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Mango Mayo",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N11Q5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Hot Chilli",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO1Q5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Majonez",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0NQ5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Majonez buraczany",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3NQ5ONP7",
+        "categoryId": "NN0ONQPP",
+        "name": "Sos Sticky Korean BBQ Heinz",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QRN705NR",
+        "categoryId": "NOOPQRPP",
+        "name": "Lemoniada średnia 0,3l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07NO705NR",
+        "categoryId": "NOOPQRPP",
+        "name": "Lemoniada malinowa 0,3l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N111O1OP7",
+        "categoryId": "NOOPQRPP",
+        "name": "ChaiKola 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO11O1OP7",
+        "categoryId": "NOOPQRPP",
+        "name": "ChaiMate 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N711O1OP7",
+        "categoryId": "NOOPQRPP",
+        "name": "SoBear Ginger Ale 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0N1O1OP7",
+        "categoryId": "NOOPQRPP",
+        "name": "SoBear Bitter Lemon 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQ71N7R7",
+        "categoryId": "NOOPQRPP",
+        "name": "Sprite 0,25l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONR71N7R7",
+        "categoryId": "NOOPQRPP",
+        "name": "Coca-cola zero 0,25l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5R71N7R7",
+        "categoryId": "NOOPQRPP",
+        "name": "Woda gazowana Kropla Beskidu 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQR71N7R7",
+        "categoryId": "NOOPQRPP",
+        "name": "Woda niegazowana Kropla Beskidu 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O35PO5Q5Q",
+        "categoryId": "NOOPQRPP",
+        "name": "Coca-cola 0,25l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

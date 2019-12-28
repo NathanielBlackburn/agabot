@@ -1,0 +1,250 @@
+{
+  "details": {
+    "id": 40,
+    "uri": "ba-na-na-bistro",
+    "name": "Ba Na Na Bistro",
+    "kitchens": "Wegetariańska, Wegańska, Burgery",
+    "url": "https://pyszne.pl/ba-na-na-bistro"
+  },
+  "menu": {
+    "categories": {
+      "ON57OOP7": "Przekąski",
+      "O557OOP7": "Burgery",
+      "OQ57OOP7": "Dania główne",
+      "O1P7OOP7": "Na szybko"
+    },
+    "popular": [],
+    "meals": [
+      {
+        "productId": "OR7P57QPQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Skrzydełka z boczniaka",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O35ROOPQQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Tajskie szaszłyki z tofu",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O30757QPQ",
+        "categoryId": "O1P7OOP7",
+        "name": "Quritto",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQP557QPQ",
+        "categoryId": "ON57OOP7",
+        "name": "Pakora z kalafiora",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O17557QPQ",
+        "categoryId": "ON57OOP7",
+        "name": "Skrzydełka z boczniaka",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7557QPQ",
+        "categoryId": "ON57OOP7",
+        "name": "Frytki",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O77557QPQ",
+        "categoryId": "ON57OOP7",
+        "name": "Warzywa sezonowe w pakorze",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPPQOOPQQ",
+        "categoryId": "ON57OOP7",
+        "name": "Stripsy sojowe",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONR557QPQ",
+        "categoryId": "O557OOP7",
+        "name": "Tofu burger",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5R557QPQ",
+        "categoryId": "O557OOP7",
+        "name": "Tempeh burger",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQR557QPQ",
+        "categoryId": "O557OOP7",
+        "name": "Cheese burger",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O10P57QPQ",
+        "categoryId": "O557OOP7",
+        "name": "Gyros burger",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO0P57QPQ",
+        "categoryId": "O557OOP7",
+        "name": "Burger dnia",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ0ROOPQQ",
+        "categoryId": "O557OOP7",
+        "name": "Burger z frytkami",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP7P57QPQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Fish and chips",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQP57QPQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Szaszłyki z tempeha",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O05ROOPQQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Tempeh grillowany",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP5ROOPQQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Gyros sojowy",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQP57QPQ",
+        "categoryId": "OQ57OOP7",
+        "name": "Wegański ser zapiekany",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O00757QPQ",
+        "categoryId": "O1P7OOP7",
+        "name": "Tortilla",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONRROOPQQ",
+        "categoryId": "O1P7OOP7",
+        "name": "Vegan Kebab",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP0757QPQ",
+        "categoryId": "O1P7OOP7",
+        "name": "Quesadilla",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR0757QPQ",
+        "categoryId": "O1P7OOP7",
+        "name": "Sałatka",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

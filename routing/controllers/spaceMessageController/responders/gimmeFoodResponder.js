@@ -1,7 +1,5 @@
 const matchers = require('@models/matchers');
-const resources = require('@models/resources');
-const ResourceImageResponse = require('@responses/resourceImageResponse');
-
+const FoodResponse = require('@responses/foodResponse');
 module.exports = class GimmeFoodResponder {
 
   respondsTo(message, user) {
@@ -9,6 +7,6 @@ module.exports = class GimmeFoodResponder {
   }
 
   async respond(responseHandler) {
-    await (new ResourceImageResponse(responseHandler, resources.Images.Gondola)).send();
+    await (new FoodResponse(responseHandler)).send();
   }
 };

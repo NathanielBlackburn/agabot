@@ -1,0 +1,580 @@
+{
+  "details": {
+    "id": 45,
+    "uri": "bistro-kuchenna-rewolucja",
+    "name": "Bistro Kuchenna Rewolucja",
+    "kitchens": "Dania na lunch, Pierogi, Sałatki",
+    "url": "https://pyszne.pl/bistro-kuchenna-rewolucja"
+  },
+  "menu": {
+    "categories": {
+      "0Q3Q53Q7": "Śniadania",
+      "01OQ53Q7": "Zupy",
+      "0OOQ53Q7": "Obiady",
+      "07OQ53Q7": "Sałaty",
+      "005Q53Q7": "Naleśniki na słono",
+      "035Q53Q7": "Naleśniki na słodko",
+      "0P5Q53Q7": "Pierogi",
+      "0R5Q53Q7": "Makarony",
+      "0PRN5R0Q": "Menu dla dzieci",
+      "0NPQ53Q7": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "01RN05RQQ",
+      "03NNRORQQ",
+      "0Q0NRORQQ"
+    ],
+    "meals": [
+      {
+        "productId": "01RN05RQQ",
+        "categoryId": "0P5Q53Q7",
+        "name": "Pierogi ruskie",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NNRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Placek po Węgiersku",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q0NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Schaboszczak",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QO1RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Jajecznica na boczku",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0151RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Granola",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O51RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Panini z kurczakiem",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0751RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Panini z szynką",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QR57N71R",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Tost z serem i szynką",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00P1RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Tost z serem i salami",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03P1RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Tost z serem i pieczarkami",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PP1RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Zapiekanka",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RP1RORQQ",
+        "categoryId": "0Q3Q53Q7",
+        "name": "Buła",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03R1RORQQ",
+        "categoryId": "01OQ53Q7",
+        "name": "Zupa pomidorowa",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PR1RORQQ",
+        "categoryId": "01OQ53Q7",
+        "name": "Zupa ogórkowa",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RR1RORQQ",
+        "categoryId": "01OQ53Q7",
+        "name": "Krupnik",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "011NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Schabowy Szwajcar",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Schabowy po Wiedeńsku",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Kotlet mielony",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NNRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Świnka w sosie",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PNNRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Złocisty filet",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RNNRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Pierś Hawajska",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N3NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Mintaj",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "053NRORQQ",
+        "categoryId": "0OOQ53Q7",
+        "name": "Dorsz",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00QQ7N71R",
+        "categoryId": "0OOQ53Q7",
+        "name": "Karczek w sosie pomidorowym",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03QQ7N71R",
+        "categoryId": "0OOQ53Q7",
+        "name": "Filet w płatkach",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01O105RQQ",
+        "categoryId": "07OQ53Q7",
+        "name": "Sałata Kurek",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OO105RQQ",
+        "categoryId": "07OQ53Q7",
+        "name": "Sałata Łosoś",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07O105RQQ",
+        "categoryId": "07OQ53Q7",
+        "name": "Sałata z tuńczykiem",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "005105RQQ",
+        "categoryId": "07OQ53Q7",
+        "name": "Sałata Grek",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QP105RQQ",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Meksyk",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "017105RQQ",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Kurak",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O7105RQQ",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Szynka-pieczary",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "077105RQQ",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Łosoś-ser",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00Q105RQQ",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Szpinak-ser-feta",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01O1QN71R",
+        "categoryId": "005Q53Q7",
+        "name": "Zapiecek Swojski",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05R105RQQ",
+        "categoryId": "035Q53Q7",
+        "name": "Zapiecek z serem",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "010N05RQQ",
+        "categoryId": "035Q53Q7",
+        "name": "Zapiecek z dżemem",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QR105RQQ",
+        "categoryId": "035Q53Q7",
+        "name": "Zapiecek z czekoladą",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O0N05RQQ",
+        "categoryId": "035Q53Q7",
+        "name": "Zapiecek z owocami i bitą śmietaną",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0ORN05RQQ",
+        "categoryId": "0P5Q53Q7",
+        "name": "Pierogi z mięsem",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07RN05RQQ",
+        "categoryId": "0P5Q53Q7",
+        "name": "Pierogi z jagodami",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0ORP7N71R",
+        "categoryId": "0P5Q53Q7",
+        "name": "Pierogi z kapustą i pieczarkami",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "033305RQQ",
+        "categoryId": "0R5Q53Q7",
+        "name": "Makaron Carbonara",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0P3305RQQ",
+        "categoryId": "0R5Q53Q7",
+        "name": "Makaron Bolognese",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "011OQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Literkowy rosołek",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1OQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Zwierzaczkowa pomidorowa",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071OQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Mini pulpeciki",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NOQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Mini fileciki",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NOQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Makaronik",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PNOQN71R",
+        "categoryId": "0PRN5R0Q",
+        "name": "Mini pierożek",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RP305RQQ",
+        "categoryId": "0NPQ53Q7",
+        "name": "Sok pomarańczowy świeżo wyciskany 250ml",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N7305RQQ",
+        "categoryId": "0NPQ53Q7",
+        "name": "Sok grejpfrutowy świeżo wyciskany 250ml",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "057305RQQ",
+        "categoryId": "0NPQ53Q7",
+        "name": "Coca-Cola 330ml",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01Q305RQQ",
+        "categoryId": "0NPQ53Q7",
+        "name": "Woda niegazowana 500ml",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OQ305RQQ",
+        "categoryId": "0NPQ53Q7",
+        "name": "Woda gazowana 500ml",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

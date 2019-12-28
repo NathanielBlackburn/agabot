@@ -1,0 +1,421 @@
+{
+  "details": {
+    "id": 38,
+    "uri": "alcatraz-jednosci",
+    "name": "Alcatraz",
+    "kitchens": "Turecka, Sałatki, Kebab",
+    "url": "https://pyszne.pl/alcatraz-jednosci"
+  },
+  "menu": {
+    "categories": {
+      "ONQ5QP57": "Dania kebab",
+      "O1N00R77": "Kebab wegetariański",
+      "O5Q5QP57": "Dania inne",
+      "OQQ5QP57": "Sosy",
+      "O1R5QP57": "Napoje bezalkoholowe"
+    },
+    "popular": [],
+    "meals": [
+      {
+        "productId": "O00R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab w bułce duży",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP3R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab na talerzu duży",
+        "price": 19.2,
+        "price_pickup": 19.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O03R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab rollo amerykański duży",
+        "price": 18.2,
+        "price_pickup": 18.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0770P3QNR",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab w bułce mały",
+        "price": 10.2,
+        "price_pickup": 10.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O30R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab w bułce maxi",
+        "price": 16.2,
+        "price_pickup": 16.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP0R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab w bułce amerykański mały",
+        "price": 12.2,
+        "price_pickup": 12.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR0R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab w bułce amerykański duży",
+        "price": 18.2,
+        "price_pickup": 18.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON1R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Knysza zwykła",
+        "price": 25.2,
+        "price_pickup": 25.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O51R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Knysza amerykańska",
+        "price": 25.2,
+        "price_pickup": 25.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ1R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Knysza 3 w 1",
+        "price": 25.2,
+        "price_pickup": 25.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1NR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab rollo mały",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OONR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab rollo duży",
+        "price": 16.2,
+        "price_pickup": 16.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7NR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab rollo amerykański mały",
+        "price": 16.2,
+        "price_pickup": 16.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O33R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab na talerzu mały",
+        "price": 16.2,
+        "price_pickup": 16.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR3R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab na talerzu amerykański mały",
+        "price": 18.2,
+        "price_pickup": 18.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONOR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab na talerzu amerykański duży",
+        "price": 21.2,
+        "price_pickup": 21.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5OR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab box amerykański",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQOR150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab box fit",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O15R150PQ",
+        "categoryId": "ONQ5QP57",
+        "name": "Kebab box 3 w 1",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0ON57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w bułce mały",
+        "price": 9.2,
+        "price_pickup": 9.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3ON57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w bułce duży",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPON57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w bułce amerykański mały",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORON57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w bułce amerykański duży",
+        "price": 15.2,
+        "price_pickup": 15.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON5N57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w rollo mały",
+        "price": 11.2,
+        "price_pickup": 11.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O55N57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w rollo duży",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ5N57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w rollo amerykański duży",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1PN57OQQ",
+        "categoryId": "O1N00R77",
+        "name": "Kebab wegetariański w rollo amerykański duży",
+        "price": 15.2,
+        "price_pickup": 15.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O37Q150PQ",
+        "categoryId": "O5Q5QP57",
+        "name": "Sałatka z mięsem mała",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP7Q150PQ",
+        "categoryId": "O5Q5QP57",
+        "name": "Sałatka z mięsem duża",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQQ150PQ",
+        "categoryId": "O5Q5QP57",
+        "name": "Frytki małe",
+        "price": 4.2,
+        "price_pickup": 4.2,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1RQ150PQ",
+        "categoryId": "O5Q5QP57",
+        "name": "Frytki duże",
+        "price": 6.2,
+        "price_pickup": 6.2,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O73Q150PQ",
+        "categoryId": "OQQ5QP57",
+        "name": "Sos ostry",
+        "price": 2,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0OQ150PQ",
+        "categoryId": "OQQ5QP57",
+        "name": "Sos łagodny",
+        "price": 2,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3OQ150PQ",
+        "categoryId": "OQQ5QP57",
+        "name": "Sos czosnkowy",
+        "price": 2,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPOQ150PQ",
+        "categoryId": "OQQ5QP57",
+        "name": "Ketchup",
+        "price": 2,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O031PNOQQ",
+        "categoryId": "O1R5QP57",
+        "name": "Pepsi 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONO1PNOQQ",
+        "categoryId": "O1R5QP57",
+        "name": "7Up 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O151PNOQQ",
+        "categoryId": "O1R5QP57",
+        "name": "Mirinda 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O751PNOQQ",
+        "categoryId": "O1R5QP57",
+        "name": "Lipton brzoskwinia 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3P1PNOQQ",
+        "categoryId": "O1R5QP57",
+        "name": "Woda krystaliczne źródło 0.5l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

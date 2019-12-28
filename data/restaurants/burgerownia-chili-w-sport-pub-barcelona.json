@@ -1,0 +1,499 @@
+{
+  "details": {
+    "id": 15,
+    "uri": "burgerownia-chili-w-sport-pub-barcelona",
+    "name": "Burgerownia Chili w Sport pub Barcelona",
+    "kitchens": "Włoska, Burgery, Pizza",
+    "url": "https://pyszne.pl/burgerownia-chili-w-sport-pub-barcelona"
+  },
+  "menu": {
+    "categories": {
+      "NO1NP50O": "Burgery",
+      "OQOO10N7": "Dania główne",
+      "0NNNPNNQ": "Kanapki Pastrami",
+      "ORRP1R07": "Szarpana wieprzowina w bagietce",
+      "NQ0NP50O": "Sałatki",
+      "OQROR3NP": "Quesadillas",
+      "N11NP50O": "Przekąski",
+      "ORPP1R07": "Sosy",
+      "N3NNP50O": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "NQOROOOPO",
+      "NNOROOOPO",
+      "NR3ROOOPO"
+    ],
+    "meals": [
+      {
+        "productId": "NQOROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Prawdziwy Teksas",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNOROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Mięsne przebudzenie",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR3ROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Chilasic",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5OROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Osadzony",
+        "price": 24.5,
+        "price_pickup": 24.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15ROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Zdenerwowany Gentleman",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO5ROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Włoska robota",
+        "price": 24.5,
+        "price_pickup": 24.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3PROOOPO",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Cycol",
+        "price": 21.5,
+        "price_pickup": 21.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR3PNN7QP",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Wege Beyond",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ7R1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Ale Meksyk",
+        "price": 24.5,
+        "price_pickup": 24.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1QR1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Don Corleone",
+        "price": 25.5,
+        "price_pickup": 25.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOQR1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Pan Ananas",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7QR1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Curry Mary",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0RR1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Wsiok",
+        "price": 24.5,
+        "price_pickup": 24.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3RR1P717",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Ser Jack",
+        "price": 26.5,
+        "price_pickup": 26.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1O5P101Q",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Imperator",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOO5P101Q",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Po Zbóju",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O71O113R",
+        "categoryId": "NO1NP50O",
+        "name": "Burger Johny Cebula",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR7P7O1NQ",
+        "categoryId": "OQOO10N7",
+        "name": "Żeberka BBQ",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QR7O113R",
+        "categoryId": "OQOO10N7",
+        "name": "Golonka pieczona",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQP7O1NQ",
+        "categoryId": "OQOO10N7",
+        "name": "Stek ze schabu",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "010QO113R",
+        "categoryId": "OQOO10N7",
+        "name": "Smażony ser",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05ON5113R",
+        "categoryId": "0NNNPNNQ",
+        "name": "Kanapka pastrami 1",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QON5113R",
+        "categoryId": "0NNNPNNQ",
+        "name": "Kanapka pastrami 2",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "015N5113R",
+        "categoryId": "0NNNPNNQ",
+        "name": "Kanapka pastrami 3",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O37N7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 1",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP7N7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 2",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR7N7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 3",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQN7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 4",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5QN7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 5",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQN7101Q",
+        "categoryId": "ORRP1R07",
+        "name": "Szarpana wieprzowina w bagietce nr 6",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP0ROOOPO",
+        "categoryId": "NQ0NP50O",
+        "name": "Mini sałatka",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N51ROOOPO",
+        "categoryId": "NQ0NP50O",
+        "name": "Sałatka Caprese",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5O31P717",
+        "categoryId": "NQ0NP50O",
+        "name": "Sałatka Cezar",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPP713O17",
+        "categoryId": "OQROR3NP",
+        "name": "Quesadilla z kurczakiem",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQPON3O17",
+        "categoryId": "OQROR3NP",
+        "name": "Quesadilla z wołowiną",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON77P101Q",
+        "categoryId": "OQROR3NP",
+        "name": "Quesadilla 4 sery",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1NROOOPO",
+        "categoryId": "N11NP50O",
+        "name": "Frytki",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NONROOOPO",
+        "categoryId": "N11NP50O",
+        "name": "Nachosy",
+        "price": 11.5,
+        "price_pickup": 11.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP3ROOOPO",
+        "categoryId": "N11NP50O",
+        "name": "Krążki cebulowe",
+        "price": 10.5,
+        "price_pickup": 10.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQRQP101Q",
+        "categoryId": "N11NP50O",
+        "name": "Ziemniaczki",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NR5113R",
+        "categoryId": "N11NP50O",
+        "name": "Skrzydełka z kurczaka",
+        "price": 20.5,
+        "price_pickup": 20.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON707101Q",
+        "categoryId": "ORPP1R07",
+        "name": "sos czosnkowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5707101Q",
+        "categoryId": "ORPP1R07",
+        "name": "sos pomidorowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1Q07101Q",
+        "categoryId": "ORPP1R07",
+        "name": "sos ostry",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N50QQ5737",
+        "categoryId": "N3NNP50O",
+        "name": "Pepsi 1l",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N05QQ5737",
+        "categoryId": "N3NNP50O",
+        "name": "Pepsi 0,33l",
+        "price": 3.5,
+        "price_pickup": 3.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO10NOR1Q",
+        "categoryId": "N3NNP50O",
+        "name": "Pepsi 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

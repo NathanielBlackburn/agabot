@@ -1,0 +1,444 @@
+{
+  "details": {
+    "id": 33,
+    "uri": "jazzgot-zielona-gora-1",
+    "name": "JazzgoT",
+    "kitchens": "Kanapki, Dania na lunch, Pizza",
+    "url": "https://pyszne.pl/jazzgot-zielona-gora-1"
+  },
+  "menu": {
+    "categories": {
+      "O703P337": "Sałatki",
+      "O313P337": "Zupy",
+      "OR13P337": "Makarony",
+      "ONN3P337": "Pizza"
+    },
+    "popular": [
+      "O5N31PO3Q",
+      "O7331PO3Q",
+      "O0O31PO3Q"
+    ],
+    "meals": [
+      {
+        "productId": "O5N31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Penne z kurczakiem i pieczarkami",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7331PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Carbonara",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0O31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Spaghetti Bolognese",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5Q70PO3Q",
+        "categoryId": "O703P337",
+        "name": "Sałatka Grecka",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQ70PO3Q",
+        "categoryId": "O703P337",
+        "name": "Mix Sałat",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1R70PO3Q",
+        "categoryId": "O703P337",
+        "name": "Sałatka z paskami wołowiny",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOR70PO3Q",
+        "categoryId": "O703P337",
+        "name": "Wiosenna Sałatka z rukolą",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7R70PO3Q",
+        "categoryId": "O703P337",
+        "name": "Mix sałat",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O00Q0PO3Q",
+        "categoryId": "O703P337",
+        "name": "Mix Sałat z Avocado",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O30Q0PO3Q",
+        "categoryId": "O703P337",
+        "name": "Sałatka z kurczakiem",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5Q01PO3Q",
+        "categoryId": "O313P337",
+        "name": "Pikantny Ramen",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQ01PO3Q",
+        "categoryId": "O313P337",
+        "name": "Ramen z szarpaną wieprzowiną",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1R01PO3Q",
+        "categoryId": "O313P337",
+        "name": "Ramen Tofu",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QP5P701R",
+        "categoryId": "O313P337",
+        "name": "Zupa tajska Tom Yam z krewetkami",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0175P701R",
+        "categoryId": "O313P337",
+        "name": "Zupa tajska Tom Yam z kurczakiem",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR131PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Tagliatelle ze świeżym łososiem",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONN31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Penne kurczakiem",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQN31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Penne z grillowanym boczkiem",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1331PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Tagliatelle z polędwiczką wieprzową",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO331PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Tagliatelle z grillowanym łososiem",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3O31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Farfalle Wegetariańskie",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPO31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Chow Mein z kurczakiem",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORO31PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Pikantny Chow Mein z Krewetkami",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5531PO3Q",
+        "categoryId": "OR13P337",
+        "name": "Makaron Farfalle ze szpinakiem",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05O7P701R",
+        "categoryId": "OR13P337",
+        "name": "Pad Thai z kurczakiem",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QO7P701R",
+        "categoryId": "OR13P337",
+        "name": "Pad Thai z krewetkami",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0157P701R",
+        "categoryId": "OR13P337",
+        "name": "Pad Thai z polędwicą wołową",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O13R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Margheritta",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO3R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Cztery Sery",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O73R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Vegetariana",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0OR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Spinacci",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3OR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Capri",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPOR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Calzone (zwijana)",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OROR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Parma",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON5R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Siena",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O55R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Jazzgot",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ5R1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Vesuvio",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1PR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Pancetta",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOPR1PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Pasja",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0PN3PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Napoletta",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3PN3PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Belladonna",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPPN3PO3Q",
+        "categoryId": "ONN3P337",
+        "name": "Pizza Nero",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

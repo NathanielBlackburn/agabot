@@ -1,0 +1,516 @@
+{
+  "details": {
+    "id": 17,
+    "uri": "dominos-pizza-zielona-gora",
+    "name": "Domino's Pizza",
+    "kitchens": "Przekąski, Amerykańska, Pizza",
+    "url": "https://pyszne.pl/dominos-pizza-zielona-gora"
+  },
+  "menu": {
+    "categories": {
+      "O00PNQ07": "Promocja",
+      "O30PNQ07": "Pizza",
+      "OP0PNQ07": "Przystawki",
+      "OR0PNQ07": "Desery",
+      "ON1PNQ07": "Dipy",
+      "O51PNQ07": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "O7OP01R0Q",
+      "ORQ331R0Q",
+      "OO5Q01R0Q"
+    ],
+    "meals": [
+      {
+        "productId": "O7OP01R0Q",
+        "categoryId": "O00PNQ07",
+        "name": "Duża pizza + 1 składnik",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQ331R0Q",
+        "categoryId": "OP0PNQ07",
+        "name": "Cheesy Bread",
+        "price": 11.98,
+        "price_pickup": 11.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO5Q01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Americano [duża]",
+        "price": 39.98,
+        "price_pickup": 39.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP5N17PPQ",
+        "categoryId": "O00PNQ07",
+        "name": "Duża Pizza Farmhouse",
+        "price": 29.9,
+        "price_pickup": 29.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5N701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Margherita",
+        "price": 19.98,
+        "price_pickup": 19.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5PP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Domino's Pepperoni",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O05P01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Farmhouse",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQPP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Double Bacon Burger",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O17P01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Prowansalska",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7P01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Hawajska",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O77P01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Americano",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3QP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Tex-Mex",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza American Hot",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza New Yorker",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONRP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Meat Lovers",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQRP01R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Carbonara",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO0701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Hypnotica",
+        "price": 34.98,
+        "price_pickup": 34.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O70701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Pulled Pork",
+        "price": 29.98,
+        "price_pickup": 29.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O31701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Texas BBQ",
+        "price": 34.98,
+        "price_pickup": 34.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP1701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Veggie Supreme",
+        "price": 34.98,
+        "price_pickup": 34.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR1701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Extravaganzza®",
+        "price": 34.98,
+        "price_pickup": 34.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONN701R0Q",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Italian",
+        "price": 34.98,
+        "price_pickup": 34.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O013P70R",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Ciao Carpaccio!",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07013P70R",
+        "categoryId": "O30PNQ07",
+        "name": "Pizza Góralska Fantazja",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQ331R0Q",
+        "categoryId": "OP0PNQ07",
+        "name": "Łódeczki ziemniaczane",
+        "price": 4.98,
+        "price_pickup": 4.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO3O31R0Q",
+        "categoryId": "OR0PNQ07",
+        "name": "Cinna Stix®",
+        "price": 4.98,
+        "price_pickup": 4.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1NO3101Q",
+        "categoryId": "OR0PNQ07",
+        "name": "Cinna Stix® z dipem",
+        "price": 6.96,
+        "price_pickup": 6.96,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0N1Q51OQ",
+        "categoryId": "ON1PNQ07",
+        "name": "Dip pomidorowy marinara (35 g)",
+        "price": 1.98,
+        "price_pickup": 1.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3N1Q51OQ",
+        "categoryId": "ON1PNQ07",
+        "name": "Dip czosnkowo-ziołowy (35 g)",
+        "price": 1.98,
+        "price_pickup": 1.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPN1Q51OQ",
+        "categoryId": "ON1PNQ07",
+        "name": "Dip bbq (35 g)",
+        "price": 1.98,
+        "price_pickup": 1.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORN1Q51OQ",
+        "categoryId": "ON1PNQ07",
+        "name": "Dip musztardowo-miodowy (35 g)",
+        "price": 1.98,
+        "price_pickup": 1.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON31Q51OQ",
+        "categoryId": "ON1PNQ07",
+        "name": "Dip mango habanero (35 g)",
+        "price": 1.98,
+        "price_pickup": 1.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O531Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Coca-Cola 0,85L",
+        "price": 7.98,
+        "price_pickup": 7.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONP1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Coca-Cola Zero 0,85L",
+        "price": 7.98,
+        "price_pickup": 7.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ31Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Sprite 0,85L",
+        "price": 7.98,
+        "price_pickup": 7.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1O1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Fanta 0,85L",
+        "price": 7.98,
+        "price_pickup": 7.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOO1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Cappy pomarańczowy 1L",
+        "price": 9.98,
+        "price_pickup": 9.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7O1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Cappy jabłkowy 1L",
+        "price": 8.98,
+        "price_pickup": 8.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O051Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Coca-Cola 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O351Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Coca-Cola Zero 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5P1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Hellena oranżada 1,25L",
+        "price": 4.98,
+        "price_pickup": 4.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQP1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Kropla Beskidu gazowana 0,5L",
+        "price": 3.98,
+        "price_pickup": 3.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O171Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Kropla Beskidu niegazowana 0,5L",
+        "price": 3.98,
+        "price_pickup": 3.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO71Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Fuzetea cytrynowa 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O771Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Fuzetea brzoskwiniowa 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0Q1Q51OQ",
+        "categoryId": "O51PNQ07",
+        "name": "Fuzetea mango 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "003N3P70R",
+        "categoryId": "O51PNQ07",
+        "name": "Heineken 0.0% 0,5L",
+        "price": 5.98,
+        "price_pickup": 5.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "033N3P70R",
+        "categoryId": "O51PNQ07",
+        "name": "Żywiec 0.0% 0,5L",
+        "price": 4.98,
+        "price_pickup": 4.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0P3N3P70R",
+        "categoryId": "O51PNQ07",
+        "name": "Warka Radler 0% Cytrynowa 0,5L",
+        "price": 4.98,
+        "price_pickup": 4.98,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

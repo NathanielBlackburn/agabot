@@ -1,0 +1,334 @@
+{
+  "details": {
+    "id": 22,
+    "uri": "pizzeria-bella-napoli-piastowska-zielona-gora",
+    "name": "Pizzeria Bella Napoli",
+    "kitchens": "Włoska, Makarony, Pizza",
+    "url": "https://pyszne.pl/pizzeria-bella-napoli-piastowska-zielona-gora"
+  },
+  "menu": {
+    "categories": {
+      "NQ3P0Q75": "Pizza",
+      "N1OP0Q75": "Sałatki",
+      "NOOP0Q75": "Makarony",
+      "N7OP0Q75": "Sosy"
+    },
+    "popular": [
+      "NQ11OO1PP",
+      "NQ13NO1PP",
+      "N50ONO1PP"
+    ],
+    "meals": [
+      {
+        "productId": "NQ11OO1PP",
+        "categoryId": "NOOP0Q75",
+        "name": "Spaghetti bolognese",
+        "price": 17.9,
+        "price_pickup": 17.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ13NO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Margherita [wielka]",
+        "price": 28.9,
+        "price_pickup": 28.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N50ONO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Capricciosa [wielka]",
+        "price": 38.9,
+        "price_pickup": 38.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQNNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Margherita",
+        "price": 16.4,
+        "price_pickup": 16.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N13NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Funghi",
+        "price": 17.4,
+        "price_pickup": 17.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO3NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Salami",
+        "price": 20.4,
+        "price_pickup": 20.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N73NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Tacchino",
+        "price": 22.4,
+        "price_pickup": 22.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0ONNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Paco",
+        "price": 22.4,
+        "price_pickup": 22.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3ONNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza In vitro",
+        "price": 22.4,
+        "price_pickup": 22.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPONNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Hawajska",
+        "price": 22.4,
+        "price_pickup": 22.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRONNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Vegetariana",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN5NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Capricciosa",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N55NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Amigo",
+        "price": 25.9,
+        "price_pickup": 25.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ5NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Fromaggi",
+        "price": 26.4,
+        "price_pickup": 26.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1PNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Pasquale",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOPNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza El passo",
+        "price": 23.4,
+        "price_pickup": 23.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7PNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Carlito",
+        "price": 26.4,
+        "price_pickup": 26.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N07NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Frutti di mare",
+        "price": 29.5,
+        "price_pickup": 29.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N37NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Paparazzi",
+        "price": 27.4,
+        "price_pickup": 27.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP7NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Bella Napoli",
+        "price": 27.4,
+        "price_pickup": 27.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR7NNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Parmeńska",
+        "price": 25.4,
+        "price_pickup": 25.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNQNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Wiejska",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5QNNO1PP",
+        "categoryId": "NQ3P0Q75",
+        "name": "Pizza Rimini",
+        "price": 22.4,
+        "price_pickup": 22.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3O0OO1PP",
+        "categoryId": "N1OP0Q75",
+        "name": "Sałatka Grecka",
+        "price": 16.5,
+        "price_pickup": 16.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPO0OO1PP",
+        "categoryId": "N1OP0Q75",
+        "name": "Sałatka Włoska",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO57051RP",
+        "categoryId": "N1OP0Q75",
+        "name": "Sałatka Wiosenna",
+        "price": 18.5,
+        "price_pickup": 18.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O70Q1N30Q",
+        "categoryId": "N1OP0Q75",
+        "name": "Sałatka z boczkiem",
+        "price": 18.5,
+        "price_pickup": 18.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1N1OO1PP",
+        "categoryId": "NOOP0Q75",
+        "name": "Spaghetti carbonara",
+        "price": 19.4,
+        "price_pickup": 19.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NON1OO1PP",
+        "categoryId": "NOOP0Q75",
+        "name": "Penne szpinakowe rurki",
+        "price": 19.4,
+        "price_pickup": 19.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNO1OO1PP",
+        "categoryId": "N7OP0Q75",
+        "name": "Sos czosnkowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5O1OO1PP",
+        "categoryId": "N7OP0Q75",
+        "name": "Sos pomidorowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

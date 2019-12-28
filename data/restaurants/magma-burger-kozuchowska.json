@@ -1,0 +1,173 @@
+{
+  "details": {
+    "id": 41,
+    "uri": "magma-burger-kozuchowska",
+    "name": "Magma Burger",
+    "kitchens": "Burgery, Przekąski",
+    "url": "https://pyszne.pl/magma-burger-kozuchowska"
+  },
+  "menu": {
+    "categories": {
+      "ORNRNPP7": "Burgery",
+      "ON3RNPP7": "Frytki",
+      "O53RNPP7": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "OP5PN707Q",
+      "O7OPN707Q",
+      "OOOPN707Q"
+    ],
+    "meals": [
+      {
+        "productId": "OP5PN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Amerykański",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7OPN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Meksykański",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOOPN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Klasyczny",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O05PN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Hiszpański",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O35PN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Grecki",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR5PN707Q",
+        "categoryId": "ORNRNPP7",
+        "name": "Burger Włoski",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONPPN707Q",
+        "categoryId": "ON3RNPP7",
+        "name": "Frytki",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O17PN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Pepsi 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7PN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Mirinda 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O77PN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "7 Up 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0QPN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Lipton 0,5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3QPN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Woda mineralna gazowana 0,5l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQPN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Woda mineralna niegazowana 0,5l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQPN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Sok Jabłkowy 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONRPN707Q",
+        "categoryId": "O53RNPP7",
+        "name": "Sok Pomarańczowy 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

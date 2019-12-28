@@ -1,0 +1,346 @@
+{
+  "details": {
+    "id": 8,
+    "uri": "kuchnia-polska-wojska-polskiego",
+    "name": "Kuchnia Polska",
+    "kitchens": "Polska, Pierogi",
+    "url": "https://pyszne.pl/kuchnia-polska-wojska-polskiego"
+  },
+  "menu": {
+    "categories": {
+      "NQ0RN3R3": "Dania obiadowe",
+      "N11RN3R3": "Zupy",
+      "NO1RN3R3": "Pierogi",
+      "N71RN3R3": "Naleśniki",
+      "N0NRN3R3": "Sałatki",
+      "N3NRN3R3": "Dodatki",
+      "NPNRN3R3": "Sosy"
+    },
+    "popular": [
+      "OP0PQ0O5P",
+      "NP5QP515O"
+    ],
+    "meals": [
+      {
+        "productId": "OP0PQ0O5P",
+        "categoryId": "NQ0RN3R3",
+        "name": "Schab po wiedeńsku",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP5QP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Placki ziemniaczane 5 szt. ze śmietaną",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07ON00N3R",
+        "categoryId": "NQ0RN3R3",
+        "name": "Roladka drobiowa zawijana z żółtym serem",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1OQP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Kotlet devolaile",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "005N00N3R",
+        "categoryId": "NQ0RN3R3",
+        "name": "Roladka drobiowa nadziewana pieczarkami",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O30PQ0O5P",
+        "categoryId": "NQ0RN3R3",
+        "name": "Filet drobiowy na parze",
+        "price": 19.5,
+        "price_pickup": 19.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7OQP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Filet panierowany",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "035N00N3R",
+        "categoryId": "NQ0RN3R3",
+        "name": "Kurczak duszony z warzywami",
+        "price": 19.5,
+        "price_pickup": 19.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O00PQ0O5P",
+        "categoryId": "NQ0RN3R3",
+        "name": "Nuggetsy drobiowe z frytkami",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N35QP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Polędwiczki drobiowe",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N50QP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Schab tradycyjny",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPNQP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Polędwica wieprzowa",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0NQP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Gulasz wieprzowy",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N11QP515O",
+        "categoryId": "NQ0RN3R3",
+        "name": "Ryba panierowana Miruna",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP3PQ0O5P",
+        "categoryId": "NQ0RN3R3",
+        "name": "Placki ziemniaczne 4 szt. z gulaszem wieprzowym",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O737QPPNQ",
+        "categoryId": "N11RN3R3",
+        "name": "Żurek 0,5l",
+        "price": 12.5,
+        "price_pickup": 12.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O137QPPNQ",
+        "categoryId": "N11RN3R3",
+        "name": "Zupa meksykańska 0,5l",
+        "price": 12.5,
+        "price_pickup": 12.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N77QP515O",
+        "categoryId": "N11RN3R3",
+        "name": "Rosół z domowym makaronem 0,5l",
+        "price": 10.5,
+        "price_pickup": 10.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0QQP515O",
+        "categoryId": "N11RN3R3",
+        "name": "Zupa pomidorowa z domowym makaronem 0,5l",
+        "price": 10.5,
+        "price_pickup": 10.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5OPQ0O5P",
+        "categoryId": "NO1RN3R3",
+        "name": "Pierogi ze szpinakiem na sztuki (1 szt.)",
+        "price": 1.5,
+        "price_pickup": 1.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "050500N3R",
+        "categoryId": "NO1RN3R3",
+        "name": "Pierogi z kapustą (1 szt.)",
+        "price": 1.6,
+        "price_pickup": 1.6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N70RP515O",
+        "categoryId": "N71RN3R3",
+        "name": "Naleśniki z serem 1 szt.",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N01RP515O",
+        "categoryId": "N71RN3R3",
+        "name": "Naleśniki z dżemem 1 szt.",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N31RP515O",
+        "categoryId": "N71RN3R3",
+        "name": "Naleśniki z czekoladą 1 szt.",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP1RP515O",
+        "categoryId": "N0NRN3R3",
+        "name": "Sałatka grecka",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR1RP515O",
+        "categoryId": "N0NRN3R3",
+        "name": "Sałatka z kurczakiem grillowanym",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NRP515O",
+        "categoryId": "N3NRN3R3",
+        "name": "Frytki",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0PPQ0O5P",
+        "categoryId": "N3NRN3R3",
+        "name": "Kopytka (porcja)",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3PPQ0O5P",
+        "categoryId": "N3NRN3R3",
+        "name": "Kasza (porcja)",
+        "price": 2,
+        "price_pickup": 2,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO3RP515O",
+        "categoryId": "NPNRN3R3",
+        "name": "Sos czosnkowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N73RP515O",
+        "categoryId": "NPNRN3R3",
+        "name": "Sos pieczeniowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0ORP515O",
+        "categoryId": "NPNRN3R3",
+        "name": "Ketchup",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,870 @@
+{
+  "details": {
+    "id": 11,
+    "uri": "gallo-nero",
+    "name": "Gallo-Nero",
+    "kitchens": "Włoska, Makarony, Pizza",
+    "url": "https://pyszne.pl/gallo-nero"
+  },
+  "menu": {
+    "categories": {
+      "NNNQ1N0O": "Pizza",
+      "N3OQ1N0O": "Przystawki",
+      "N13Q1N0O": "Sałaty",
+      "NO3Q1N0O": "Dania z pieca opalanego drewnem",
+      "N5NQ1N0O": "Pasty",
+      "NQNQ1N0O": "Zupy",
+      "N73Q1N0O": "Desery",
+      "NPOQ1N0O": "Dodatki",
+      "NROQ1N0O": "Sosy",
+      "N0OQ1N0O": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "N5OOP11PO",
+      "NQOOP11PO",
+      "NR3OP11PO"
+    ],
+    "meals": [
+      {
+        "productId": "N5OOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Tre",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQOOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Quattro",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR3OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Uno",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNOOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Due",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Cinque",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO5OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Sei",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N75OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Sette",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3POP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Otto",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPPOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Nove",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRPOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Dieci",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0POP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Undici",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N57OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Dodici",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ7OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Tredici",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN7OP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Quattrodici",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1QOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Quindici",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOQOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Sedici",
+        "price": 41,
+        "price_pickup": 41,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7QOP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Diciasiette",
+        "price": 40,
+        "price_pickup": 40,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0ROP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Diciotto",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3ROP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Diciannove",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPROP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Venti",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRROP11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Ventiuno",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN05P11PO",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Numero Ventidue",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N51QRNRQ7",
+        "categoryId": "NNNQ1N0O",
+        "name": "Pizza Frutti di Mare z rukolą",
+        "price": 42,
+        "price_pickup": 42,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN5PP11PO",
+        "categoryId": "N3OQ1N0O",
+        "name": "Deska serów i wędlin",
+        "price": 47,
+        "price_pickup": 47,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N55PP11PO",
+        "categoryId": "N3OQ1N0O",
+        "name": "Mozzarella di Bufala",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ5PP11PO",
+        "categoryId": "N3OQ1N0O",
+        "name": "Carpaccio z polędwicy wołowej",
+        "price": 46,
+        "price_pickup": 46,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOPPP11PO",
+        "categoryId": "N3OQ1N0O",
+        "name": "Koktajl z krewetek i awokado",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7PPP11PO",
+        "categoryId": "N3OQ1N0O",
+        "name": "Szyjki rakowe w towarzystwie grzanek i szpinaku",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ35P11PO",
+        "categoryId": "N13Q1N0O",
+        "name": "Insalata Uno",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1O5P11PO",
+        "categoryId": "N13Q1N0O",
+        "name": "Insalata Due",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOO5P11PO",
+        "categoryId": "N13Q1N0O",
+        "name": "Insalata Tre",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7O5P11PO",
+        "categoryId": "N13Q1N0O",
+        "name": "Insalata Quattro",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N17575N07",
+        "categoryId": "N13Q1N0O",
+        "name": "Insalata Cinque",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N055P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Szaszłyki z krewetek",
+        "price": 46,
+        "price_pickup": 46,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N355P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Kaczka z pieca",
+        "price": 41,
+        "price_pickup": 41,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP55P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Łosoś z pieca",
+        "price": 41,
+        "price_pickup": 41,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR55P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Polędwiczki w sosie kurkowym lub gorgonzola",
+        "price": 41,
+        "price_pickup": 41,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0300NPQNR",
+        "categoryId": "NO3Q1N0O",
+        "name": "Polędwiczki w sosie kurkowym z placuszkami Rosti",
+        "price": 46,
+        "price_pickup": 46,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQP5P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Stek z tuńczyka z grillowanymi warzywami",
+        "price": 44,
+        "price_pickup": 44,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N175P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Stek wołowy z grillowanymi warzywami",
+        "price": 67,
+        "price_pickup": 67,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO75P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Stek wołowy z grillowanymi warzywami lub sałatą",
+        "price": 67,
+        "price_pickup": 67,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0Q5P11PO",
+        "categoryId": "NO3Q1N0O",
+        "name": "Grillowana pierś z kurczaka na szpinaku",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N505P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Penne z kurczakiem",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ05P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Pappardelle z łososiem",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO15P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Tagliatelle z kurkami",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N715P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Tortellini ze szpinakiem i ricottą",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0N5P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Tagliatelle z polędwicą",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0NQR1PQNR",
+        "categoryId": "N5NQ1N0O",
+        "name": "Tagliatelle z kaczką",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3N5P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Czarne spaghetti",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPN5P11PO",
+        "categoryId": "N5NQ1N0O",
+        "name": "Spaghetti Carbonara",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNONP5N07",
+        "categoryId": "N5NQ1N0O",
+        "name": "Spaghetti frutti di mare",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOP7RNRQ7",
+        "categoryId": "N5NQ1N0O",
+        "name": "Pappardelle szpinakowe",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7P7RNRQ7",
+        "categoryId": "N5NQ1N0O",
+        "name": "Złociste tagliatelle z kurczakiem i szpinakiem",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N377RNRQ7",
+        "categoryId": "N5NQ1N0O",
+        "name": "Ravioli z borowikami",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP77RNRQ7",
+        "categoryId": "N5NQ1N0O",
+        "name": "Ravioli z mięsem",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN35P11PO",
+        "categoryId": "NQNQ1N0O",
+        "name": "Zupa krem z pomidorów",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N535P11PO",
+        "categoryId": "NQNQ1N0O",
+        "name": "Zupa krem z zielonego groszku",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP3NP5N07",
+        "categoryId": "NQNQ1N0O",
+        "name": "Zupa krem z pieczonego buraczka",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N77PRNRQ7",
+        "categoryId": "NQNQ1N0O",
+        "name": "Zupa krem porowo-ziemniaczany ze skwarkami",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3Q5P11PO",
+        "categoryId": "N73Q1N0O",
+        "name": "Deser Pavlova",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N07PP11PO",
+        "categoryId": "NPOQ1N0O",
+        "name": "Ziemniaki zapiekane w piecu",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0R00NPQNR",
+        "categoryId": "NPOQ1N0O",
+        "name": "Placuszki Rosti (5szt.)",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP7PP11PO",
+        "categoryId": "NROQ1N0O",
+        "name": "Sos Napoli",
+        "price": 2.5,
+        "price_pickup": 2.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR7PP11PO",
+        "categoryId": "NROQ1N0O",
+        "name": "Sos Czosnkowy",
+        "price": 2.5,
+        "price_pickup": 2.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNQPP11PO",
+        "categoryId": "NROQ1N0O",
+        "name": "Sos Pietruszkowy",
+        "price": 2.5,
+        "price_pickup": 2.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRQ5P11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Kropla Beskidu gazowana 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNR5P11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Kropla Beskidu niegazowana 0,33l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5R5P11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Coca-Cola 0,2l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR5P11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Fanta 0,2l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N10PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sprite 0,2l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO0PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Fuzetea brzoskwiniowa 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N70PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Fuzetea cytrynowa 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N01PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sok Cappy pomarańczowy 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N31PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sok Cappy grejpfrutowy 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP1PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sok Cappy pomidorowy 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR1PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sok Cappy czarna porzeczka 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNNPP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Sok Cappy multiwitamina 0,25l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NPP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Włoska woda Surgiva gazowana 0,75l",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQNPP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Włoska woda Surgiva niegazowana 0,75l",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N13PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Burn 0,25l",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO3PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Coca-cola Zero 0,2l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N73PP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Kinley Tonic 0,2l",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0OPP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Kropla Beskidu gazowana 0,75l",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3OPP11PO",
+        "categoryId": "N0OQ1N0O",
+        "name": "Kropla Beskidu niegazowana 0,75l",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

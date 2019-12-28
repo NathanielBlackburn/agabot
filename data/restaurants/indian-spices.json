@@ -1,0 +1,1254 @@
+{
+  "details": {
+    "id": 39,
+    "uri": "indian-spices",
+    "name": "Indian spices",
+    "kitchens": "Indyjska",
+    "url": "https://pyszne.pl/indian-spices"
+  },
+  "menu": {
+    "categories": {
+      "ONR3QRP7": "Na smaczny początek",
+      "OQR3QRP7": "Zupy",
+      "OQNOQRP7": "Dania główne",
+      "O70OQRP7": "Na mniejszy apetyt",
+      "O01OQRP7": "Dania indo-chińskie",
+      "OP1OQRP7": "Chlebek indyjski",
+      "O1Q7RRP7": "Paratha",
+      "OR1OQRP7": "Biryani",
+      "ONNOQRP7": "Dania wegetariańskie",
+      "O5NOQRP7": "Specjały z pieca tandoor",
+      "OO0OQRP7": "Desery",
+      "O31OQRP7": "Dodatki",
+      "O10OQRP7": "Napoje indyjskie",
+      "O5R3QRP7": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "ONP557O7Q",
+      "O0Q557O7Q",
+      "OP5RO7O7Q"
+    ],
+    "meals": [
+      {
+        "productId": "ONP557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Tikka masala",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O0Q557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Maślany kurczak",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP5RO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Butter naan",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5PO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Papadam",
+        "price": 3,
+        "price_pickup": 3,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQPO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Samosa z kurczakiem",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O17O37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Samosa wegetariańska",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7O37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Złociste cebulki",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O77O37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Kalafiorki panierowane",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O0QO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Paluszki drobiowe w cieście",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3QO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Domowy ser biały w cieście",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Złociste krewetki",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Bakłażan w cieście",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONRO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Ziemniaczane kotleciki",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQRO37O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Paluszki rybne",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O10537O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Ryba amritsari",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO0537O7Q",
+        "categoryId": "ONR3QRP7",
+        "name": "Drobiowe kotleciki",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O77737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Zupa z kurczaka i kukurydzy",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O0Q737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Pikantna zupa masala",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3Q737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Pikantna zupa wegetariańska masala",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQ737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Krem z soczewicy",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONR737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Wegetariański krem z soczewicy",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5R737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Krem z kurczakiem",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQR737O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Krem z krewetkami",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O10Q37O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Krem z warzywami",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO0Q37O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Zupa manchow z kurczakiem",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O70Q37O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Wegetariańska zupa manchow",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O01Q37O7Q",
+        "categoryId": "OQR3QRP7",
+        "name": "Zupa manchow z krewetkami",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP5557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Curry",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR5557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Korma",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5P557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Rogan josh",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQP557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Dhansak",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O17557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Palak (green curry)",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Vindaloo",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O77557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Kolhapuri",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3Q557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Indian special",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OPQ557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Do pyaza",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ORQ557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Jalfrezi",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONR557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Kadai",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5R557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Łosoś tikka curry",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQR557O7Q",
+        "categoryId": "OQNOQRP7",
+        "name": "Dorsz lassoni",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ1NO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Zasmażany ryż z kurczakiem",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1NNO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Zasmażany ryż z warzywami",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OONNO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Ryż z kuminem",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O7NNO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Warzywne pilau",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O03NO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Zasmażany makaron z kurczakiem",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O33NO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Zasmażany makaron z warzywami",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP3NO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Makaron indian special",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR3NO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Makaron singapur z kurczakiem",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONONO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Makaron singapur z domowym serem białym",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5ONO7O7Q",
+        "categoryId": "O70OQRP7",
+        "name": "Makaron singapur z krewetkami",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O55OO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Kurczak 65",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ5OO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Kurczak na ostro",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1POO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Ziemniaczki na ostro",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OOPOO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Domowy biały ser na ostro",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O7POO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Krewetki na ostro",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O07OO7O7Q",
+        "categoryId": "O01OQRP7",
+        "name": "Kurczak singapur",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O05RO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Naan",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O35RO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Pasawari naan",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR5RO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Chicken keema naan",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONPRO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Lamb keema naan",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5PRO7O7Q",
+        "categoryId": "OP1OQRP7",
+        "name": "Cheese naan",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQPRO7O7Q",
+        "categoryId": "O1Q7RRP7",
+        "name": "Plain paratha",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O17RO7O7Q",
+        "categoryId": "O1Q7RRP7",
+        "name": "Methi paratha",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO7RO7O7Q",
+        "categoryId": "O1Q7RRP7",
+        "name": "Aloo paratha",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O77RO7O7Q",
+        "categoryId": "O1Q7RRP7",
+        "name": "Chapati roti",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O0QRO7O7Q",
+        "categoryId": "O1Q7RRP7",
+        "name": "Tandoori roti",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O7P057O7Q",
+        "categoryId": "OR1OQRP7",
+        "name": "Ryż z kurczakiem",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O07057O7Q",
+        "categoryId": "OR1OQRP7",
+        "name": "Ryż z kurczakiem tikka",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O37057O7Q",
+        "categoryId": "OR1OQRP7",
+        "name": "Ryż z baranina Indian special",
+        "price": 37,
+        "price_pickup": 37,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP7057O7Q",
+        "categoryId": "OR1OQRP7",
+        "name": "Ryż z krewetkami",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR7057O7Q",
+        "categoryId": "OR1OQRP7",
+        "name": "Ryż z domowym serem i warzywami",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O0R157O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Sos masala z ciecierzycą",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3R157O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Domowy ser biały w sosie curry",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OPR157O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Ziemniaczki i kalafior w stylu indyjskim",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ORR157O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Domowy ser biały w szpinaku",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ON0N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Ziemniaczki w szpinaku",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O50N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Gulasz z soczewicy",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ0N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Ziemniaczki z groszkiem",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O11N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Ziemniaczki na spośob Indian special",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OO1N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Bakłażan z ziemniakami",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O71N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Domowy ser biały w ostrym sosie curry",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3NN57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Domowy ser biały tikka masala",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OPNN57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Klopsiki z domowego sera białego w orzechowym sosie",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ORNN57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Domowy ser biały w pomidorowo-maślanym sosie",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ON3N57O7Q",
+        "categoryId": "ONNOQRP7",
+        "name": "Królewska korma z domowym białym serem",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": true,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1R357O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Łosoś tikka z orzechową nutką",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OOR357O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Baranina z orzechową nutką",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O00O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Misa mięs i ryb indian special",
+        "price": 75,
+        "price_pickup": 75,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O30O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Kebab z orzechową nutką",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP0O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Zielony kurczak tikka",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR0O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Kurczak tikka",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ON1O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Baranina tikka",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O51O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Szaszłyk drobiowy",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ1O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Grilowane udko",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1NO57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Mięsna misa",
+        "price": 50,
+        "price_pickup": 50,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OONO57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Łosoś tikka",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O7NO57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Domowy ser biały tikka",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O03O57O7Q",
+        "categoryId": "O5NOQRP7",
+        "name": "Mieszanka warzyw tandoori",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "0500OPR0R",
+        "categoryId": "O5NOQRP7",
+        "name": "Krewetki z orzechowa nutka",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q00OPR0R",
+        "categoryId": "O5NOQRP7",
+        "name": "Krewetki Hariyali Tikka",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0110OPR0R",
+        "categoryId": "O5NOQRP7",
+        "name": "Krewetki Tikka kebab",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR71O7O7Q",
+        "categoryId": "OO0OQRP7",
+        "name": "Indyjski pudding ryżowy kheer",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQ1O7O7Q",
+        "categoryId": "OO0OQRP7",
+        "name": "Rasgulla",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1P7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Dary ogrodu",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OOP7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sałatka raita",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O077O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Ryż basmati",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O377O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Frytki",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP77O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sos czosnkowy",
+        "price": 2,
+        "price_pickup": 2,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR77O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sos słodko-kwaśny",
+        "price": 2,
+        "price_pickup": 2,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "ONQ7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sos miętowy (ostry)",
+        "price": 2,
+        "price_pickup": 2,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O5Q7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sos w stylu indyjskim (ostry)",
+        "price": 2,
+        "price_pickup": 2,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OQQ7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Jogurt naturalny",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O1R7O7O7Q",
+        "categoryId": "O31OQRP7",
+        "name": "Sałatka z ziemniaków",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OONR37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Napój jogurtowy na słono / Salt lassi",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O7NR37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Napój jogurtowy na słodko / Sweet lassi",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O03R37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Napój jogurtowy z mango / Mango lassi",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O33R37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Napój jogurtowy z syropem różanym / Rose lassi",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OP3R37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Herbata indyjska masala / Indian masala chai",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "OR3R37O7Q",
+        "categoryId": "O10OQRP7",
+        "name": "Lemoniada po indyjsku / Indian style lemon water",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "O3N1P7O7Q",
+        "categoryId": "O5R3QRP7",
+        "name": "Świeży sok z pomarańczy 300ml",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 1,
+        "is_meal": true
+      },
+      {
+        "productId": "00077R13R",
+        "categoryId": "O5R3QRP7",
+        "name": "Pepsi 0.5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03077R13R",
+        "categoryId": "O5R3QRP7",
+        "name": "Pepsi 1l",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

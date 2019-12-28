@@ -1,0 +1,302 @@
+{
+  "details": {
+    "id": 30,
+    "uri": "zapiekankarnia",
+    "name": "Zapiekankarnia",
+    "kitchens": "Kanapki, Przekąski, Amerykańska",
+    "url": "https://pyszne.pl/zapiekankarnia"
+  },
+  "menu": {
+    "categories": {
+      "NQ5N1Q7P": "Zapiekanki",
+      "N1PN1Q7P": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "N3030NP77",
+      "NNO30NP77",
+      "NQ130NP77"
+    ],
+    "meals": [
+      {
+        "productId": "N3030NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Klasyczna",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNO30NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Cheesesteak",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ130NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Nachos",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7701Q5Q7",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Szynkowa",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP030NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Klasyczna Ostra(pikantna)",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR030NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Pepperoni",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN130NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Włoska",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5130NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Serowa",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1N30NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Iberyjska(pikantna)",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NON30NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Kurczak Barbecue",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7N30NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Gruszkowa",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0330NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Pikantna nduja(pikantna)",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3330NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Pesto",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR330NP77",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Rzeźnicka",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O530Q311Q",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Szwedzka",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ0NQP7R7",
+        "categoryId": "NQ5N1Q7P",
+        "name": "Zapiekanka Góralska",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN301NP77",
+        "categoryId": "N1PN1Q7P",
+        "name": "Coca Cola 0,5 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O7N573NR",
+        "categoryId": "N1PN1Q7P",
+        "name": "Coca Cola zero 0,5 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5301NP77",
+        "categoryId": "N1PN1Q7P",
+        "name": "Fanta 0,5 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ301NP77",
+        "categoryId": "N1PN1Q7P",
+        "name": "Sprite 0,5 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1O01NP77",
+        "categoryId": "N1PN1Q7P",
+        "name": "Woda mineralna gazowana 0,5 L",
+        "price": 3.5,
+        "price_pickup": 3.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOO01NP77",
+        "categoryId": "N1PN1Q7P",
+        "name": "Woda mineralna niegazowana 0,5 L",
+        "price": 3.5,
+        "price_pickup": 3.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP750Q5Q7",
+        "categoryId": "N1PN1Q7P",
+        "name": "Sok Cappy pomarańczowy 0,33 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5070Q5Q7",
+        "categoryId": "N1PN1Q7P",
+        "name": "Sok Cappy jabłkowy 0,33 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ070Q5Q7",
+        "categoryId": "N1PN1Q7P",
+        "name": "Sok Cappy multiwitamina 0,33 L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N10Q0Q5Q7",
+        "categoryId": "N1PN1Q7P",
+        "name": "Fuze Tea 0,5 L cytrynowa",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0733573NR",
+        "categoryId": "N1PN1Q7P",
+        "name": "Fuze Tea 0,5 L brzoskwiniowa",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00O3573NR",
+        "categoryId": "N1PN1Q7P",
+        "name": "Fuze Tea 0,5 L zielona z miętą",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "details": {
+    "id": 21,
+    "uri": "amida-kebab-grill",
+    "name": "Amida Kebab & Grill",
+    "kitchens": "Turecka, Sałatki, Kebab",
+    "url": "https://pyszne.pl/amida-kebab-grill"
+  },
+  "menu": {
+    "categories": {
+      "O1P7RP75": "Kanapki",
+      "OOP7RP75": "Talerz kebab",
+      "O7P7RP75": "Sałatki",
+      "O0133R07": "Inne",
+      "O7NQRP75": "Zupy",
+      "O077RP75": "Desery",
+      "O3RQRP75": "Dodatki",
+      "O1O0O3R5": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "O033110PP",
+      "OO53110PP"
+    ],
+    "meals": [
+      {
+        "productId": "O033110PP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab na cienkim cieście",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO53110PP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab na cienkim cieście [duży]",
+        "price": 18.2,
+        "price_pickup": 18.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O333110PP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab w bułce",
+        "price": 14.2,
+        "price_pickup": 14.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP33110PP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab wegetariański",
+        "price": 12.9,
+        "price_pickup": 12.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR33110PP",
+        "categoryId": "O1P7RP75",
+        "name": "Amida Box",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1NPRP7PP",
+        "categoryId": "O1P7RP75",
+        "name": "Pizza turecka klasyczna",
+        "price": 17.2,
+        "price_pickup": 17.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N307POQPP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab amerykański na cienkim cieście",
+        "price": 13.9,
+        "price_pickup": 13.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7N7POQPP",
+        "categoryId": "O1P7RP75",
+        "name": "Kebab amerykański w bułce",
+        "price": 14.5,
+        "price_pickup": 14.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR55P57RP",
+        "categoryId": "O1P7RP75",
+        "name": "Amida Box Wegetariański",
+        "price": 13.2,
+        "price_pickup": 13.2,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5P5P57RP",
+        "categoryId": "O1P7RP75",
+        "name": "Amida Box Amerykański",
+        "price": 14.5,
+        "price_pickup": 14.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O10N0R1R7",
+        "categoryId": "O1P7RP75",
+        "name": "Pizza turecka amerykańska",
+        "price": 17.5,
+        "price_pickup": 17.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O55N110PP",
+        "categoryId": "OOP7RP75",
+        "name": "Talerz klasyczny",
+        "price": 23.8,
+        "price_pickup": 23.8,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ5N110PP",
+        "categoryId": "OOP7RP75",
+        "name": "Talerz wegetariański",
+        "price": 21.8,
+        "price_pickup": 21.8,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O03QQN17P",
+        "categoryId": "OOP7RP75",
+        "name": "Kapsalon",
+        "price": 18.5,
+        "price_pickup": 18.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5N5Q357P",
+        "categoryId": "OOP7RP75",
+        "name": "Iskender Kebab",
+        "price": 25.5,
+        "price_pickup": 25.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQN5Q357P",
+        "categoryId": "OOP7RP75",
+        "name": "Ali Nazik Kebab",
+        "price": 26.5,
+        "price_pickup": 26.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O01N0R1R7",
+        "categoryId": "OOP7RP75",
+        "name": "Kebab na ryżu",
+        "price": 17.5,
+        "price_pickup": 17.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OR1N0R1R7",
+        "categoryId": "OOP7RP75",
+        "name": "Zestaw Sigara Borek",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONNN110PP",
+        "categoryId": "O7P7RP75",
+        "name": "Sałatka grecka",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O5NN110PP",
+        "categoryId": "O7P7RP75",
+        "name": "Sałatka gyros",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1R5N301Q",
+        "categoryId": "O7P7RP75",
+        "name": "Amida salad",
+        "price": 10,
+        "price_pickup": 10,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O33PN301Q",
+        "categoryId": "O0133R07",
+        "name": "Baked beans",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQNN110PP",
+        "categoryId": "O7NQRP75",
+        "name": "Zupa z soczewicy",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1110R1R7",
+        "categoryId": "O7NQRP75",
+        "name": "Zupa z soczewicy i bulguru",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ONN05777Q",
+        "categoryId": "O7NQRP75",
+        "name": "Zupa z cieciorki",
+        "price": 11,
+        "price_pickup": 0,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOQO010PP",
+        "categoryId": "O077RP75",
+        "name": "Baklawa",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOQNP11N7",
+        "categoryId": "O3RQRP75",
+        "name": "Hummus",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3RNP11N7",
+        "categoryId": "O3RQRP75",
+        "name": "Falafel",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPRNP11N7",
+        "categoryId": "O3RQRP75",
+        "name": "Sos czosnkowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRRNP11N7",
+        "categoryId": "O3RQRP75",
+        "name": "Sos łagodny",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN03P11N7",
+        "categoryId": "O3RQRP75",
+        "name": "Sos ostry",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7N3110PP",
+        "categoryId": "O3RQRP75",
+        "name": "Frytki",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O50PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Coca cola",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ0PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cola cherry",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O11PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cola zero",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OO1PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Sprite",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O71PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fanta poomaranczowa",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O0NPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fanta malinowa",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O3NPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fanta shokata",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OPNPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fuzetea peach",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ORNPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fuzetea citrus",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "ON3PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fuzetea lemon",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O53PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Fuzetea green tea",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OQ3PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cappy multiwitamina",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O1OPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cappy truskawka",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OOOPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cappy pomarańczowy",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O7OPRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Cappy jabłko",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O05PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Woda niegazowana kropla beskidu",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "O35PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Woda gazowana kropla beskidu",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "OP5PRRQ7P",
+        "categoryId": "O1O0O3R5",
+        "name": "Ayran",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

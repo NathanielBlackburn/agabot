@@ -1,0 +1,837 @@
+{
+  "details": {
+    "id": 5,
+    "uri": "pizzeria-mafia-miedzyrzecz",
+    "name": "Pizzeria Mafia",
+    "kitchens": "Włoska, Pizza, Kebab",
+    "url": "https://pyszne.pl/pizzeria-mafia-miedzyrzecz"
+  },
+  "menu": {
+    "categories": {
+      "NO3PNOR3": "Pizza",
+      "N0OPNOR3": "Kebab",
+      "NN5PNOR3": "Inne dania",
+      "N3OPNOR3": "Dania dla dzieci",
+      "N73PNOR3": "Przekąski",
+      "NPOPNOR3": "Sałatki",
+      "NROPNOR3": "Napoje bezalkoholowe",
+      "0QRRP71Q": "Makarony",
+      "070NQ71Q": "Dania mięsne zestaw"
+    },
+    "popular": [
+      "NQ5NQPN5O"
+    ],
+    "meals": [
+      {
+        "productId": "NQ5NQPN5O",
+        "categoryId": "N0OPNOR3",
+        "name": "Tortilla Amerykańska",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPONQPN5O",
+        "categoryId": "N0OPNOR3",
+        "name": "Kebab Amerykański",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01O5075NR",
+        "categoryId": "N0OPNOR3",
+        "name": "Kebab",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQNR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Margherita",
+        "price": 17.9,
+        "price_pickup": 21.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0OR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Vesuvio",
+        "price": 19.9,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPOR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Funghi",
+        "price": 19.9,
+        "price_pickup": 23.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN5R7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Romana",
+        "price": 21.4,
+        "price_pickup": 25.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ5R7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Calzone zawijana",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1PR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Caciatora",
+        "price": 21.9,
+        "price_pickup": 26.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7PR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Capriciosa",
+        "price": 23.4,
+        "price_pickup": 27.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N37R7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Hawaii",
+        "price": 23.4,
+        "price_pickup": 27.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5QR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Paesana",
+        "price": 23.7,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1RR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Cosanostra",
+        "price": 23.7,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7RR7PN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Al Capone",
+        "price": 23.7,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N300QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Verona",
+        "price": 23.8,
+        "price_pickup": 28.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR00QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Carrera",
+        "price": 23.8,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N510QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Palermo",
+        "price": 23.8,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1N0QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Pancetta",
+        "price": 23.8,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7N0QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Singapore",
+        "price": 23.8,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N330QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Siciliana",
+        "price": 24.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5O0QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Tuna",
+        "price": 23.8,
+        "price_pickup": 27.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N750QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Mosaiko",
+        "price": 24.5,
+        "price_pickup": 28.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N570QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Frutti di Mare",
+        "price": 24.5,
+        "price_pickup": 28.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1Q0QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Italiana",
+        "price": 24.5,
+        "price_pickup": 28.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N501QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Vegetariana",
+        "price": 25,
+        "price_pickup": 29.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3N1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Vanita",
+        "price": 25.4,
+        "price_pickup": 30.7,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRN1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Kebab",
+        "price": 24,
+        "price_pickup": 28,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N531QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Fasto",
+        "price": 25.4,
+        "price_pickup": 30.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7O1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Corleone",
+        "price": 25.9,
+        "price_pickup": 30.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N351QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Familia",
+        "price": 25.9,
+        "price_pickup": 30.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR51QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Mafia",
+        "price": 26.5,
+        "price_pickup": 31,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5P1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Serowa",
+        "price": 23.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPQ1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Parmeńska",
+        "price": 24.5,
+        "price_pickup": 28.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3Q1QPN5O",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Rodzinna - 50 cm!",
+        "price": 52.9,
+        "price_pickup": 52.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OP1RP5NR",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Bianca",
+        "price": 23.5,
+        "price_pickup": 23.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0571075NR",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Nachos",
+        "price": 26.5,
+        "price_pickup": 26.5,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q71075NR",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Dallas",
+        "price": 27.4,
+        "price_pickup": 27.4,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01Q1075NR",
+        "categoryId": "NO3PNOR3",
+        "name": "Pizza Mafinka",
+        "price": 31.9,
+        "price_pickup": 31.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN5NQPN5O",
+        "categoryId": "N0OPNOR3",
+        "name": "Tortilla",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOPNQPN5O",
+        "categoryId": "N0OPNOR3",
+        "name": "Gyros",
+        "price": 21.9,
+        "price_pickup": 21.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OO5075NR",
+        "categoryId": "N0OPNOR3",
+        "name": "Kebab z serem feta",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07O5075NR",
+        "categoryId": "N0OPNOR3",
+        "name": "Kebab wegetariański",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0055075NR",
+        "categoryId": "N0OPNOR3",
+        "name": "Tortilla z kurczakiem",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0355075NR",
+        "categoryId": "N0OPNOR3",
+        "name": "Kubełek kebab",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1N3QPN5O",
+        "categoryId": "NN5PNOR3",
+        "name": "Nuggets",
+        "price": 22.9,
+        "price_pickup": 22.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7N3QPN5O",
+        "categoryId": "NN5PNOR3",
+        "name": "Stripsy z kurczaka",
+        "price": 23.9,
+        "price_pickup": 23.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7PNQPN5O",
+        "categoryId": "N3OPNOR3",
+        "name": "Nuggets 4 szt. - dla dzieci",
+        "price": 12.9,
+        "price_pickup": 11.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N07NQPN5O",
+        "categoryId": "N3OPNOR3",
+        "name": "Paluszki rybne - dla dzieci",
+        "price": 12.9,
+        "price_pickup": 11.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR1QPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Bukiet surówek",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N10NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Frytki",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO0NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Ziemniaczki pieczone",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N70NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Kuleczki ziemniaczane",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N01NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Talarki ziemniaczane",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N31NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Szyszki ziemniaczane",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP1NQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Frytki belgijskie",
+        "price": 6.5,
+        "price_pickup": 6.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNNNQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Serki panierowane",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NNQPN5O",
+        "categoryId": "N73PNOR3",
+        "name": "Pieczywo czosnkowe",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5QNQPN5O",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka Grecka",
+        "price": 19.5,
+        "price_pickup": 19.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQQNQPN5O",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka Wykwintna",
+        "price": 23.4,
+        "price_pickup": 23.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1RNQPN5O",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka La Mafia",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NORNQPN5O",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka Klasyczna",
+        "price": 23.4,
+        "price_pickup": 23.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07PNQP5NR",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka Koktajlowa",
+        "price": 23.4,
+        "price_pickup": 23.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "007NQP5NR",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka Polonez",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "037NQP5NR",
+        "categoryId": "NPOPNOR3",
+        "name": "Sałatka z Polędwicą",
+        "price": 24.4,
+        "price_pickup": 24.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7RNQPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Coca-cola 0,5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N003QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Fanta 0,5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N303QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Sprite 0,5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP03QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Fuzetea brzoskwinia z hibiskusem 0,5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O3R7P5NR",
+        "categoryId": "NROPNOR3",
+        "name": "Fuzetea cytryna z trawą cytrynową 0,5l",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR03QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Kropla Beskidu woda gazowana 0,5l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN13QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Kropla Beskidu woda niegazowana 0,5l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N513QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Sok Cappy pomarańczowy 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ13QPN5O",
+        "categoryId": "NROPNOR3",
+        "name": "Sok Cappy jabłkowy 0,33l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03R77P5NR",
+        "categoryId": "NROPNOR3",
+        "name": "Burn 0,25l",
+        "price": 8,
+        "price_pickup": 8,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00N1QP5NR",
+        "categoryId": "0QRRP71Q",
+        "name": "Pasta z masłem i kurczakiem",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03N1QP5NR",
+        "categoryId": "0QRRP71Q",
+        "name": "Pasta carbonara",
+        "price": 20.9,
+        "price_pickup": 20.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PN1QP5NR",
+        "categoryId": "0QRRP71Q",
+        "name": "Pasta w sosie kurkowym",
+        "price": 21.9,
+        "price_pickup": 21.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RN1QP5NR",
+        "categoryId": "0QRRP71Q",
+        "name": "Pasta w sosie szpinakowym",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N31QP5NR",
+        "categoryId": "0QRRP71Q",
+        "name": "pasta w sosie brokułowym",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "017NR75NR",
+        "categoryId": "070NQ71Q",
+        "name": "Fileciki drobiowe duszone w sosie śmietanowo-kurkowym",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O7NR75NR",
+        "categoryId": "070NQ71Q",
+        "name": "Polędwiczki wieprzowe duszone w sosie śmietanowo-kurkowym",
+        "price": 29.9,
+        "price_pickup": 29.9,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

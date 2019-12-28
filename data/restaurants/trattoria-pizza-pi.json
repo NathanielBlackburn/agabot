@@ -1,0 +1,922 @@
+{
+  "details": {
+    "id": 18,
+    "uri": "trattoria-pizza-pi",
+    "name": "Trattoria Pizza Pi",
+    "kitchens": "Makarony, Pizza, Sałatki",
+    "url": "https://pyszne.pl/trattoria-pizza-pi"
+  },
+  "menu": {
+    "categories": {
+      "0R50071Q": "Pizza",
+      "0RQ0071Q": "Makarony",
+      "0NR0071Q": "Makarony zapiekane w piecu",
+      "0QP0071Q": "Sałatki",
+      "0170071Q": "Dania dla dzieci",
+      "0O70071Q": "Potrawy z indyka",
+      "0770071Q": "Potrawy z wieprzowiny",
+      "00Q0071Q": "Potrawy z wołowiny",
+      "03Q0071Q": "Dania rybne",
+      "0PQ0071Q": "Mięso z grilla",
+      "05P0071Q": "Zupy",
+      "0NP0071Q": "Włoskie przekąski"
+    },
+    "popular": [
+      "0QQRNRONR",
+      "0Q535RONR",
+      "03QQNRONR"
+    ],
+    "meals": [
+      {
+        "productId": "0QQRNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Szefa 2 [30cm]",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q535RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Gnocchi alla Fiorentina",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03QQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Rustica [30cm]",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RP7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Napoli",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N77NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Broccolli",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0577NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Prosciutto",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q77NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Salami",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01Q7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Rustica",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OQ7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Santa Lucia",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07Q7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Funghi",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00R7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Vegetariana",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03R7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Quattro Formaggi",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PR7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Hawai",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RR7NRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Mista",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N0QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Tonno",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "050QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Capri",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q0QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Frutti di Mare",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "011QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Spinacci",
+        "price": 27,
+        "price_pickup": 27,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Quattro Stagioni",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Caprociosa",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Al Capone",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Szefa 1",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PNQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Szefa 2",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RNQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Calzone",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N3QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Calzone Szefa",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "053QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Rucola",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q3QNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Scampi",
+        "price": 37,
+        "price_pickup": 37,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01OQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Buongustaio",
+        "price": 37,
+        "price_pickup": 37,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OOQNRONR",
+        "categoryId": "0R50071Q",
+        "name": "Pizza Carpaccio",
+        "price": 37,
+        "price_pickup": 37,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03135RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Napoli al \"pomodoro fresco\"",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0P135RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Aglio Olio e Peperoncino",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0R135RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Bolognese",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0NN35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti alla \"Carbonara\"",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05N35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Frutti di Mare",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QN35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Rucola",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01335RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Spaghetti Gamberetti",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O335RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne alla Pizza Pi",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07335RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne e Fieno",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00O35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne ai 4 Formaggi",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03O35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne alla Napoli",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PO35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne alla Arrabbiata",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RO35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Penne alla Medicea",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N535RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Gnocchi alla Gorgonzola",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05535RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Gnocchi alla Vesuviana",
+        "price": 31,
+        "price_pickup": 31,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01P35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Tortellini alla Panna",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OP35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Tortellini Bocca Vellutata",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07P35RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Tartadelle dei Funghi Porcini",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00735RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Tartadelle dell'Adriatico",
+        "price": 40,
+        "price_pickup": 40,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03735RONR",
+        "categoryId": "0RQ0071Q",
+        "name": "Tartadelle Alfredo",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PN55RONR",
+        "categoryId": "0NR0071Q",
+        "name": "Lasagne alla Romagnola",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RN55RONR",
+        "categoryId": "0NR0071Q",
+        "name": "Tortellini al Gratin",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N355RONR",
+        "categoryId": "0NR0071Q",
+        "name": "Penne al Pasticciati",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q0PORONR",
+        "categoryId": "0QP0071Q",
+        "name": "Italia",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "011PORONR",
+        "categoryId": "0QP0071Q",
+        "name": "Mista",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1PORONR",
+        "categoryId": "0QP0071Q",
+        "name": "Tonno",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071PORONR",
+        "categoryId": "0QP0071Q",
+        "name": "Caprese",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NPORONR",
+        "categoryId": "0QP0071Q",
+        "name": "Pizza Pi",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00QPORONR",
+        "categoryId": "0170071Q",
+        "name": "Spaghetti Napoli",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03QPORONR",
+        "categoryId": "0170071Q",
+        "name": "Pinocchio",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03RQORONR",
+        "categoryId": "0O70071Q",
+        "name": "Tacchino alla Griglia",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PRQORONR",
+        "categoryId": "0O70071Q",
+        "name": "Tacchino Tagliato",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q3RORONR",
+        "categoryId": "0770071Q",
+        "name": "Cordon Bleu",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01ORORONR",
+        "categoryId": "0770071Q",
+        "name": "Filetto di Maiale ai Funghi",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OORORONR",
+        "categoryId": "0770071Q",
+        "name": "Maiale al Pepe Verde",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q35NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Bistecca alla Gorgonzola",
+        "price": 60,
+        "price_pickup": 60,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01O5NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Bistecca Valteillina",
+        "price": 60,
+        "price_pickup": 60,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OO5NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Bistecca al Pepe Verde",
+        "price": 59,
+        "price_pickup": 59,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QP5NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Scaloppina al Vino Bianco",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0175NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Scaloppina al Limone",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07O5NRONR",
+        "categoryId": "00Q0071Q",
+        "name": "Scaloppina alla Marsala",
+        "price": 52,
+        "price_pickup": 52,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0R015RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Calamari alla Ligure",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N115RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Calamari Sintroeffe",
+        "price": 49,
+        "price_pickup": 49,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05115RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Salmsteak",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q115RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Salmsteak Provencial",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01N15RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Lucio Perca al Vino Bianco",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0ON15RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Lucio Perca ai pomodori",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07N15RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Gamberoni al Vino Bianco",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00315RONR",
+        "categoryId": "03Q0071Q",
+        "name": "Il Fritto Misto",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07ON5RONR",
+        "categoryId": "0PQ0071Q",
+        "name": "Piatto della Casa",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "005N5RONR",
+        "categoryId": "0PQ0071Q",
+        "name": "Porto Foglio Tirolese",
+        "price": 55,
+        "price_pickup": 55,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "035N5RONR",
+        "categoryId": "0PQ0071Q",
+        "name": "Rosbef alla Griglia Con Gamberoni",
+        "price": 65,
+        "price_pickup": 65,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0POOORONR",
+        "categoryId": "05P0071Q",
+        "name": "Crema di Pomodoro al Basilico",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QNPNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Antipasti della Pizza Pi",
+        "price": 42,
+        "price_pickup": 42,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "013PNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Gamberetti alla Rucola con Pomodorini",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O3PNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Prosciutto di Parma e Melone",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "073PNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Deska serów i wędlin",
+        "price": 45,
+        "price_pickup": 45,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00OPNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Crostini con pomodori",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03OPNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Carpaccio",
+        "price": 48,
+        "price_pickup": 48,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0POPNRONR",
+        "categoryId": "0NP0071Q",
+        "name": "Capriccio di Pizza Pi",
+        "price": 59,
+        "price_pickup": 59,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

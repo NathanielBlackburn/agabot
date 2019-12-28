@@ -1,0 +1,335 @@
+{
+  "details": {
+    "id": 51,
+    "uri": "bar-pod-akacja",
+    "name": "Bar pod Akacją",
+    "kitchens": "Polska, Dania na lunch, Burgery",
+    "url": "https://pyszne.pl/bar-pod-akacja"
+  },
+  "menu": {
+    "categories": {
+      "0O75750Q": "Śniadania",
+      "0775750Q": "Zupy",
+      "00Q5750Q": "Zestawy obiadowe",
+      "03Q5750Q": "Szybki bar",
+      "0PQ5750Q": "Sosy",
+      "0RQ5750Q": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "037O0331R",
+      "007O0331R"
+    ],
+    "meals": [
+      {
+        "productId": "037O0331R",
+        "categoryId": "00Q5750Q",
+        "name": "Filet z kurczaka",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "007O0331R",
+        "categoryId": "00Q5750Q",
+        "name": "Kotlet schabowy",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01730331R",
+        "categoryId": "0O75750Q",
+        "name": "Jajecznica z 4 jaj",
+        "price": 9,
+        "price_pickup": 9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O730331R",
+        "categoryId": "0O75750Q",
+        "name": "Jajko sadzone z 4 jaj na boczku",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05NO0331R",
+        "categoryId": "0775750Q",
+        "name": "Flaki",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0QNO0331R",
+        "categoryId": "0775750Q",
+        "name": "Zupa gulaszowa",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0P7O0331R",
+        "categoryId": "00Q5750Q",
+        "name": "Karkówka",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0R7O0331R",
+        "categoryId": "00Q5750Q",
+        "name": "Olbrzym z jajkiem sadzonym",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0NQO0331R",
+        "categoryId": "00Q5750Q",
+        "name": "Nuggetsy",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "05750331R",
+        "categoryId": "03Q5750Q",
+        "name": "Hamburger classic",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q750331R",
+        "categoryId": "03Q5750Q",
+        "name": "Cheeseburger",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "01Q50331R",
+        "categoryId": "03Q5750Q",
+        "name": "Chicken burger",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0OQ50331R",
+        "categoryId": "03Q5750Q",
+        "name": "Hot Dog",
+        "price": 7,
+        "price_pickup": 7,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07Q50331R",
+        "categoryId": "03Q5750Q",
+        "name": "Frytki",
+        "price": 6,
+        "price_pickup": 6,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "015Q0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Ketchup",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O5Q0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Majonez",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "075Q0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Musztarda",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00PQ0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Sos barbecue",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03PQ0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Sos meksykański",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PPQ0331R",
+        "categoryId": "0PQ5750Q",
+        "name": "Sos czosnkowy",
+        "price": 0.5,
+        "price_pickup": 0.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "011R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Woda niegazowana 0.5l",
+        "price": 3,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0O1R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Woda gazowana 0.5l",
+        "price": 3,
+        "price_pickup": 3,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "071R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Pepsi 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "00NR0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Mirinda 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "03NR0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Mirinda czerwona 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0PNR0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Mirinda zielona 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0RNR0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "7-up 0.5l",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0N3R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Sok pomarańczowy 0.33l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "053R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Sok jabłkowy 0.33l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "0Q3R0331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Sok porzeczkowy 0.33l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "07001331R",
+        "categoryId": "0RQ5750Q",
+        "name": "Sok multiwitamina 0.33l",
+        "price": 4,
+        "price_pickup": 4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

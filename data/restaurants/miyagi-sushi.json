@@ -1,0 +1,1464 @@
+{
+  "details": {
+    "id": 16,
+    "uri": "miyagi-sushi",
+    "name": "Miyagi Sushi",
+    "kitchens": "Sushi",
+    "url": "https://pyszne.pl/miyagi-sushi"
+  },
+  "menu": {
+    "categories": {
+      "N101OO3P": "Przystawki",
+      "NO01OO3P": "Zupy",
+      "N701OO3P": "Nigiri",
+      "N011OO3P": "Gunkan",
+      "N311OO3P": "Gunkan w ogórku",
+      "NP11OO3P": "Hosomaki",
+      "NR11OO3P": "Futomaki",
+      "NNN1OO3P": "Futomaki pieczone",
+      "N5N1OO3P": "California Maki",
+      "NQN1OO3P": "California Maki pieczone",
+      "N131OO3P": "Rolki w tempurze",
+      "NO31OO3P": "Tamagomaki",
+      "N731OO3P": "Soya Rolls",
+      "N0O1OO3P": "Zestawy",
+      "NQ03OO3P": "Napoje bezalkoholowe"
+    },
+    "popular": [
+      "NPQ1175N7",
+      "N03QRP5N7"
+    ],
+    "meals": [
+      {
+        "productId": "NPQ1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Wiatrak (54 Szt.)",
+        "price": 115,
+        "price_pickup": 115,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0Q1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Kanshoku (32 Szt.)",
+        "price": 73,
+        "price_pickup": 73,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N03QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Yaki Sake",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR50RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Sajgonki warzywne",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQP0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Sushi balls",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N170RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Różyczki z łososia",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO70RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Tatar z łososia",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N770RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Tatar z tuńczyka",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0Q0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Mix pierożków i sajgonek",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3Q0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Pierożki warzywne",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPQ0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Pierożki z kurczakiem",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNR0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Szczypce kraba w tempurze",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5R0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Sałatka Goma Wakame",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR0RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Szaszłyk z krewetką",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N101RP5N7",
+        "categoryId": "N101OO3P",
+        "name": "Szaszłyk z łososiem",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N701RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Miso Shiru",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N011RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Miso Sake",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N311RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Sake Osuimono",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP11RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Tom Ka Khai z kurczakiem",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR11RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Tom Ka Khai z krewetką",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNN1RP5N7",
+        "categoryId": "NO01OO3P",
+        "name": "Zupa Miso Seafood",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N731RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Sake",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0O1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Sake Grill",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3O1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Ebi",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPO1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Unagi",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRO1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Maguro",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN51RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Iboday",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N551RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Tamago",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ51RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Okoń Morski",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1P1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Makrela",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOP1RP5N7",
+        "categoryId": "N701OO3P",
+        "name": "Nigiri Ośmiornica",
+        "price": 20,
+        "price_pickup": 20,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7P1RP5N7",
+        "categoryId": "N011OO3P",
+        "name": "Gunkan Sake",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N071RP5N7",
+        "categoryId": "N011OO3P",
+        "name": "Gunkan Tuna",
+        "price": 33,
+        "price_pickup": 33,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N371RP5N7",
+        "categoryId": "N011OO3P",
+        "name": "Gunkan Sake Ikura",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP71RP5N7",
+        "categoryId": "N011OO3P",
+        "name": "Gunkan Miyagi",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR71RP5N7",
+        "categoryId": "N011OO3P",
+        "name": "Gunkan Hot Spicy",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N30NRP5N7",
+        "categoryId": "N311OO3P",
+        "name": "Gunkan sałatka surimi w ogórku",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP0NRP5N7",
+        "categoryId": "N311OO3P",
+        "name": "Gunkan Hot Spicy Tuna w ogórku",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR0NRP5N7",
+        "categoryId": "N311OO3P",
+        "name": "Gunkan Tatar łosoś w ogórku",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN1NRP5N7",
+        "categoryId": "N311OO3P",
+        "name": "Gunkan Tatar tuńczyk w ogórku",
+        "price": 34,
+        "price_pickup": 34,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1NNRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Kappa",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NONNRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Oshinko",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7NNRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Awokado",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N03NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Tamago",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N33NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Shiitake",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP3NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Mango",
+        "price": 11,
+        "price_pickup": 11,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR3NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Surimi",
+        "price": 13,
+        "price_pickup": 13,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNONRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Kampyo",
+        "price": 12,
+        "price_pickup": 12,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5ONRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Ebi",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQONRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Sake",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Masago Sake",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO5NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Maguro",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N75NRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Unagi",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0PNRP5N7",
+        "categoryId": "NP11OO3P",
+        "name": "Hosomak Yaki Sake",
+        "price": 16,
+        "price_pickup": 16,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQP3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Wegerian",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N173RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Veggie",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO73RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Shiitake",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N773RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Sake",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0Q3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Phil Łosoś",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3Q3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Hot Spicy Tuna",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPQ3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Miyagi",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRQ3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Kiwi",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNR3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Philadephia Tuńczyk",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5R3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Tuńczyk Mango",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR3RP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Tuńczyk Tofu",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N10ORP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Tuńczyk Masago",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO0ORP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Szachownica",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N70ORP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Tatar Łosoś",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N01ORP5N7",
+        "categoryId": "NR11OO3P",
+        "name": "Futomak Tatar Tuńczyk",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7NQRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Iboday Kinoko",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N33QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Yaki Unagi",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP3QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Unagi Żurawina",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR3QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Ebi Gotowana",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNOQRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Ebi Tempura",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5OQRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Italia",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQOQRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Spicy Chicken",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Sweet Chicken",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO5QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Sweet Duck",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N75QRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Duck",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0PQRP5N7",
+        "categoryId": "NNN1OO3P",
+        "name": "Futomak pieczony Futo Greece",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO00075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Bejitarian",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N700075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Hot Spicy Tuna",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N010075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Krab",
+        "price": 17,
+        "price_pickup": 17,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N310075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Surimi",
+        "price": 18,
+        "price_pickup": 18,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP10075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Łosoś",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR10075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Sake",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNN0075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Philadelphia",
+        "price": 21,
+        "price_pickup": 21,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5N0075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Tuńczyk",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQN0075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Sweet Tuna",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N130075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Sensaina Mango",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO30075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Awokado",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO51075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Awokado Tuńczyk",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N751075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Furu",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0P1075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Tobiko",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3P1075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Dragon",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPP1075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Rainbow",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRP1075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Dragon Ikura",
+        "price": 30,
+        "price_pickup": 30,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN71075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Becon",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N571075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Kiwi Surimi",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ71075N7",
+        "categoryId": "N5N1OO3P",
+        "name": "California Maki Sensei",
+        "price": 29,
+        "price_pickup": 29,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRNN075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Yaki Sake pieczone",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN3N075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Sensaina Banana pieczone",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N53N075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Ebi pieczone",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ3N075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Green pieczone",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1ON075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Saketen pieczone",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOON075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Tomato pieczone",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7ON075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Kingusu",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N05N075N7",
+        "categoryId": "NQN1OO3P",
+        "name": "California Maki Unagi Ebi",
+        "price": 35,
+        "price_pickup": 35,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7R3075N7",
+        "categoryId": "N131OO3P",
+        "name": "Hosomak z bananem w tempurze",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N00O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Hosomak z kiwi w tempurze",
+        "price": 14,
+        "price_pickup": 14,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N30O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Hosomak z oshinko w tempurze",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP0O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futomak z łososiem i awokado w tempurze",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR0O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futomak z węgorzem w tempurze",
+        "price": 28,
+        "price_pickup": 28,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN1O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futomak łosoś z żurawiną w tempurze",
+        "price": 22,
+        "price_pickup": 22,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N51O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futomak Ebi w tempurze",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ1O075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futomak tuńczyk z mango w tempurze",
+        "price": 26,
+        "price_pickup": 26,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1NO075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futo tatar z łososia w tempurze",
+        "price": 32,
+        "price_pickup": 32,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NONO075N7",
+        "categoryId": "N131OO3P",
+        "name": "Futo tatar z tuńczyka w tempurze",
+        "price": 38,
+        "price_pickup": 38,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N31P075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Sake",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP1P075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Ebi Ten",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR1P075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Sake Special",
+        "price": 23,
+        "price_pickup": 23,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNNP075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Tuna",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NP075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Yaki Sake",
+        "price": 24,
+        "price_pickup": 24,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQNP075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Sweet Sake",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N13P075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Sweet Kiwi",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO3P075N7",
+        "categoryId": "NO31OO3P",
+        "name": "Tamagomaki Sweet Banana",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQQP075N7",
+        "categoryId": "N731OO3P",
+        "name": "SoyaRoll Sweet Chicken",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1RP075N7",
+        "categoryId": "N731OO3P",
+        "name": "SoyaRoll Italia",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NORP075N7",
+        "categoryId": "N731OO3P",
+        "name": "SoyaRoll Sake",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7RP075N7",
+        "categoryId": "N731OO3P",
+        "name": "SoyaRoll Unagi",
+        "price": 25,
+        "price_pickup": 25,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQP1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Hokori (14 Szt.)",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N171175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Yoi (9 Szt.)",
+        "price": 36,
+        "price_pickup": 36,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO71175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Sunnaku (24 Szt.)",
+        "price": 63,
+        "price_pickup": 63,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N771175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Miyagi (34 Szt.)",
+        "price": 82,
+        "price_pickup": 82,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3Q1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Kasai (34 Szt.)",
+        "price": 89,
+        "price_pickup": 89,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRQ1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Yakimo (14 Szt.)",
+        "price": 57,
+        "price_pickup": 57,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNR1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Dento-Tekina (16 Szt.)",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5R1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Kenko (20 Szt.)",
+        "price": 39,
+        "price_pickup": 39,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR1175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Yashoku (42 Szt.)",
+        "price": 146,
+        "price_pickup": 146,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N10N175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Zielona Góra (73 Szt.)",
+        "price": 199,
+        "price_pickup": 199,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO0N175N7",
+        "categoryId": "N0O1OO3P",
+        "name": "Zestaw Yamato (100 Szt.)",
+        "price": 289,
+        "price_pickup": 289,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N13N175N7",
+        "categoryId": "NQ03OO3P",
+        "name": "Woda Niegazowana 0,3L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO3N175N7",
+        "categoryId": "NQ03OO3P",
+        "name": "Woda Gazowana 0,3L",
+        "price": 5,
+        "price_pickup": 5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

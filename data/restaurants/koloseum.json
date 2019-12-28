@@ -1,0 +1,426 @@
+{
+  "details": {
+    "id": 4,
+    "uri": "koloseum",
+    "name": "Koloseum",
+    "kitchens": "Włoska, Makarony, Pizza",
+    "url": "https://pyszne.pl/koloseum"
+  },
+  "menu": {
+    "categories": {
+      "N0N01OR3": "Pizza",
+      "N3N01OR3": "Makarony",
+      "NRN01OR3": "Sałatki",
+      "NPN01OR3": "Sosy",
+      "NN301OR3": "Napoje bezalkoholowe",
+      "N5301OR3": "Napoje alkoholowe"
+    },
+    "popular": [
+      "NPN5RON5O",
+      "NQ35RON5O",
+      "NNR5RON5O"
+    ],
+    "meals": [
+      {
+        "productId": "NPN5RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Uczta Marka Aureliusza [Maxi 30cm]",
+        "price": 24.48,
+        "price_pickup": 24.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ35RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Koloseum [Rodzinna 46cm]",
+        "price": 49.49,
+        "price_pickup": 49.49,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNR5RON5O",
+        "categoryId": "N3N01OR3",
+        "name": "Makaron Spaghetti z sosem bolońskim",
+        "price": 10.48,
+        "price_pickup": 10.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N51ORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Amazonka",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NONORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Trening Nowicjusza",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N33ORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Sjesta Rzymianina",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNOORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Powstanie Spartakusa",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15ORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Ave Cezar",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0PORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Bunt Zapaśników",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRPORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Bitwy Morskie",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ7ORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Wielkie Igrzyska",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7QORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Tajemnica Maximusa",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPRORON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Roma Victa",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N505RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Siła i Honor",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO15RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Wyścig Rydwanów",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3N5RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Uczta Marka Aureliusza",
+        "price": 15.98,
+        "price_pickup": 15.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1O5RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Śmierć na Arenie",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N055RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Miecz Gladiatora",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR55RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Granica Wytrzymałości",
+        "price": 15.98,
+        "price_pickup": 15.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQP5RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Szkoła Walki",
+        "price": 15.98,
+        "price_pickup": 15.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N775RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Przysmak Ursusa",
+        "price": 13.98,
+        "price_pickup": 13.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN35RON5O",
+        "categoryId": "N0N01OR3",
+        "name": "Pizza Koloseum",
+        "price": 21.98,
+        "price_pickup": 21.98,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPQ5RON5O",
+        "categoryId": "N3N01OR3",
+        "name": "Makaron Spaghetti z sosem wegetariańskim",
+        "price": 10.48,
+        "price_pickup": 10.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQR5RON5O",
+        "categoryId": "N3N01OR3",
+        "name": "Makaron Spaghetti z sosem meksykańskim",
+        "price": 10.48,
+        "price_pickup": 10.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N31PRON5O",
+        "categoryId": "NRN01OR3",
+        "name": "Sałatka z serem feta",
+        "price": 8.48,
+        "price_pickup": 8.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR1PRON5O",
+        "categoryId": "NRN01OR3",
+        "name": "Sałatka z kurczakiem",
+        "price": 8.48,
+        "price_pickup": 8.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5NPRON5O",
+        "categoryId": "NRN01OR3",
+        "name": "Sałatka z tuńczykiem",
+        "price": 8.48,
+        "price_pickup": 8.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N13PRON5O",
+        "categoryId": "NRN01OR3",
+        "name": "Sałatka z pałeczkami krabowymi",
+        "price": 8.48,
+        "price_pickup": 8.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N73PRON5O",
+        "categoryId": "NRN01OR3",
+        "name": "Sałatka warzywna",
+        "price": 8.48,
+        "price_pickup": 8.48,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO0PRON5O",
+        "categoryId": "NPN01OR3",
+        "name": "Sos czosnkowy",
+        "price": 1.75,
+        "price_pickup": 1.75,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N70PRON5O",
+        "categoryId": "NPN01OR3",
+        "name": "Sos meksykański",
+        "price": 1.75,
+        "price_pickup": 1.75,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N01PRON5O",
+        "categoryId": "NPN01OR3",
+        "name": "Zestaw sosów",
+        "price": 3.5,
+        "price_pickup": 3.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3OPRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Coca-Cola 0,5l",
+        "price": 5.4,
+        "price_pickup": 5.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPOPRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Fanta 0,5l",
+        "price": 5.4,
+        "price_pickup": 5.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N55PRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Sprite 0,5l",
+        "price": 5.4,
+        "price_pickup": 5.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ5PRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Coca-Cola 0,33l puszka",
+        "price": 4.5,
+        "price_pickup": 4.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1PPRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Fuzetea Cytrynowa 0,5l",
+        "price": 5.4,
+        "price_pickup": 5.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NOPPRON5O",
+        "categoryId": "NN301OR3",
+        "name": "Fuzetea Brzoskwiniowa 0,5l",
+        "price": 5.4,
+        "price_pickup": 5.4,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN1OORO07",
+        "categoryId": "NN301OR3",
+        "name": "Burn 0,25 L",
+        "price": 5.5,
+        "price_pickup": 5.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQQPRON5O",
+        "categoryId": "N5301OR3",
+        "name": "Piwo Lech Free 0,33l",
+        "price": 4.5,
+        "price_pickup": 4.5,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}

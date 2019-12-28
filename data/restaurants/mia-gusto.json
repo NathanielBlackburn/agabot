@@ -1,0 +1,383 @@
+{
+  "details": {
+    "id": 12,
+    "uri": "mia-gusto",
+    "name": "Mia Gusto",
+    "kitchens": "Włoska, Pizza, Sałatki",
+    "url": "https://pyszne.pl/mia-gusto"
+  },
+  "menu": {
+    "categories": {
+      "NN7PON0O": "Pizza",
+      "NQ7PON0O": "Sałatki",
+      "N57PON0O": "Sosy"
+    },
+    "popular": [
+      "N57QNO1PO",
+      "NN1QNO1PO",
+      "N7P7NO1PO"
+    ],
+    "meals": [
+      {
+        "productId": "N57QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Abruzzo [Grande 60cm]",
+        "price": 54.9,
+        "price_pickup": 54.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN1QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Friuli-Venezia Giulia [Grande 60cm]",
+        "price": 49.9,
+        "price_pickup": 49.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7P7NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Piemonte [Grande 60cm]",
+        "price": 47.9,
+        "price_pickup": 47.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3O7NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Margherita",
+        "price": 13.9,
+        "price_pickup": 13.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN57NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Valle d'Aosta (hot)",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1P7NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Piemonte",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N077NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Liguria",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR77NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Lombardia",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQQ7NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Trentino-Alto Adige",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7R7NO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Veneto",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NP0QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Friuli-Venezia Giulia",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N51QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Emilia Romagna (hot)",
+        "price": 24.9,
+        "price_pickup": 24.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NONQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Toscana",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N33QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Umbria",
+        "price": 22.9,
+        "price_pickup": 22.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNOQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Marche",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N15QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Lazio",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N0PQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Puglia",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRPQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Abruzzo",
+        "price": 22.9,
+        "price_pickup": 22.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQ7QNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Molise (hot)",
+        "price": 21.9,
+        "price_pickup": 21.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7QQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Compania (hot)",
+        "price": 25.9,
+        "price_pickup": 25.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPRQNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Basilcata",
+        "price": 22.9,
+        "price_pickup": 22.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N50RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Calabria",
+        "price": 18.9,
+        "price_pickup": 18.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NO1RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Sicilia",
+        "price": 32.9,
+        "price_pickup": 32.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N3NRNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Mia",
+        "price": 17.9,
+        "price_pickup": 17.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NN3RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Gambretti",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1ORNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Frutti di Mare",
+        "price": 27.9,
+        "price_pickup": 27.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N05RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Quattro Formaggi",
+        "price": 22.9,
+        "price_pickup": 22.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NR5RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Sardegna",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NQPRNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Callzone (pizza zawijana)",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N77RNO1PO",
+        "categoryId": "NN7PON0O",
+        "name": "Pizza Italia",
+        "price": 19.9,
+        "price_pickup": 19.9,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N5RRNO1PO",
+        "categoryId": "NQ7PON0O",
+        "name": "Insalata di pollo",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N1003O1PO",
+        "categoryId": "NQ7PON0O",
+        "name": "Insalata con feta",
+        "price": 15,
+        "price_pickup": 15,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "N7003O1PO",
+        "categoryId": "NQ7PON0O",
+        "name": "Insalata con prosciutto",
+        "price": 19,
+        "price_pickup": 19,
+        "hasSizes": true,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NPQRNO1PO",
+        "categoryId": "N57PON0O",
+        "name": "Sos czosnkowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NRQRNO1PO",
+        "categoryId": "N57PON0O",
+        "name": "Sos pomidorowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      },
+      {
+        "productId": "NNRRNO1PO",
+        "categoryId": "N57PON0O",
+        "name": "Sos ziołowy",
+        "price": 1,
+        "price_pickup": 1,
+        "hasSizes": false,
+        "deliverymethod": 2,
+        "is_meal": true
+      }
+    ]
+  }
+}
