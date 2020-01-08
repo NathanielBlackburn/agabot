@@ -35,4 +35,8 @@ module.exports = class {
     return `*Pogoda na dziś w ${city.name}:*`
   }
 
+  static TodaysWeatherCrapCity(city) {
+    return `*Nie wiem, kogo to obchodzi, ale jest też chuja warte info o pogodzie w ${city.name}:*`;
+  }
+
 };

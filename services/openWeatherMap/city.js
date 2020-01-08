@@ -8,6 +8,10 @@ module.exports = class City {
     return new City('gdynia');
   }
 
+  static get Sulechow() {
+    return new City('sulechow');
+  }
+
   constructor(name) {
     switch (name) {
       case undefined:
@@ -18,6 +22,10 @@ module.exports = class City {
       case 'gdynia':
         this.id = '3099424';
         this.name = 'Gdyni';
+        break;
+      case 'sulechow':
+        this.id = '3084241';
+        this.name = 'Sulechowie';
         break;
       default:
         this.id = -1;
