@@ -14,11 +14,17 @@ module.exports = class WhoOrdersFoodResponder {
 
   async respond(responseHandler) {
     const names = this.originalMessage.replace(matchers.WhoOrdersFood, '').trim();
-    const nameList = names.split(names.includes(',') ? ',' : ' ');
+    const nameList = names.split(names.includes(',') ? ',' : ' ')
+      .filter(name => name.trim() != '');
     const chosenName = arrayToolkit.randomElement(nameList);
-    const response = chosenName.match(/marcin/i)
-      ? dynamicTexts.MarcinOrdersFood(chosenName.trim())
-      : staticTexts.SomeoneOrdersFood.replace('[chosenName]', chosenName.trim());
+    let response;
+    if (nameList.length == 0) {
+      response = staticTexts.NoOneOrdersFood;
+    } else {
+      response = chosenName.match(/marcin/i)
+        ? dynamicTexts.MarcinOrdersFood(chosenName.trim())
+        : staticTexts.SomeoneOrdersFood.replace('[chosenName]', chosenName.trim());
+    }
     await (new TextResponse(responseHandler, response)).send();
   }
 

@@ -8,7 +8,8 @@ module.exports = {
   TodaysWeather: '*Pogoda na dziś:*',
   MarcinOrdersFood: 'Dziś zamawia [chosenName], więc bierzecie na własne ryzyko.',
   SomeoneOrdersFood: 'Dziś zamawia [chosenName].',
+  NoOneOrdersFood: 'Dziś nikt nie zamawia, spadaj na bambus.',
   NoWeatherForNoCities: 'Nieprawilnych miast nie obsługujemy.',
-  Whoops: 'Ups, co się zesrało, łeło łeło kompromitacja!'
+  Whoops: 'Ups, co się zesrało, łeło łeło kompromitacja!',
 
 };
