@@ -52,10 +52,13 @@ module.exports = class CovidService {
                     deaths: 0,
                     recovered: 0
                 });
-            const sortedCountryData = aggregatedCountryData.sort((a, b) => {
+            const sortedByConfirmed = aggregatedCountryData.sort((a, b) => {
                 return b.confirmed - a.confirmed;
             });
-            const leader = sortedCountryData[0];
+            const sortedByDeaths = sortedByConfirmed.slice().sort((a, b) => {
+                return b.deaths - a.deaths;
+            });
+            const leader = sortedByConfirmed[0];
             const polandIndex = aggregatedCountryData.findIndex(country => country.name == 'Poland');
             const polandConfirmed = aggregatedCountryData[polandIndex].confirmed;
             return `
@@ -64,8 +67,14 @@ Stan COVID-19 na dziś:
     martwych: *${Number(aggregatedData.deaths).toLocaleString('pl-PL')}*
     cudownie ozdrowiałych: *${Number(aggregatedData.recovered).toLocaleString('pl-PL')}*
 
-Lider wyścigu: *${leader.name}*, ${Number(leader.confirmed).toLocaleString('pl-PL')} chorych.
-Polska zajmuje ${polandIndex} miejsce z liczbą ${Number(polandConfirmed).toLocaleString('pl-PL')} chorych.`;
+Polska zajmuje ${polandIndex} miejsce z liczbą ${Number(polandConfirmed).toLocaleString('pl-PL')} chorych.
+
+*30 Zgon, lista, lista, lista umarlaków:*
+    1. ${sortedByDeaths[0].name}: ${Number(sortedByDeaths[0].deaths).toLocaleString('pl-PL')}
+    2. ${sortedByDeaths[1].name}: ${Number(sortedByDeaths[1].deaths).toLocaleString('pl-PL')}
+    3. ${sortedByDeaths[2].name}: ${Number(sortedByDeaths[2].deaths).toLocaleString('pl-PL')}
+    4. ${sortedByDeaths[3].name}: ${Number(sortedByDeaths[3].deaths).toLocaleString('pl-PL')}
+    5. ${sortedByDeaths[4].name}: ${Number(sortedByDeaths[4].deaths).toLocaleString('pl-PL')}`;
         } catch (error) {
             return null;
         }
