@@ -39,7 +39,6 @@ module.exports = class DailyHelloResponder {
     console.log(`dailyHelloResponder: Sending daily message to chat`);
     const threadData = await hangoutsChatService.sendMessage(new TextCard(staticTexts.NewDayNewPossibilities), space);
     console.log(`dailyHelloResponder: Received response from Hangouts Chat API:`);
-    console.log(threadData);
     const thread = threadData.data.thread.name;
     console.log(`dailyHelloResponder: Sending the rest`);
     await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), space);

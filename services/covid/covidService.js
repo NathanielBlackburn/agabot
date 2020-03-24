@@ -21,10 +21,10 @@ module.exports = class CovidService {
                 .slice(1)
                 .map((value) => {
                     return {
-                        name: value[1],
-                        confirmed: parseInt(value[3]) || 0,
-                        deaths: parseInt(value[4]) || 0,
-                        recovered: parseInt(value[5]) || 0
+                        name: value[3],
+                        confirmed: parseInt(value[7]) || 0,
+                        deaths: parseInt(value[8]) || 0,
+                        recovered: parseInt(value[9]) || 0
                     };
                 });
             const aggregatedCountryData = modeledData
@@ -67,7 +67,7 @@ Stan COVID-19 na dziś:
     martwych: *${Number(aggregatedData.deaths).toLocaleString('pl-PL')}*
     cudownie ozdrowiałych: *${Number(aggregatedData.recovered).toLocaleString('pl-PL')}*
 
-Polska zajmuje ${polandIndex} miejsce z liczbą ${Number(polandConfirmed).toLocaleString('pl-PL')} chorych.
+Polska zajmuje *${polandIndex}* miejsce z liczbą ${Number(polandConfirmed).toLocaleString('pl-PL')} chorych.
 
 *30 Zgon, lista, lista, lista umarlaków:*
     1. ${sortedByDeaths[0].name}: ${Number(sortedByDeaths[0].deaths).toLocaleString('pl-PL')}
