@@ -44,4 +44,8 @@ module.exports = class CachedService {
     });
   }
 
+  static flushCache() {
+    this.cache.flushAll();
+  }
+
 };

@@ -20,6 +20,7 @@ module.exports = class DailyHelloResponder {
     responseHandler.status(204).end();
     const hangoutsChatService = new HangoutsChatService();
     const giphyService = new GiphyService();
+    WeatherService.flushCache();
     const weatherServiceGrunberg = new WeatherService(City.Grunberg);
     const weatherServiceGdynia = new WeatherService(City.Gdynia);
     const weatherServiceSulechow = new WeatherService(City.Sulechow);
