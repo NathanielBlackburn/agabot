@@ -1,7 +1,6 @@
 const GiphyService = require('@services/giphy/giphyService');
 const WeatherService = require('@services/openWeatherMap/openWeatherMapService');
 const HangoutsChatService = require('@services/hangoutsChat/hangoutsChatService');
-const CovidService = require('@services/covid/covidService');
 
 const City = require('@services/openWeatherMap/city');
 const TextCard = require('@responses/responseCards/textCard');
@@ -24,7 +23,6 @@ module.exports = class DailyHelloResponder {
     const weatherServiceGrunberg = new WeatherService(City.Grunberg);
     const weatherServiceGdynia = new WeatherService(City.Gdynia);
     const weatherServiceSulechow = new WeatherService(City.Sulechow);
-    const covidService = new CovidService();
     const space = HangoutsChatService.Spaces.Pierdolety;
     console.log('dailyHelloResponder: Downloading random gif');
     const url = await giphyService.get(GiphyService.Queries.NewDayNewPossibilities);
@@ -35,8 +33,6 @@ module.exports = class DailyHelloResponder {
     const weatherGdynia = await weatherServiceGdynia.get();
     console.log(`dailyHelloResponder: Downloading weather for Sulechów`);
     const weatherSulechow = await weatherServiceSulechow.get();
-    console.log(`dailyHelloResponder: Downloading COVID-19 data`);
-    const covidData = await covidService.getData();
     console.log(`dailyHelloResponder: Sending daily message to chat`);
     const threadData = await hangoutsChatService.sendMessage(new TextCard(staticTexts.NewDayNewPossibilities), space);
     console.log(`dailyHelloResponder: Received response from Hangouts Chat API:`);
@@ -49,9 +45,6 @@ module.exports = class DailyHelloResponder {
     await hangoutsChatService.sendMessage(new TextCard(weatherGdynia.interpretation(), thread), space);
     await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeatherCrapCity(weatherSulechow.city)}`, thread), space);
     await hangoutsChatService.sendMessage(new TextCard(weatherSulechow.interpretation(), thread), space);
-    if (covidData) {
-      await hangoutsChatService.sendMessage(new TextCard(covidData.toString(), thread), space);
-    }
   }
 
 };
