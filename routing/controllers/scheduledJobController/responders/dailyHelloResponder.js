@@ -21,7 +21,6 @@ module.exports = class DailyHelloResponder {
     const giphyService = new GiphyService();
     WeatherService.flushCache();
     const weatherServiceGrunberg = new WeatherService(City.Grunberg);
-    const weatherServiceGdynia = new WeatherService(City.Gdynia);
     const weatherServiceSulechow = new WeatherService(City.Sulechow);
     const space = HangoutsChatService.Spaces.Pierdolety;
     console.log('dailyHelloResponder: Downloading random gif');
@@ -29,8 +28,6 @@ module.exports = class DailyHelloResponder {
     console.log(`dailyHelloResponder: Downloaded gif with url: ${url}`);
     console.log(`dailyHelloResponder: Downloading weather for Zielona Góra`);
     const weatherGrunberg = await weatherServiceGrunberg.get();
-    console.log(`dailyHelloResponder: Downloading weather for Gdynia`);
-    const weatherGdynia = await weatherServiceGdynia.get();
     console.log(`dailyHelloResponder: Downloading weather for Sulechów`);
     const weatherSulechow = await weatherServiceSulechow.get();
     console.log(`dailyHelloResponder: Sending daily message to chat`);
@@ -41,8 +38,6 @@ module.exports = class DailyHelloResponder {
     await hangoutsChatService.sendMessage(new ImageCard(url, false, thread), space);
     await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeather(weatherGrunberg.city)}`, thread), space);
     await hangoutsChatService.sendMessage(new TextCard(weatherGrunberg.interpretation(), thread), space);
-    await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeather(weatherGdynia.city)}`, thread), space);
-    await hangoutsChatService.sendMessage(new TextCard(weatherGdynia.interpretation(), thread), space);
     await hangoutsChatService.sendMessage(new TextCard(`\n${dynamicTexts.TodaysWeatherCrapCity(weatherSulechow.city)}`, thread), space);
     await hangoutsChatService.sendMessage(new TextCard(weatherSulechow.interpretation(), thread), space);
   }
