@@ -7,6 +7,7 @@ module.exports = {
   WillNotFuckUp: /nie jebnie/m,
   WillFuckUp: /jebnie/m,
   WhoOrdersFood: /kto (\b[^\s]+\s+)?zamawia\?/im,
+  Horoscope: /horoskop (rak|ryby|panna|strzelec|waga|lew|koziorozec|bliznieta|wodnik|byk|skorpion|baran)/im,
 
   Food: new RegExp(
     [

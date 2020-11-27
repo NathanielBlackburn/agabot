@@ -2,6 +2,7 @@ const BaseController = require('@controllers/baseController');
 const User = require('@models/user');
 
 const NewDayNewPossibilitiesResponder = require('@controllers/spaceMessageController/responders/newDayNewPossibilitiesResponder');
+const HoroscopeResponder = require('@controllers/spaceMessageController/responders/horoscopeResponder');
 const AintThatRightResponder = require('@controllers/spaceMessageController/responders/aintThatRightResponder');
 const GoodToBeBotResponder = require('@controllers/spaceMessageController/responders/goodToBeBotResponder');
 const WhatsUpResponder = require('@controllers/spaceMessageController/responders/whatsUpResponder');
@@ -18,6 +19,7 @@ const DefaultResponder = require('@controllers/spaceMessageController/responders
 
 const responders = [
   new NewDayNewPossibilitiesResponder(),
+  new HoroscopeResponder(),
   new AintThatRightResponder(),
   new GoodToBeBotResponder(),
   new WhatsUpResponder(),

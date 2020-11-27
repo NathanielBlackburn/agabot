@@ -31,6 +31,10 @@ module.exports = class {
     return arrayToolkit.randomElement(responses).replace('[chosenName]', name);
   }
 
+  static HoroscopeForToday(sign) {
+    return `${sign} - horoskop na dziś:`;
+  }
+
   static TodaysWeather(city) {
     return `*Pogoda na dziś w ${city.name}:*`
   }
