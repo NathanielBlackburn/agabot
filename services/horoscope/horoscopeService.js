@@ -55,18 +55,18 @@ const signs = {
     }
 };
 
-module.exports = class DerbotJokesService {
+module.exports = class HoroscopeService {
 
-  async get(sign) {
-    const horoscopeData = await https.request(`${horoscopeBaseURLString}${signs[sign].urlSuffix}`, {});
-    const $ = cheerio.load(horoscopeData);
-    let list = $('#sliders .horoskop_slider').eq(0).find('.horoskop_element').filter((index, element) => {
-        return stringToolkit.removeDiacritics($(element).find('h3').text().toLowerCase().trim()) == sign;
-    });
-    return {
-        text: $(list[0]).find('p').text().trim(),
-        name: signs[sign].name
-    };
-  }
+    async get(sign) {
+        const horoscopeData = await https.request(`${horoscopeBaseURLString}${signs[sign].urlSuffix}`, {});
+        const $ = cheerio.load(horoscopeData);
+        let list = $('#sliders .horoskop_slider').eq(0).find('.horoskop_element').filter((index, element) => {
+            return stringToolkit.removeDiacritics($(element).find('h3').text().toLowerCase().trim()) == sign;
+        });
+        return {
+            text: $(list[0]).find('p').text().trim(),
+            name: signs[sign].name
+        };
+    }
 
 };
