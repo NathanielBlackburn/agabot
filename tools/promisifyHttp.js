@@ -9,7 +9,6 @@ module.exports = (requester) => {
 
         request: (url, httpOptions, requestOptions = {}) => new Promise((resolve, reject) => {
             let chosenRequestOptions = {...defaultRequestOptions, ...requestOptions };
-            console.log(chosenRequestOptions);
             const request = requester.request(
                 url,
                 httpOptions,
