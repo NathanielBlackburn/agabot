@@ -48,6 +48,7 @@ module.exports = {
         ].join('|'),
         'm'
     ),
+    Fafkulce: /fafkulce/m,
     GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
     NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,
     Weather: /(?:weather|pogod(?:a|e|y))(?:\s+(.+))?/m
