@@ -1,8 +1,8 @@
 const promisifyHttp = require('@tools/promisifyHttp');
-const https = promisifyHttp(require('http'));
+const https = promisifyHttp(require('https'));
 const cheerio = require('cheerio');
 
-const horoscopeURLTemplate = 'http://horoskopy.fazi.pl/horoskop-codzienny-chinski-<sign>-mobile.html';
+const horoscopeURLTemplate = 'https://horoskopy.fazi.pl/horoskop-codzienny-chinski-<sign>-mobile.html';
 const signs = {
     'szczur': {
         slug: 'szczur',
@@ -57,9 +57,16 @@ const signs = {
 module.exports = class ChineseHoroscopeService {
 
     async get(sign) {
-        const horoscopeData = await https.request(horoscopeURLTemplate.replace('<sign>', signs[sign].slug), {}, { binary: true, resultEncoding: 'ISO-8859-2' });
+        const horoscopeData = await https.request(
+            horoscopeURLTemplate.replace('<sign>', signs[sign].slug),
+            {
+                rejectUnauthorized: false
+            }
+        );
+        console.log('aaa');
+        console.log(horoscopeData);
         const $ = cheerio.load(horoscopeData);
-        const text = $('#glowny div.tekstb5:nth-child(4) table div.j > div.j > font[color="black"] > font[color="blue"]').text().split('\n')[0].trim();
+        const text = $('#glowny div.tekstb5 table div.j > div.j > font[color="black"] > font[color="blue"]').text().split('\n')[0].trim();
         return {
             text: text,
             name: signs[sign].name
