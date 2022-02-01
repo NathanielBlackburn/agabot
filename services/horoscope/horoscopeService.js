@@ -3,54 +3,54 @@ const https = promisifyHttp(require('https'));
 const cheerio = require('cheerio');
 const stringToolkit = require('@tools/stringToolkit');
 
-const horoscopeBaseURLString = 'https://www.wrozbyonline.pl/horoskop/';
+const horoscopeBaseURLString = 'https://www.wrozbyonline.pl/horoskop/horoskop-dzienny/';
 const signs = {
     'koziorozec': {
-        urlSuffix: '1/koziorozec',
+        urlSuffix: 'koziorozec',
         name: 'Koziorożec'
     },
     'wodnik': {
-        urlSuffix: '2/wodnik',
+        urlSuffix: 'wodnik',
         name: 'Wodnik'
     },
     'ryby': {
-        urlSuffix: '3/ryby',
+        urlSuffix: 'ryby',
         name: 'Ryby'
     },
     'baran': {
-        urlSuffix: '4/baran',
+        urlSuffix: 'baran',
         name: 'Baran'
     },
     'byk': {
-        urlSuffix: '5/byk',
+        urlSuffix: 'byk',
         name: 'Byk'
     },
     'bliznieta': {
-        urlSuffix: '6/bliznieta',
+        urlSuffix: 'bliznieta',
         name: 'Bliźnięta'
     },
     'rak': {
-        urlSuffix: '7/rak',
+        urlSuffix: 'rak',
         name: 'Rak'
     },
     'lew': {
-        urlSuffix: '8/lew',
+        urlSuffix: 'lew',
         name: 'Lew'
     },
     'panna': {
-        urlSuffix: '9/panna',
+        urlSuffix: 'panna',
         name: 'Panna'
     },
     'waga': {
-        urlSuffix: '10/waga',
+        urlSuffix: 'waga',
         name: 'Waga'
     },
     'skorpion': {
-        urlSuffix: '11/skorpion',
+        urlSuffix: 'skorpion',
         name: 'Skorpion'
     },
     'strzelec': {
-        urlSuffix: '12/strzelec',
+        urlSuffix: 'strzelec',
         name: 'Strzelec'
     }
 };
@@ -60,11 +60,10 @@ module.exports = class HoroscopeService {
     async get(sign) {
         const horoscopeData = await https.request(`${horoscopeBaseURLString}${signs[sign].urlSuffix}`, {});
         const $ = cheerio.load(horoscopeData);
-        let list = $('#sliders .horoskop_slider').eq(0).find('.horoskop_element').filter((index, element) => {
-            return stringToolkit.removeDiacritics($(element).find('h3').text().toLowerCase().trim()) == sign;
-        });
+        let text = $('#horoskop_opis_in div p').first().text().trim();
+        let madeBy = $('#horoskop_opis_in div p.horoskopwrozka').first().text().trim();
         return {
-            text: $(list[0]).find('p').text().trim(),
+            text: `${text}\n\n${madeBy}`,
             name: signs[sign].name
         };
     }
