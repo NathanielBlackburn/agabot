@@ -19,7 +19,7 @@ module.exports = class GiphyService {
         }
       }
     );
-    let url = JSON.parse(data).data.image_original_url;
+    let url = JSON.parse(data).data.images.original.url;
     return url;
   }
 
