@@ -22,7 +22,7 @@ module.exports = class DailyHelloResponder {
     WeatherService.flushCache();
     const weatherServiceGrunberg = new WeatherService(City.Grunberg);
     const weatherServiceSulechow = new WeatherService(City.Sulechow);
-    const space = HangoutsChatService.Spaces.Pierdolety;
+    const space = HangoutsChatService.Spaces.RandTesting;
     console.log('dailyHelloResponder: Downloading random gif');
     const url = await giphyService.get(GiphyService.Queries.NewDayNewPossibilities);
     console.log(`dailyHelloResponder: Downloaded gif with url: ${url}`);
