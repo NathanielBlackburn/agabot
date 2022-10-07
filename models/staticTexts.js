@@ -11,5 +11,6 @@ module.exports = {
   NoOneOrdersFood: 'Dziś nikt nie zamawia, spadaj na bambus.',
   NoWeatherForNoCities: 'Nieprawilnych miast nie obsługujemy.',
   Whoops: 'Ups, co się zesrało, łeło łeło kompromitacja!',
+  Spoon: 'Co jest najważniejsze jesienią?\nŁyżka! Bo je sie nią. 🥁🎵'
 
 };

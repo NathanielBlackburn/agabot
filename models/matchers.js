@@ -39,6 +39,15 @@ module.exports = {
         'm'
     ),
 
+    DerbotOLyzce: new RegExp(
+        [
+            'derbota? o lyzce',
+            'dowcip o lyzce',
+            'zart(?:em)? o lyzce'
+        ].join('|'),
+        'm'
+    ),
+
     Derbot: new RegExp(
         [
             'derbot',
