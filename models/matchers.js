@@ -43,7 +43,8 @@ module.exports = {
         [
             'derbota? o lyzce',
             'dowcip o lyzce',
-            'zart(?:em)? o lyzce'
+            'zart(?:em)? o lyzce',
+            'suchara? o lyzce',
         ].join('|'),
         'm'
     ),
