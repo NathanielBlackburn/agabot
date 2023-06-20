@@ -15,6 +15,7 @@ const WeatherResponder = require('@controllers/spaceMessageController/responders
 const DadJokeResponder = require('@controllers/spaceMessageController/responders/dadJokeResponder');
 const TheJokeResponder = require('@controllers/spaceMessageController/responders/theJokeResponder');
 const DerbotJokeResponder = require('@controllers/spaceMessageController/responders/derbotJokeResponder');
+const PoemResponder = require('@controllers/spaceMessageController/responders/poemResponder');
 const DerbotSpoonJokeResponder = require('@controllers/spaceMessageController/responders/derbotSpoonJokeResponder');
 const WhoOrdersFoodResponder = require('@controllers/spaceMessageController/responders/whoOrdersFoodResponder');
 const GimmeFoodResponder = require('@controllers/spaceMessageController/responders/gimmeFoodResponder');
@@ -35,7 +36,8 @@ const responders = [
     new DerbotSpoonJokeResponder(),    
     new DadJokeResponder(),
     new TheJokeResponder(),
-    new DerbotJokeResponder(),
+    // new DerbotJokeResponder(),
+    new PoemResponder(),
     new WhoOrdersFoodResponder(),
     new GimmeFoodResponder(),
 ];
