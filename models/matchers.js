@@ -58,6 +58,20 @@ module.exports = {
         ].join('|'),
         'm'
     ),
+    Bookquote: new RegExp(
+        [
+            'cytat',
+            'cycat',
+            'tacyt',
+            'inspiruj',
+            'inspiro',
+            'inspirac',
+            'motywac',
+            'motywuj',
+            'motywat',
+        ].join('|'),
+        'm'
+    ),
     Fafkulce: /fafkulce/m,
     GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
     NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,

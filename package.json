@@ -35,7 +35,9 @@
     "@models": "./models",
     "@tools": "./tools",
     "@services": "./services",
+    "@repositories": "./repositories",
     "@tests": "./tests",
-    "@ffp": "./lib/ffp"
+    "@ffp": "./lib/ffp",
+    "@data": "./data"
   }
 }
