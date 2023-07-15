@@ -18,7 +18,6 @@ const DerbotJokeResponder = require('@controllers/spaceMessageController/respond
 const BookquoteResponder = require('@controllers/spaceMessageController/responders/bookquoteResponder');
 const DerbotSpoonJokeResponder = require('@controllers/spaceMessageController/responders/derbotSpoonJokeResponder');
 const WhoOrdersFoodResponder = require('@controllers/spaceMessageController/responders/whoOrdersFoodResponder');
-const GimmeFoodResponder = require('@controllers/spaceMessageController/responders/gimmeFoodResponder');
 const PoscigiResponder = require('@controllers/spaceMessageController/responders/poscigiResponder');
 const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
 
@@ -40,7 +39,6 @@ const responders = [
     new DerbotJokeResponder(),
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
-    new GimmeFoodResponder(),
     new PoscigiResponder(),
 ];
 
