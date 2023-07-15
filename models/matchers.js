@@ -72,6 +72,16 @@ module.exports = {
         ].join('|'),
         'm'
     ),
+    Poscigi: new RegExp(
+        [
+            'po(?:s|ś)cigi',
+            'news',
+            'g(?:o|ó)rski',
+            'wiadomo(?:s|ś)ci',
+            'maxmar',
+        ].join('|'),
+        'm'
+    ),
     Fafkulce: /fafkulce/m,
     GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
     NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,

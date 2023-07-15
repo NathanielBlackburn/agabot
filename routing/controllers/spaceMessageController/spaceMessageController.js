@@ -19,6 +19,7 @@ const BookquoteResponder = require('@controllers/spaceMessageController/responde
 const DerbotSpoonJokeResponder = require('@controllers/spaceMessageController/responders/derbotSpoonJokeResponder');
 const WhoOrdersFoodResponder = require('@controllers/spaceMessageController/responders/whoOrdersFoodResponder');
 const GimmeFoodResponder = require('@controllers/spaceMessageController/responders/gimmeFoodResponder');
+const PoscigiResponder = require('@controllers/spaceMessageController/responders/poscigiResponder');
 const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
 
 const responders = [
@@ -40,6 +41,7 @@ const responders = [
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new GimmeFoodResponder(),
+    new PoscigiResponder(),
 ];
 
 module.exports = class SpaceMessageController extends BaseController {
