@@ -41,7 +41,7 @@ module.exports = {
     ),
     Bookquote: new RegExp(
         [
-            'cytat',
+            '(?:cytat',
             'cycat',
             'tacyt',
             'inspiruj',
@@ -49,8 +49,8 @@ module.exports = {
             'inspirac',
             'motywac',
             'motywuj',
-            'motywat',
-        ].join('|'),
+            'motywat)',
+        ].join('|').concat(['(?:\\s+(.+))?']),
         'm'
     ),
     Poscigi: new RegExp(
@@ -66,6 +66,6 @@ module.exports = {
     Fafkulce: /fafkulce/m,
     GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
     NewDayNewPossibilities: /nowy dzien,? nowe mozliwosci/m,
-    Weather: /(?:weather|pogod(?:a|e|y))(?:\s+(.+))?/m
+    Weather: /(?:weather|pogod(?:a|e|y))(?:\s+(.+))?/m,
 
 };
