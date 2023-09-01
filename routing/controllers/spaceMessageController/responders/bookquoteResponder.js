@@ -4,11 +4,12 @@ const BookquoteResponse = require('@responses/bookquoteResponse');
 module.exports = class BookquoteResponder {
 
   respondsTo(message, user) {
-    return message.match(matchers.Bookquote) != null;
+    this.matches = message.match(matchers.Bookquote) || [];
+    return this.matches.length;
   }
 
   async respond(responseHandler) {
-    await (new BookquoteResponse(responseHandler)).send();
+    await (new BookquoteResponse(responseHandler, this.matches)).send();
   }
 
 };
