@@ -12,5 +12,5 @@
 # limitations under the License.
 #
 # [START runtime]
-runtime: nodejs16
+runtime: nodejs20
 # [END runtime]
