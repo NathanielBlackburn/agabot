@@ -17,6 +17,7 @@
     "csv-parse": "^4.8.8",
     "date-fns": "^2.10.0",
     "express": "^4.16.4",
+    "follow-redirects": "^1.15.2",
     "googleapis": "^45.0.0",
     "iconv-lite": "^0.4.23",
     "module-alias": "^2.1.0",
