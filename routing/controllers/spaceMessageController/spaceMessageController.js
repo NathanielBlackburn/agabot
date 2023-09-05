@@ -38,10 +38,10 @@ const responders = [
     new DadJokeResponder(),
     new TheJokeResponder(),
     new DerbotJokeResponder(),
+    new DemotywatoryResponder(),
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new PoscigiResponder(),
-    new DemotywatoryResponder()
 ];
 
 module.exports = class SpaceMessageController extends BaseController {
