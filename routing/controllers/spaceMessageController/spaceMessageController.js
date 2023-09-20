@@ -24,6 +24,7 @@ const SrolerResponder = require('@controllers/spaceMessageController/responders/
 const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
 
 const responders = [
+    new SrolerResponder(),
     new NewDayNewPossibilitiesResponder(),
     new HoroscopeResponder(),
     new ChineseHoroscopeResponder(),
@@ -43,7 +44,6 @@ const responders = [
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new PoscigiResponder(),
-    new SrolerResponder(),
 ];
 
 module.exports = class SpaceMessageController extends BaseController {
