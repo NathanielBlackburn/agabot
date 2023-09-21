@@ -33,7 +33,7 @@ const exceptions = {
 };
 
 const srolate = (word, includeConditionals = false) => {
-    if (!word.length) {
+    if (word.length < 2) {
         return word;
     }
 
@@ -41,7 +41,7 @@ const srolate = (word, includeConditionals = false) => {
     if (includeConditionals) {
         exceptionWords = exceptionWords.concat(exceptions.conditional);
     }
-    if (exceptionWords.includes(word)) {
+    if (exceptionWords.includes(word.toLowerCase())) {
         return word;
     }
 
@@ -69,16 +69,31 @@ const srolate = (word, includeConditionals = false) => {
 };
 
 const srolateText = (text = '') => {
-    let result = text.trim();
-    if (!result.length) {
-        return result;
+    let trimmedText = text.trim();
+    if (!trimmedText.length) {
+        return trimmedText;
     }
 
-    if (result.split(' ').count == 1) {
-        return srolate(result, false);
+    if (trimmedText.split(/[\s]/).length == 1) {
+        return srolate(trimmedText, false);
     }
 
-    return result.split(' ').map((word) => srolate(word, true)).join(' ');
+    let result = [];
+    let word = [];
+    for (let char of trimmedText) {
+        if (char.match(/[\s]/)) {
+            result.push(srolate(word.join(''), true));
+            result.push(char);
+            word = [];
+        } else {
+            word.push(char);
+        }
+    }
+    if (word.length) {
+        result.push(srolate(word.join(''), true));
+    }
+
+    return result.join('');
 };
 
 module.exports = { srolate, srolateText };
