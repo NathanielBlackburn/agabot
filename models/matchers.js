@@ -63,7 +63,7 @@ module.exports = {
         ].join('|'),
         'm'
     ),
-    Sroler: /sroler(?:\s+(.+))?/m,
+    Sroler: /sroler(?:\s+(.+))?/s,
     Demotywatory: /demot/m,
     Fafkulce: /fafkulce/m,
     GoodToBeBot: /dobrze (?:jest )?byc botem\?/m,
