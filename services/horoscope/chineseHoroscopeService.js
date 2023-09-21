@@ -63,7 +63,6 @@ module.exports = class ChineseHoroscopeService {
                 rejectUnauthorized: false
             }
         );
-        console.log('aaa');
         console.log(horoscopeData);
         const $ = cheerio.load(horoscopeData);
         const text = $('#glowny div.tekstb5 table div.j > div.j > font[color="black"] > font[color="blue"]').text().split('\n')[0].trim();

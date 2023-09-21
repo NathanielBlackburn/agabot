@@ -189,7 +189,6 @@ const degreesToDescription = (degrees) => {
 module.exports = class Weather {
 
   constructor(json, city) {
-    console.log(json);
     this.temperature = Math.floor(json.main.temp);
     this.cloudCover = json.clouds.all;
     this.sunrise = json.sys.sunrise;
