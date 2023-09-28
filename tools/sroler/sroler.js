@@ -28,7 +28,7 @@ const exceptions = {
          'niedługo', 'niedaleko', 'równocześnie', 'pewny', 'ledwo', 'stanowczo', 'specjalnie', 'niewątpliwie', 'prędko', 'doprawdy', 'nazajutrz',
          'następny', 'przeciwnie', 'pośrodku', 'wystarczająco', 'miło', 'codziennie', 'początkowo', 'nerwowo', 'spośród', 'hej', 'niepewnie', 'naraz',
           'niechętnie', 'ażeby', 'odkąd', 'któryś', 'któż', 'ktokolwiek', 'stopniowo', 'ponadto', 'omal', 'owo', 'wszakże', 'komuś', 'znad', 'wszak',
-          'ba', 'wasz', 'ona', 'ta', 'oni', 'ci', 'one', 'mi', 'bądź', 'te', 'sobą',
+          'ba', 'wasz', 'ona', 'ta', 'oni', 'ci', 'one', 'mi', 'bądź', 'te', 'sobą', 'temu',
     ]
 };
 
@@ -75,7 +75,11 @@ const srolateText = (text = '') => {
     }
 
     if (trimmedText.split(/[\s]/).length == 1) {
-        return srolate(trimmedText, false);
+        let result = srolate(trimmedText, false);
+        if (result.slice(-1) == '?') {
+            result = result.slice(0, -1) + '!';
+        }
+        return result;
     }
 
     let result = [];
