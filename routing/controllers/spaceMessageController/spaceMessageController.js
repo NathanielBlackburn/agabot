@@ -44,6 +44,7 @@ const responders = [
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new PoscigiResponder(),
+    new SrolerResponder(true),
 ];
 
 module.exports = class SpaceMessageController extends BaseController {
@@ -52,8 +53,7 @@ module.exports = class SpaceMessageController extends BaseController {
         const message = this.normaliseMessage(this.request.body.message.text).replace('@Agabot', '');
         const originalMessage = this.request.body.message.text.replace('@Agabot', '');
         const sender = User.create(this.request.body.message.sender.email);
-        const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage)) ||
-            (new DefaultResponder());
+        const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage));
         responder
             .respond(this.responseHandler)
             .catch(err => this.respondWithDefaultError(err));
