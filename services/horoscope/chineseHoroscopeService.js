@@ -2,7 +2,7 @@ const promisifyHttp = require('@tools/promisifyHttp');
 const https = promisifyHttp(require('https'));
 const cheerio = require('cheerio');
 
-const horoscopeURLTemplate = 'https://horoskopy.fazi.pl/horoskop-codzienny-chinski-<sign>-mobile.html';
+const horoscopeURLTemplate = 'https://horoskopy.fazi.pl/horoskop-codzienny-chinski-<sign>.html';
 const signs = {
     'szczur': {
         slug: 'szczur',
@@ -65,7 +65,7 @@ module.exports = class ChineseHoroscopeService {
         );
         console.log(horoscopeData);
         const $ = cheerio.load(horoscopeData);
-        const text = $('#glowny div.tekstb5 table div.j > div.j > font[color="black"] > font[color="blue"]').text().split('\n')[0].trim();
+        const text = $('#glowny > div.prawy > div.tekstb5 > div.marginesy > span > table > tbody > tr > td > div.j > font[color="black"] > font[color="blue"]').textContent.split('\n')[0].trim();
         return {
             text: text,
             name: signs[sign].name
