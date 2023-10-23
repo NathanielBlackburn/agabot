@@ -65,7 +65,7 @@ module.exports = class ChineseHoroscopeService {
         );
         console.log(horoscopeData);
         const $ = cheerio.load(horoscopeData);
-        const text = $('#glowny > div.prawy > div.tekstb5 > div.marginesy > span > table > tbody > tr > td > div.j > font[color="black"] > font[color="blue"]').textContent.split('\n')[0].trim();
+        const text = $('#glowny > div.prawy > div.tekstb5 > div.marginesy > span > table > tbody > tr > td > div.j > font[color="black"] > font[color="blue"]').text().split('\n')[0].trim();
         return {
             text: text,
             name: signs[sign].name
