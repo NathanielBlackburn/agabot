@@ -32,7 +32,7 @@ const exceptions = {
     ]
 };
 
-const srolate = (word, includeConditionals = false) => {
+const srolate = (word, includeConditionals = false, additionalStuff = false) => {
     if (word.length < 2) {
         return word;
     }
@@ -65,6 +65,10 @@ const srolate = (word, includeConditionals = false) => {
         }
     }
 
+    if (additionalStuff) {
+        result = [result, `dup${word.slice(pos)}`];
+    }
+
     return result;
 };
 
@@ -75,11 +79,29 @@ const srolateText = (text = '') => {
     }
 
     if (trimmedText.split(/[\s]/).length == 1) {
-        let result = srolate(trimmedText, false);
-        if (result.slice(-1) == '?') {
-            result = result.slice(0, -1) + '!';
+        let result;
+        let additionalStuff = false;
+        if (trimmedText.toLowerCase().startsWith('sr')) {
+            additionalStuff = true;
+            result = srolate(trimmedText, false, true);
+        } else {
+            result = srolate(trimmedText, false);
         }
-        return result;
+        if (!Array.isArray(result)) {
+            result = [result];
+        }
+        console.log(result);
+        return result.map((word, index) => {
+            if (word.slice(-1) == '?') {
+                if (index < result.length - 1) {
+                    return word.slice(0, -1);
+                } else {
+                    return word.slice(0, -1) + '!';
+                }
+            } else {
+                return word;
+            }
+        }).join(' ');
     }
 
     let result = [];
