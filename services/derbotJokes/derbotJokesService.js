@@ -8,10 +8,6 @@ const derbotServices = [
     url: 'https://piszsuchary.pl/losuj',
     selector: 'div.container > main.content article.image-container > figure > figcaption'
   },
-  {
-    url: 'https://smieszne-kawaly.pl/losuj-kawal',
-    selector: 'div#content > div.post > div.entry'
-  },
 ];
 
 module.exports = class DerbotJokesService {
