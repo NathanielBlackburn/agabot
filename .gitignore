@@ -1,6 +1,8 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
-node_modules/*
+node_modules
 config/*.json
 .DS_Store
 *.orig
 github_token
+tmp
+stderr.log

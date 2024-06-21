@@ -20,25 +20,11 @@
     "follow-redirects": "^1.15.2",
     "googleapis": "^45.0.0",
     "iconv-lite": "^0.4.23",
-    "module-alias": "^2.1.0",
+    "module-alias": "^2.2.3",
     "node-cache": "^5.0.2",
     "node-schedule": "^1.3.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  },
-  "_moduleAliases": {
-    "@root": ".",
-    "@routing": "./routing",
-    "@controllers": "./routing/controllers",
-    "@responses": "./routing/responses",
-    "@security": "./routing/security",
-    "@models": "./models",
-    "@tools": "./tools",
-    "@services": "./services",
-    "@repositories": "./repositories",
-    "@tests": "./tests",
-    "@ffp": "./lib/ffp",
-    "@data": "./data"
   }
 }
