@@ -37,6 +37,9 @@ module.exports = (requester) => {
             request.setTimeout(30 * Constants.Interval.Second, () => {
                 request.abort();
             });
+            request.on('timeout', () => {
+                reject(`Timeout while connecting to ${url}`);
+            });
             request.on('error', reject);
             request.end();
         })

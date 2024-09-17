@@ -56,7 +56,10 @@ module.exports = class SpaceMessageController extends BaseController {
         const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage));
         responder
             .respond(this.responseHandler)
-            .catch(err => this.respondWithDefaultError(err));
+            .catch((err) => {
+                console.error(err);
+                this.respondWithDefaultError(err);
+            });
     }
 
 };
