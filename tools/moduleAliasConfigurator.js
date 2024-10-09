@@ -18,6 +18,7 @@ module.exports = (path) => {
         '@security': `${rootPath}/routing/security`,
         '@tests': `${rootPath}/tests`,
         '@ffp': `${rootPath}/lib/ffp`,
-        '@data': `${rootPath}/data`
+        '@data': `${rootPath}/data`,
+        '@plugins': `${rootPath}/plugins`
     });
 };

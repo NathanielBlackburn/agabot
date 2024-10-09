@@ -9,9 +9,15 @@ const express = require('express'),
 	app = express(),
 	port = process.env.PORT || 9001,
 	fs = require('fs').promises;
+global.plugins = [];
 
 (async () => {
 	const config = JSON.parse(await fs.readFile('config/config.json', {encoding: 'utf8', flag: 'r'}));
+	if (config.plugins) {
+		config.plugins.forEach(plugin => {
+			require(plugin.package);
+		});
+	}
     process.env.GOOGLE_APPLICATION_CREDENTIALS = './config/agabot-rand-research-service-account-creds.json';
 	require('@routing/routes')(app, express, config);
 	app.listen(port);

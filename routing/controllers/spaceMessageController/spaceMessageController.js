@@ -42,7 +42,7 @@ const responders = [
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new PoscigiResponder(),
-];
+].concat(global.plugins.map(plugin => new plugin.responderClass));
 
 module.exports = class SpaceMessageController extends BaseController {
 

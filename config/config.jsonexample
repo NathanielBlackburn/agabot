@@ -11,5 +11,11 @@
   "user": {
     "hashPreSalt": "<hashPreSalt>",
     "hashPostSalt": "<hashPostSalt>"
+  },
+  "plugins": {
+    {
+      "name": "<plugin name>",
+      "package": "@plugins/<main plugin package file>"
+    }
   }
 }
