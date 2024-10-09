@@ -20,11 +20,9 @@ const DerbotSpoonJokeResponder = require('@controllers/spaceMessageController/re
 const WhoOrdersFoodResponder = require('@controllers/spaceMessageController/responders/whoOrdersFoodResponder');
 const PoscigiResponder = require('@controllers/spaceMessageController/responders/poscigiResponder');
 const DemotywatoryResponder = require('@controllers/spaceMessageController/responders/demotywatoryResponder');
-const SrolerResponder = require('@controllers/spaceMessageController/responders/srolerResponder');
 const DefaultResponder = require('@controllers/spaceMessageController/responders/defaultResponder');
 
 const responders = [
-    new SrolerResponder(),
     new NewDayNewPossibilitiesResponder(),
     new HoroscopeResponder(),
     new ChineseHoroscopeResponder(),
@@ -44,7 +42,6 @@ const responders = [
     new BookquoteResponder(),
     new WhoOrdersFoodResponder(),
     new PoscigiResponder(),
-    new SrolerResponder(true),
 ];
 
 module.exports = class SpaceMessageController extends BaseController {
@@ -53,7 +50,10 @@ module.exports = class SpaceMessageController extends BaseController {
         const message = this.normaliseMessage(this.request.body.message.text).replace('@Agabot', '');
         const originalMessage = this.request.body.message.text.replace('@Agabot', '');
         const sender = User.create(this.request.body.message.sender.email);
-        const responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage));
+        let responder = responders.find(responder => responder.respondsTo(message, sender, originalMessage));
+        if (!responder) {
+            responder = new DefaultResponder();
+        }
         responder
             .respond(this.responseHandler)
             .catch((err) => {
@@ -61,5 +61,4 @@ module.exports = class SpaceMessageController extends BaseController {
                 this.respondWithDefaultError(err);
             });
     }
-
 };
