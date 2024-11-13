@@ -1,6 +1,4 @@
-const promisifyHttp = require('@tools/promisifyHttp');
-const http = promisifyHttp(require('http'));
-
+const https = require('@tools/https');
 const CachedService = require('@services/cachedService');
 const Weather = require('@services/openWeatherMap/weather');
 
@@ -29,13 +27,8 @@ module.exports = class OpenWeatherMapService extends CachedService {
   async fetch() {
     const settings = require('@tools/settings');
     const apiKey = settings.apiConfig.openWeatherMap.apiKey;
-    return new Weather(JSON.parse(await http.request(
-      `http://api.openweathermap.org/data/2.5/weather?id=${this.city.id}&appid=${apiKey}&units=metric`,
-      {
-        headers: {
-          'Accept': 'application/json'
-        }
-      }
+    return new Weather(JSON.parse(await https.request(
+      `http://api.openweathermap.org/data/2.5/weather?id=${this.city.id}&appid=${apiKey}&units=metric`
     )), this.city);
   }
 

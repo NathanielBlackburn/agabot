@@ -1,5 +1,4 @@
-const promisifyHttp = require('@tools/promisifyHttp');
-const https = promisifyHttp(require('follow-redirects').https);
+const https = require('@tools/https');
 const cheerio = require('cheerio');
 const arrayToolkit = require('@tools/arrayToolkit');
 
@@ -14,7 +13,7 @@ module.exports = class DerbotJokesService {
 
   async random() {
     const derbotService = arrayToolkit.randomElement(derbotServices);
-    const jokeData = await https.request(derbotService.url, {});
+    const jokeData = await https.request(derbotService.url);
     const $ = cheerio.load(jokeData);
     return $(derbotService.selector).first().text()
       .replace(/^[\s\n]+/g, '')

@@ -1,5 +1,4 @@
-const promisifyHttp = require('@tools/promisifyHttp');
-const https = promisifyHttp(require('https'));
+const https = require('@tools/https');
 const csvParse = require('csv-parse/lib/sync');
 const dateFns = require('date-fns');
 
@@ -9,12 +8,7 @@ module.exports = class CovidService {
         const date = dateFns.format(dateFns.subDays(new Date(), 1), 'MM-dd-yyyy');
         try {
             const csvData = await https.request(
-                `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/${date}.csv`,
-                {
-                    headers: {
-                        'Accept': 'text/plain'
-                    }
-                }
+                `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/${date}.csv`
             );
             const covidData = csvParse(csvData);
             const modeledData = covidData

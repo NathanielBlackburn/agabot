@@ -1,5 +1,4 @@
-const promisifyHttp = require('@tools/promisifyHttp');
-const https = promisifyHttp(require('https'));
+const https = require('@tools/https');
 const cheerio = require('cheerio');
 const stringToolkit = require('@tools/stringToolkit');
 
@@ -58,7 +57,7 @@ const signs = {
 module.exports = class HoroscopeService {
 
     async get(sign) {
-        const horoscopeData = await https.request(`${horoscopeBaseURLString}${signs[sign].urlSuffix}`, {});
+        const horoscopeData = await https.request(`${horoscopeBaseURLString}${signs[sign].urlSuffix}`);
         const $ = cheerio.load(horoscopeData);
         let text = $('#horoskop_opis_in div p').first().text().trim();
         let madeBy = $('#horoskop_opis_in div p.horoskopwrozka').first().text().trim();
